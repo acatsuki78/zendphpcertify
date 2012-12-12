@@ -1,0 +1,7 @@
+1. Se demander si elle est utile et indispensable
+2. Toujours optimiser le jeux de résultat
+3. Utiliser de vrai jeux de test de tables pas sur 4 entrée
+4. utiliser le type de champs les plus petit possible
+5. Les colonnes de la jointure faire en sorte qu'elles soit du même type
+6. Requête couteuse, penser en les mettre en cache pour une lecture plus rapide et légére tout les quard heure
+7. 
