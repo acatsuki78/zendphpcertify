@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.7.0" />
+
+	<title>Class Core_Service_Role | Documentation du projet www5</title>
+
+	<script type="text/javascript" src="resources/combined.js?3330809100"></script>
+	<script type="text/javascript" src="elementlist.js?989047311"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?1567499433" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-Core.html">Core<span></span></a>
+						<ul>
+				<li><a href="package-Core.Controller.html">Controller</a>
+						</li>
+				<li><a href="package-Core.Form.html">Form</a>
+						</li>
+				<li><a href="package-Core.Model.html">Model</a>
+						</li>
+				<li><a href="package-Core.Plugin.html">Plugin</a>
+						</li>
+				<li class="active"><a href="package-Core.Service.html">Service</a>
+						</li>
+							</ul></li>
+				<li><a href="package-Main.html">Main</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Core_Service_Role.html">Core_Service_Role</a></li>
+				<li><a href="class-Core_Service_User.html">Core_Service_User</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-Core.Service.html" title="Summary of Core\Service"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="documentation-du-projet-www5-api-documentation.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+			</li>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Core_Service_Role</h1>
+
+
+	<div class="description">
+	
+<p>Couche service pour les traitements liés à la gestion des rôles</p>
+Couche service pour les traitements liés à la gestion des rôles :<br />
+
+<ul>
+	<li>CRUD de haut niveau sur les rôles</li>
+</ul>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+My_Service_ServiceAbstract
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>Core_Service_Role</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-Core.html">Core</a>\<a href="package-Core.Service.html">Service</a><br />
+
+				<b>Category:</b>
+				MyApp<br />
+				<b>Author:</b>
+				Moi &lt;<a href="mailto:moi&#64;monmail.com">moi&#64;<!---->monmail.com</a>&gt;<br />
+				<b>Version:</b>
+				0.01<br />
+				<b>Since:</b>
+				2012-08-08<br />
+				<b>Example:</b>
+				<br />
+Instanciation :<br />
+<b>$roleService = new Core_Service_Role();</b><br />
+		<b>Located at</b> <a href="source-class-Core_Service_Role.html#14" title="Go to source code">Core/services/Role.php</a><br />
+	</div>
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="find" id="_find">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Core_Model_Role.html">Core_Model_Role</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_find">#</a>
+		<code><a href="source-class-Core_Service_Role.html#44" title="Go to source code">find</a>( <span>integer <var>$rid</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Récupère un rôle en base de données à partir de son ID</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Récupère un rôle en base de données à partir de son ID</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$rid</var></dt>
+					<dd><code>integer</code><br> L'id (clé primaire) du rôle</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Core_Model_Role.html">Core_Model_Role</a></code></code><br>boolean<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fetchAll" id="_fetchAll">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fetchAll">#</a>
+		<code><a href="source-class-Core_Service_Role.html#57" title="Go to source code">fetchAll</a>( )</code>
+
+		<div class="description short">
+			
+<p>Récupère, depuis la BDD, la liste des rôles sous forme d'un tableau
+d'objets Core_Model_Role</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Récupère, depuis la BDD, la liste des rôles sous forme d'un tableau
+d'objets Core_Model_Role</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="save" id="_save">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_save">#</a>
+		<code><a href="source-class-Core_Service_Role.html#69" title="Go to source code">save</a>( <span><code><a href="class-Core_Model_Role.html">Core_Model_Role</a></code> <var>$role</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Permet d'enregistrer un objet rôle dans la BDD</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Permet d'enregistrer un objet rôle dans la BDD</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$role</var></dt>
+					<dd><code><code><a href="class-Core_Model_Role.html">Core_Model_Role</a></code></code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="delete" id="_delete">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_delete">#</a>
+		<code><a href="source-class-Core_Service_Role.html#81" title="Go to source code">delete</a>( <span><code><a href="class-Core_Model_Role.html">Core_Model_Role</a></code> <var>$role</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Permet de supprimer un objet rôle dans la BDD</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Permet de supprimer un objet rôle dans la BDD</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$role</var></dt>
+					<dd><code><code><a href="class-Core_Model_Role.html">Core_Model_Role</a></code></code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRoleMapper" id="_getRoleMapper">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Core_Model_Mapper_Role.html">Core_Model_Mapper_Role</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRoleMapper">#</a>
+		<code><a href="source-class-Core_Service_Role.html#93" title="Go to source code">getRoleMapper</a>( )</code>
+
+		<div class="description short">
+			
+<p>INJECTED FACTORY Permet d'accéder, en lazy loading, au mapper de données
+des rôles</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>INJECTED FACTORY Permet d'accéder, en lazy loading, au mapper de données
+des rôles</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Core_Model_Mapper_Role.html">Core_Model_Mapper_Role</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setRoleMapper" id="_setRoleMapper">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setRoleMapper">#</a>
+		<code><a href="source-class-Core_Service_Role.html#109" title="Go to source code">setRoleMapper</a>( <span><code><a href="class-Core_Model_Mapper_Role.html">Core_Model_Mapper_Role</a></code> <var>$mapper</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Point d'injection pour le mapper de données des rôles</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Point d'injection pour le mapper de données des rôles</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$mapper</var></dt>
+					<dd><code><code><a href="class-Core_Model_Mapper_Role.html">Core_Model_Mapper_Role</a></code></code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		Documentation du projet www5 API documentation generated by <a href="http://apigen.org">ApiGen 2.7.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

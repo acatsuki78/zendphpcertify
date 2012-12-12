@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PDepend>
+  <Packages>
+    <Package name="Main">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/www/www5/application/Bootstrap.php">Bootstrap</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>+global</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Core">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>2</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/www/www5/application/Core/Bootstrap.php">Core_Bootstrap</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>+global</Package>
+        <Package>Core\Plugin</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Core\Controller">
+      <Stats>
+        <TotalClasses>5</TotalClasses>
+        <ConcreteClasses>5</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>5</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/www/www5/application/Core/controllers/AuthController.php">AuthController</Class>
+        <Class sourceFile="/home/www/www5/application/Core/controllers/ErrorController.php">ErrorController</Class>
+        <Class sourceFile="/home/www/www5/application/Core/controllers/IndexController.php">IndexController</Class>
+        <Class sourceFile="/home/www/www5/application/Core/controllers/RoleController.php">RoleController</Class>
+        <Class sourceFile="/home/www/www5/application/Core/controllers/UserController.php">UserController</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>+core</Package>
+        <Package>+global</Package>
+        <Package>Core\Form</Package>
+        <Package>Core\Model</Package>
+        <Package>Core\Service</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Core\Form">
+      <Stats>
+        <TotalClasses>3</TotalClasses>
+        <ConcreteClasses>3</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>2</Ce>
+        <A>0</A>
+        <I>0.66666666666667</I>
+        <D>0.33333333333333</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/www/www5/application/Core/forms/Roleadd.php">Core_Form_Roleadd</Class>
+        <Class sourceFile="/home/www/www5/application/Core/forms/Signin.php">Core_Form_Signin</Class>
+        <Class sourceFile="/home/www/www5/application/Core/forms/Useradd.php">Core_Form_Useradd</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>+global</Package>
+        <Package>Core\Model</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Core\Controller</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Core\Model">
+      <Stats>
+        <TotalClasses>9</TotalClasses>
+        <ConcreteClasses>7</ConcreteClasses>
+        <AbstractClasses>2</AbstractClasses>
+        <Ca>3</Ca>
+        <Ce>2</Ce>
+        <A>0.22222222222222</A>
+        <I>0.4</I>
+        <D>0.37777777777778</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/www/www5/application/Core/models/DbTable/Role.php">Core_Model_DbTable_Role</Class>
+        <Class sourceFile="/home/www/www5/application/Core/models/DbTable/User.php">Core_Model_DbTable_User</Class>
+        <Class sourceFile="/home/www/www5/application/Core/models/Role.php">Core_Model_Role</Class>
+        <Class sourceFile="/home/www/www5/application/Core/models/User.php">Core_Model_User</Class>
+        <Class sourceFile="/home/www/www5/application/Core/models/UserCollection.php">Core_Model_UserCollection</Class>
+        <Class sourceFile="/home/www/www5/application/Core/models/mappers/Role.php">Core_Model_Mapper_Role</Class>
+        <Class sourceFile="/home/www/www5/application/Core/models/mappers/User.php">Core_Model_Mapper_User</Class>
+      </ConcreteClasses>
+      <AbstractClasses>
+        <Class sourceFile="/home/www/www5/application/Core/models/Interface.php">Core_Model_Interface</Class>
+        <Class sourceFile="/home/www/www5/application/Core/models/mappers/Abstract.php">Core_Model_Mapper_Abstract</Class>
+      </AbstractClasses>
+      <DependsUpon>
+        <Package>+core</Package>
+        <Package>+global</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Core\Controller</Package>
+        <Package>Core\Form</Package>
+        <Package>Core\Service</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Core\Plugin">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>0.5</I>
+        <D>0.5</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/www/www5/application/Core/plugins/Auth.php">Core_Plugin_Auth</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>+global</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Core</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Core\Service">
+      <Stats>
+        <TotalClasses>2</TotalClasses>
+        <ConcreteClasses>2</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>2</Ce>
+        <A>0</A>
+        <I>0.66666666666667</I>
+        <D>0.33333333333333</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/www/www5/application/Core/services/Role.php">Core_Service_Role</Class>
+        <Class sourceFile="/home/www/www5/application/Core/services/User.php">Core_Service_User</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>+global</Package>
+        <Package>Core\Model</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Core\Controller</Package>
+      </UsedBy>
+    </Package>
+  </Packages>
+  <Cycles/>
+</PDepend>

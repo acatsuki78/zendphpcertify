@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="7" assertions="22" failures="0" errors="0" time="1.665982">
+    <testsuite name="AuthControllerTest" file="/home/www/www5/tests/functionnal/application/Core/controllers/AuthControllerTest.php" tests="3" assertions="10" failures="0" errors="0" time="0.545018">
+      <testcase name="testAuthenticationWithValidCredentialsRedirectsToHome" class="AuthControllerTest" file="/home/www/www5/tests/functionnal/application/Core/controllers/AuthControllerTest.php" line="11" assertions="1" time="0.203973"/>
+      <testcase name="testAuthenticationWithInvalidCredentialsRedirectsToSigninForm" class="AuthControllerTest" file="/home/www/www5/tests/functionnal/application/Core/controllers/AuthControllerTest.php" line="19" assertions="6" time="0.190155"/>
+      <testcase name="testSignoutRedirectsToSignin" class="AuthControllerTest" file="/home/www/www5/tests/functionnal/application/Core/controllers/AuthControllerTest.php" line="31" assertions="3" time="0.150890"/>
+    </testsuite>
+    <testsuite name="UserControllerTest" file="/home/www/www5/tests/functionnal/application/Core/controllers/UserControllerTest.php" tests="3" assertions="5" failures="0" errors="0" time="0.945195">
+      <testcase name="testCoreUserListDisplaysUsers" class="UserControllerTest" file="/home/www/www5/tests/functionnal/application/Core/controllers/UserControllerTest.php" line="13" assertions="1" time="0.281837"/>
+      <testcase name="testUserCreationworksFine" class="UserControllerTest" file="/home/www/www5/tests/functionnal/application/Core/controllers/UserControllerTest.php" line="22" assertions="2" time="0.366596"/>
+      <testcase name="testUserDestructionWorksFine" class="UserControllerTest" file="/home/www/www5/tests/functionnal/application/Core/controllers/UserControllerTest.php" line="54" assertions="2" time="0.296762"/>
+    </testsuite>
+    <testsuite name="AuthTest" file="/home/www/www5/tests/functionnal/application/Core/plugins/AuthTest.php" tests="1" assertions="7" failures="0" errors="0" time="0.175769">
+      <testcase name="testAuthPluginRedirectsToSigninWhenUserHasNoIdentity" class="AuthTest" file="/home/www/www5/tests/functionnal/application/Core/plugins/AuthTest.php" line="12" assertions="7" time="0.175769"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
