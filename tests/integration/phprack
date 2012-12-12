@@ -1,0 +1,115 @@
+#!/usr/local/zend/bin/php
+<?php
+
+// This script is made for CLI only execution
+
+if ('cli' !== php_sapi_name()) {
+	print 'this program must be executed on CLI';
+	exit(1);
+}
+
+// Define path to root directory
+defined('ROOT_PATH')
+    || define('ROOT_PATH', realpath(dirname(dirname(dirname(__FILE__)))) );
+
+
+// Define path to application directory
+defined('APPLICATION_PATH')
+    || define('APPLICATION_PATH', realpath(ROOT_PATH . '/application'));
+
+// Define path to configs directory
+defined('CONFIG_PATH')
+    || define('CONFIG_PATH', realpath(APPLICATION_PATH . '/Core/configs'));
+
+
+// Define application environment
+defined('APPLICATION_ENV')
+    || define('APPLICATION_ENV', 'testing');
+
+// Fake $_SERVER
+$_SERVER['REQUEST_URI'] = '/';
+$_SERVER['REMOTE_ADDR'] = '127.0.0.1';
+$_SERVER['HTTP_HOST']   = 'www1.cleo-consulting.fr';
+$_SERVER['HTTP_USER_AGENT']   = 'phpRack test framework';
+$_SERVER['QUERY_STRING']   = '';
+
+set_include_path(
+    implode(
+        PATH_SEPARATOR, array(
+            realpath(ROOT_PATH . '/library'),
+            get_include_path(),
+        )
+    )
+);
+
+// Autoloading
+include "Zend/Loader/Autoloader.php";
+$autoloader = Zend_Loader_Autoloader::getInstance();
+$autoloader->registerNamespace('My');
+$autoloader->registerNamespace('phpRack');
+
+// Builds ZF config object
+$mainConfigFile = CONFIG_PATH . DIRECTORY_SEPARATOR . 'application.ini';
+$mainConfigZf = new Zend_Config_Ini($mainConfigFile, APPLICATION_ENV, true);
+Zend_Registry::set('Zend_Config', $mainConfigZf);
+
+$shortopts = "l::v::";
+$longopts  = array(
+    "logfile::",     // Valeur requise
+    "verbose"
+);
+$options = getopt($shortopts, $longopts);
+
+$phpRackConfig = array('dir' => (dirname(__FILE__)) . '/cases/');
+
+ob_start();
+    include realpath(dirname(dirname(dirname(__FILE__)))) . '/library/phpRack/bootstrap.php';
+    $output = ob_get_contents();
+ob_end_clean();
+
+// Does it need to be printed to stdout ?
+if (array_key_exists('v', $options) or array_key_exists('verbose', $options)) {
+    print PHP_EOL .
+    	  'Result in TAP format :' .
+    	  PHP_EOL .
+    	  formatOutput($output) .
+    	  PHP_EOL;
+}
+
+// Does it need to be stored in a file ?
+if (array_key_exists('l', $options) or array_key_exists('logfile', $options)) {
+	$logFile = isset($options['l']) ?
+			   $options['l'] :
+			   $options['logfile'];
+	if (false === $logFile) {
+		print 'L\'option --logfile ou -l requiert une valeur';
+		exit(1);
+	}
+}
+
+if (isset($logFile)) {
+	file_put_contents($logFile, formatOutput($output));
+}
+
+function formatOutput($output)
+{
+	$regexp = '/(?=(?:\[OK\]|\[FAILURE\])\x20)(.*)/';
+	preg_match_all($regexp, $output, $matches);
+	$tests = $matches[1];
+
+	$tapLines = array_map(
+		function($line) {
+			static $i;
+			$i++;
+			$tapLine = str_replace('[OK]', 'ok ' . $i . ' ', $line);
+			$tapLine = str_replace('[FAILURE]', 'not ok ' . $i . ' ', $tapLine);
+			return $tapLine;
+		},
+		$tests
+	);
+	$nbTests = count($tapLines);
+	$tap = 'TAP version 13' . PHP_EOL;
+	$tap.= implode(PHP_EOL,$tapLines) . PHP_EOL;
+	$tap.= '1..' . $nbTests . PHP_EOL;
+	return $tap;
+}

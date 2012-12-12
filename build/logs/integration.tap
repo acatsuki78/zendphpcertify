@@ -1,0 +1,12 @@
+TAP version 13
+ok 1  PHP extension 'pdo' is loaded
+ok 2  PHP extension 'apc' is loaded
+ok 3  PHP version is 5.3.9-ZS5.6.0, newer or equal to 5.3
+ok 4  PHP extension 'simplexml' is loaded
+ok 5  PHP extension 'ctype' is loaded
+ok 6  PHP extension 'iconv' is loaded
+ok 7  PHP extension 'Reflection' is loaded
+ok 8  PHP extension 'session' is loaded
+ok 9  PHP extension 'soap' is loaded
+ok 10  PHP extension 'dom' is loaded
+1..10

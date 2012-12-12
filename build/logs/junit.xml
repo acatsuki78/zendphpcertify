@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="4" assertions="14" failures="0" errors="0" time="0.155550">
+    <testsuite name="Core_Model_RoleTest" file="/home/www/www5/tests/unit/application/Core/models/RoleTest.php" fullPackage="Core.Model" tests="1" assertions="2" failures="0" errors="0" time="0.014461">
+      <testcase name="testGettersAndSettersWorkFine" class="Core_Model_RoleTest" file="/home/www/www5/tests/unit/application/Core/models/RoleTest.php" line="13" assertions="2" time="0.014461"/>
+    </testsuite>
+    <testsuite name="Core_Model_UserTest" file="/home/www/www5/tests/unit/application/Core/models/UserTest.php" fullPackage="Core.Model" tests="1" assertions="7" failures="0" errors="0" time="0.008679">
+      <testcase name="testGettersAndSettersWorkFine" class="Core_Model_UserTest" file="/home/www/www5/tests/unit/application/Core/models/UserTest.php" line="13" assertions="7" time="0.008679"/>
+    </testsuite>
+    <testsuite name="Core_Service_UserTest" file="/home/www/www5/tests/unit/application/Core/services/UserTest.php" fullPackage="Core.Service" tests="2" assertions="5" failures="0" errors="0" time="0.132410">
+      <testcase name="testFindMethodReturnsValidUserEntityOnExistingId" class="Core_Service_UserTest" file="/home/www/www5/tests/unit/application/Core/services/UserTest.php" line="11" assertions="3" time="0.068309"/>
+      <testcase name="testFetchAllMethodReturnsUserCollection" class="Core_Service_UserTest" file="/home/www/www5/tests/unit/application/Core/services/UserTest.php" line="46" assertions="2" time="0.064101"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
