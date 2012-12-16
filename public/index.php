@@ -5,9 +5,9 @@ define(
 	getenv('APPLICATION_ENV') ?: 'production'
 );
 
-if ( 'production' !== APPLICATION_ENV) {
-	include_once './xhprof/external/header.php';
-}
+// if ( 'production' !== APPLICATION_ENV) {
+// 	include_once './xhprof/external/header.php';
+// }
 
 define(
 	'ROOT_PATH',

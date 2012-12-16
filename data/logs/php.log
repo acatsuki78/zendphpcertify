@@ -2682,3 +2682,431 @@ Stack trace:
 [12-Dec-2012 10:34:59 UTC] PHP   8. Zend_View_Abstract->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout.php:796
 [12-Dec-2012 10:34:59 UTC] PHP   9. Zend_View->_run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:888
 [12-Dec-2012 10:34:59 UTC] PHP  10. include() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:108
+[12-Dec-2012 11:57:01 UTC] PHP Fatal error:  Uncaught exception 'Zend_Translate_Exception' with message 'Error including array or file '/home/www/zendphpcertify/application/Core/i18n'' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php:61
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(646): Zend_Translate_Adapter_Array->_loadTranslationData('/home/www/zendp...', 'fr', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(327): Zend_Translate_Adapter->_addTranslationData(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(176): Zend_Translate_Adapter->addTranslation(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(140): Zend_Translate_Adapter->__construct(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(93): Zend_Translate->setAdapter(Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Resource/Translate.php(12 in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php on line 61
+[12-Dec-2012 11:57:01 UTC] PHP Notice:  Undefined index: doprofile in /home/www/zendphpcertify/public/xhprof/external/footer.php on line 6
+[12-Dec-2012 11:57:01 UTC] PHP Stack trace:
+[12-Dec-2012 11:57:01 UTC] PHP   1. xhprof_shutdown_function() /home/www/zendphpcertify/public/xhprof/external/header.php:0
+[12-Dec-2012 11:57:01 UTC] PHP   2. require() /home/www/zendphpcertify/public/xhprof/external/header.php:120
+[12-Dec-2012 11:57:02 UTC] PHP Fatal error:  Uncaught exception 'Zend_Translate_Exception' with message 'Error including array or file '/home/www/zendphpcertify/application/Core/i18n'' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php:61
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(646): Zend_Translate_Adapter_Array->_loadTranslationData('/home/www/zendp...', 'fr', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(327): Zend_Translate_Adapter->_addTranslationData(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(176): Zend_Translate_Adapter->addTranslation(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(140): Zend_Translate_Adapter->__construct(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(93): Zend_Translate->setAdapter(Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Resource/Translate.php(12 in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php on line 61
+[12-Dec-2012 11:57:02 UTC] PHP Notice:  Undefined index: doprofile in /home/www/zendphpcertify/public/xhprof/external/footer.php on line 6
+[12-Dec-2012 11:57:02 UTC] PHP Stack trace:
+[12-Dec-2012 11:57:02 UTC] PHP   1. xhprof_shutdown_function() /home/www/zendphpcertify/public/xhprof/external/header.php:0
+[12-Dec-2012 11:57:02 UTC] PHP   2. require() /home/www/zendphpcertify/public/xhprof/external/header.php:120
+[12-Dec-2012 11:57:47 UTC] PHP Fatal error:  Uncaught exception 'Zend_Translate_Exception' with message 'Error including array or file '/home/www/zendphpcertify/application/Core/i18n'' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php:61
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(646): Zend_Translate_Adapter_Array->_loadTranslationData('/home/www/zendp...', 'fr', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(327): Zend_Translate_Adapter->_addTranslationData(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(176): Zend_Translate_Adapter->addTranslation(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(140): Zend_Translate_Adapter->__construct(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(93): Zend_Translate->setAdapter(Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Resource/Translate.php(12 in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php on line 61
+[12-Dec-2012 11:57:47 UTC] PHP Notice:  Undefined index: doprofile in /home/www/zendphpcertify/public/xhprof/external/footer.php on line 6
+[12-Dec-2012 11:57:47 UTC] PHP Stack trace:
+[12-Dec-2012 11:57:47 UTC] PHP   1. xhprof_shutdown_function() /home/www/zendphpcertify/public/xhprof/external/header.php:0
+[12-Dec-2012 11:57:47 UTC] PHP   2. require() /home/www/zendphpcertify/public/xhprof/external/header.php:120
+[12-Dec-2012 11:57:48 UTC] PHP Fatal error:  Uncaught exception 'Zend_Translate_Exception' with message 'Error including array or file '/home/www/zendphpcertify/application/Core/i18n'' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php:61
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(646): Zend_Translate_Adapter_Array->_loadTranslationData('/home/www/zendp...', 'fr', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(327): Zend_Translate_Adapter->_addTranslationData(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(176): Zend_Translate_Adapter->addTranslation(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(140): Zend_Translate_Adapter->__construct(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(93): Zend_Translate->setAdapter(Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Resource/Translate.php(12 in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php on line 61
+[12-Dec-2012 11:57:48 UTC] PHP Notice:  Undefined index: doprofile in /home/www/zendphpcertify/public/xhprof/external/footer.php on line 6
+[12-Dec-2012 11:57:48 UTC] PHP Stack trace:
+[12-Dec-2012 11:57:48 UTC] PHP   1. xhprof_shutdown_function() /home/www/zendphpcertify/public/xhprof/external/header.php:0
+[12-Dec-2012 11:57:48 UTC] PHP   2. require() /home/www/zendphpcertify/public/xhprof/external/header.php:120
+[12-Dec-2012 11:57:48 UTC] PHP Fatal error:  Uncaught exception 'Zend_Translate_Exception' with message 'Error including array or file '/home/www/zendphpcertify/application/Core/i18n'' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php:61
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(646): Zend_Translate_Adapter_Array->_loadTranslationData('/home/www/zendp...', 'fr', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(327): Zend_Translate_Adapter->_addTranslationData(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(176): Zend_Translate_Adapter->addTranslation(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(140): Zend_Translate_Adapter->__construct(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(93): Zend_Translate->setAdapter(Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Resource/Translate.php(12 in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php on line 61
+[12-Dec-2012 11:57:48 UTC] PHP Notice:  Undefined index: doprofile in /home/www/zendphpcertify/public/xhprof/external/footer.php on line 6
+[12-Dec-2012 11:57:48 UTC] PHP Stack trace:
+[12-Dec-2012 11:57:48 UTC] PHP   1. xhprof_shutdown_function() /home/www/zendphpcertify/public/xhprof/external/header.php:0
+[12-Dec-2012 11:57:48 UTC] PHP   2. require() /home/www/zendphpcertify/public/xhprof/external/header.php:120
+[12-Dec-2012 11:57:49 UTC] PHP Fatal error:  Uncaught exception 'Zend_Translate_Exception' with message 'Error including array or file '/home/www/zendphpcertify/application/Core/i18n'' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php:61
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(646): Zend_Translate_Adapter_Array->_loadTranslationData('/home/www/zendp...', 'fr', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(327): Zend_Translate_Adapter->_addTranslationData(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(176): Zend_Translate_Adapter->addTranslation(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(140): Zend_Translate_Adapter->__construct(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(93): Zend_Translate->setAdapter(Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Resource/Translate.php(12 in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php on line 61
+[12-Dec-2012 11:57:49 UTC] PHP Notice:  Undefined index: doprofile in /home/www/zendphpcertify/public/xhprof/external/footer.php on line 6
+[12-Dec-2012 11:57:49 UTC] PHP Stack trace:
+[12-Dec-2012 11:57:49 UTC] PHP   1. xhprof_shutdown_function() /home/www/zendphpcertify/public/xhprof/external/header.php:0
+[12-Dec-2012 11:57:49 UTC] PHP   2. require() /home/www/zendphpcertify/public/xhprof/external/header.php:120
+[12-Dec-2012 11:57:49 UTC] PHP Fatal error:  Uncaught exception 'Zend_Translate_Exception' with message 'Error including array or file '/home/www/zendphpcertify/application/Core/i18n'' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php:61
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(646): Zend_Translate_Adapter_Array->_loadTranslationData('/home/www/zendp...', 'fr', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(327): Zend_Translate_Adapter->_addTranslationData(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(176): Zend_Translate_Adapter->addTranslation(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(140): Zend_Translate_Adapter->__construct(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(93): Zend_Translate->setAdapter(Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Resource/Translate.php(12 in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php on line 61
+[12-Dec-2012 11:57:49 UTC] PHP Notice:  Undefined index: doprofile in /home/www/zendphpcertify/public/xhprof/external/footer.php on line 6
+[12-Dec-2012 11:57:49 UTC] PHP Stack trace:
+[12-Dec-2012 11:57:49 UTC] PHP   1. xhprof_shutdown_function() /home/www/zendphpcertify/public/xhprof/external/header.php:0
+[12-Dec-2012 11:57:49 UTC] PHP   2. require() /home/www/zendphpcertify/public/xhprof/external/header.php:120
+[12-Dec-2012 11:57:49 UTC] PHP Fatal error:  Uncaught exception 'Zend_Translate_Exception' with message 'Error including array or file '/home/www/zendphpcertify/application/Core/i18n'' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php:61
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(646): Zend_Translate_Adapter_Array->_loadTranslationData('/home/www/zendp...', 'fr', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(327): Zend_Translate_Adapter->_addTranslationData(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(176): Zend_Translate_Adapter->addTranslation(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(140): Zend_Translate_Adapter->__construct(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(93): Zend_Translate->setAdapter(Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Resource/Translate.php(12 in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php on line 61
+[12-Dec-2012 11:57:49 UTC] PHP Notice:  Undefined index: doprofile in /home/www/zendphpcertify/public/xhprof/external/footer.php on line 6
+[12-Dec-2012 11:57:49 UTC] PHP Stack trace:
+[12-Dec-2012 11:57:49 UTC] PHP   1. xhprof_shutdown_function() /home/www/zendphpcertify/public/xhprof/external/header.php:0
+[12-Dec-2012 11:57:49 UTC] PHP   2. require() /home/www/zendphpcertify/public/xhprof/external/header.php:120
+[12-Dec-2012 11:57:49 UTC] PHP Fatal error:  Uncaught exception 'Zend_Translate_Exception' with message 'Error including array or file '/home/www/zendphpcertify/application/Core/i18n'' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php:61
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(646): Zend_Translate_Adapter_Array->_loadTranslationData('/home/www/zendp...', 'fr', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(327): Zend_Translate_Adapter->_addTranslationData(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(176): Zend_Translate_Adapter->addTranslation(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(140): Zend_Translate_Adapter->__construct(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(93): Zend_Translate->setAdapter(Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Resource/Translate.php(12 in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php on line 61
+[12-Dec-2012 11:57:49 UTC] PHP Notice:  Undefined index: doprofile in /home/www/zendphpcertify/public/xhprof/external/footer.php on line 6
+[12-Dec-2012 11:57:49 UTC] PHP Stack trace:
+[12-Dec-2012 11:57:49 UTC] PHP   1. xhprof_shutdown_function() /home/www/zendphpcertify/public/xhprof/external/header.php:0
+[12-Dec-2012 11:57:49 UTC] PHP   2. require() /home/www/zendphpcertify/public/xhprof/external/header.php:120
+[12-Dec-2012 11:57:49 UTC] PHP Fatal error:  Uncaught exception 'Zend_Translate_Exception' with message 'Error including array or file '/home/www/zendphpcertify/application/Core/i18n'' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php:61
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(646): Zend_Translate_Adapter_Array->_loadTranslationData('/home/www/zendp...', 'fr', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(327): Zend_Translate_Adapter->_addTranslationData(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(176): Zend_Translate_Adapter->addTranslation(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(140): Zend_Translate_Adapter->__construct(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(93): Zend_Translate->setAdapter(Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Resource/Translate.php(12 in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php on line 61
+[12-Dec-2012 11:57:49 UTC] PHP Notice:  Undefined index: doprofile in /home/www/zendphpcertify/public/xhprof/external/footer.php on line 6
+[12-Dec-2012 11:57:49 UTC] PHP Stack trace:
+[12-Dec-2012 11:57:49 UTC] PHP   1. xhprof_shutdown_function() /home/www/zendphpcertify/public/xhprof/external/header.php:0
+[12-Dec-2012 11:57:49 UTC] PHP   2. require() /home/www/zendphpcertify/public/xhprof/external/header.php:120
+[12-Dec-2012 11:57:50 UTC] PHP Fatal error:  Uncaught exception 'Zend_Translate_Exception' with message 'Error including array or file '/home/www/zendphpcertify/application/Core/i18n'' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php:61
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(646): Zend_Translate_Adapter_Array->_loadTranslationData('/home/www/zendp...', 'fr', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(327): Zend_Translate_Adapter->_addTranslationData(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(176): Zend_Translate_Adapter->addTranslation(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(140): Zend_Translate_Adapter->__construct(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(93): Zend_Translate->setAdapter(Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Resource/Translate.php(12 in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php on line 61
+[12-Dec-2012 11:57:50 UTC] PHP Notice:  Undefined index: doprofile in /home/www/zendphpcertify/public/xhprof/external/footer.php on line 6
+[12-Dec-2012 11:57:50 UTC] PHP Stack trace:
+[12-Dec-2012 11:57:50 UTC] PHP   1. xhprof_shutdown_function() /home/www/zendphpcertify/public/xhprof/external/header.php:0
+[12-Dec-2012 11:57:50 UTC] PHP   2. require() /home/www/zendphpcertify/public/xhprof/external/header.php:120
+[12-Dec-2012 11:57:50 UTC] PHP Fatal error:  Uncaught exception 'Zend_Translate_Exception' with message 'Error including array or file '/home/www/zendphpcertify/application/Core/i18n'' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php:61
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(646): Zend_Translate_Adapter_Array->_loadTranslationData('/home/www/zendp...', 'fr', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(327): Zend_Translate_Adapter->_addTranslationData(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(176): Zend_Translate_Adapter->addTranslation(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(140): Zend_Translate_Adapter->__construct(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(93): Zend_Translate->setAdapter(Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Resource/Translate.php(12 in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php on line 61
+[12-Dec-2012 11:57:50 UTC] PHP Notice:  Undefined index: doprofile in /home/www/zendphpcertify/public/xhprof/external/footer.php on line 6
+[12-Dec-2012 11:57:50 UTC] PHP Stack trace:
+[12-Dec-2012 11:57:50 UTC] PHP   1. xhprof_shutdown_function() /home/www/zendphpcertify/public/xhprof/external/header.php:0
+[12-Dec-2012 11:57:50 UTC] PHP   2. require() /home/www/zendphpcertify/public/xhprof/external/header.php:120
+[12-Dec-2012 11:57:50 UTC] PHP Fatal error:  Uncaught exception 'Zend_Translate_Exception' with message 'Error including array or file '/home/www/zendphpcertify/application/Core/i18n'' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php:61
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(646): Zend_Translate_Adapter_Array->_loadTranslationData('/home/www/zendp...', 'fr', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(327): Zend_Translate_Adapter->_addTranslationData(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(176): Zend_Translate_Adapter->addTranslation(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(140): Zend_Translate_Adapter->__construct(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(93): Zend_Translate->setAdapter(Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Resource/Translate.php(12 in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php on line 61
+[12-Dec-2012 11:57:50 UTC] PHP Notice:  Undefined index: doprofile in /home/www/zendphpcertify/public/xhprof/external/footer.php on line 6
+[12-Dec-2012 11:57:50 UTC] PHP Stack trace:
+[12-Dec-2012 11:57:50 UTC] PHP   1. xhprof_shutdown_function() /home/www/zendphpcertify/public/xhprof/external/header.php:0
+[12-Dec-2012 11:57:50 UTC] PHP   2. require() /home/www/zendphpcertify/public/xhprof/external/header.php:120
+[12-Dec-2012 11:57:50 UTC] PHP Fatal error:  Uncaught exception 'Zend_Translate_Exception' with message 'Error including array or file '/home/www/zendphpcertify/application/Core/i18n'' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php:61
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(646): Zend_Translate_Adapter_Array->_loadTranslationData('/home/www/zendp...', 'fr', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(327): Zend_Translate_Adapter->_addTranslationData(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(176): Zend_Translate_Adapter->addTranslation(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(140): Zend_Translate_Adapter->__construct(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(93): Zend_Translate->setAdapter(Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Resource/Translate.php(12 in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php on line 61
+[12-Dec-2012 11:57:50 UTC] PHP Notice:  Undefined index: doprofile in /home/www/zendphpcertify/public/xhprof/external/footer.php on line 6
+[12-Dec-2012 11:57:50 UTC] PHP Stack trace:
+[12-Dec-2012 11:57:50 UTC] PHP   1. xhprof_shutdown_function() /home/www/zendphpcertify/public/xhprof/external/header.php:0
+[12-Dec-2012 11:57:50 UTC] PHP   2. require() /home/www/zendphpcertify/public/xhprof/external/header.php:120
+[12-Dec-2012 11:57:50 UTC] PHP Fatal error:  Uncaught exception 'Zend_Translate_Exception' with message 'Error including array or file '/home/www/zendphpcertify/application/Core/i18n'' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php:61
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(646): Zend_Translate_Adapter_Array->_loadTranslationData('/home/www/zendp...', 'fr', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(327): Zend_Translate_Adapter->_addTranslationData(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(176): Zend_Translate_Adapter->addTranslation(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(140): Zend_Translate_Adapter->__construct(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(93): Zend_Translate->setAdapter(Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Resource/Translate.php(12 in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php on line 61
+[12-Dec-2012 11:57:50 UTC] PHP Notice:  Undefined index: doprofile in /home/www/zendphpcertify/public/xhprof/external/footer.php on line 6
+[12-Dec-2012 11:57:50 UTC] PHP Stack trace:
+[12-Dec-2012 11:57:50 UTC] PHP   1. xhprof_shutdown_function() /home/www/zendphpcertify/public/xhprof/external/header.php:0
+[12-Dec-2012 11:57:50 UTC] PHP   2. require() /home/www/zendphpcertify/public/xhprof/external/header.php:120
+[12-Dec-2012 11:57:50 UTC] PHP Fatal error:  Uncaught exception 'Zend_Translate_Exception' with message 'Error including array or file '/home/www/zendphpcertify/application/Core/i18n'' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php:61
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(646): Zend_Translate_Adapter_Array->_loadTranslationData('/home/www/zendp...', 'fr', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(327): Zend_Translate_Adapter->_addTranslationData(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(176): Zend_Translate_Adapter->addTranslation(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(140): Zend_Translate_Adapter->__construct(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(93): Zend_Translate->setAdapter(Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Resource/Translate.php(12 in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php on line 61
+[12-Dec-2012 11:57:50 UTC] PHP Notice:  Undefined index: doprofile in /home/www/zendphpcertify/public/xhprof/external/footer.php on line 6
+[12-Dec-2012 11:57:50 UTC] PHP Stack trace:
+[12-Dec-2012 11:57:50 UTC] PHP   1. xhprof_shutdown_function() /home/www/zendphpcertify/public/xhprof/external/header.php:0
+[12-Dec-2012 11:57:50 UTC] PHP   2. require() /home/www/zendphpcertify/public/xhprof/external/header.php:120
+[12-Dec-2012 11:58:19 UTC] PHP Fatal error:  Uncaught exception 'Zend_Translate_Exception' with message 'Error including array or file '/home/www/zendphpcertify/application/Core/i18n'' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php:61
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(646): Zend_Translate_Adapter_Array->_loadTranslationData('/home/www/zendp...', 'fr', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(327): Zend_Translate_Adapter->_addTranslationData(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(176): Zend_Translate_Adapter->addTranslation(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(140): Zend_Translate_Adapter->__construct(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(93): Zend_Translate->setAdapter(Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Resource/Translate.php(12 in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php on line 61
+[12-Dec-2012 11:58:19 UTC] PHP Notice:  Undefined index: doprofile in /home/www/zendphpcertify/public/xhprof/external/footer.php on line 6
+[12-Dec-2012 11:58:19 UTC] PHP Stack trace:
+[12-Dec-2012 11:58:19 UTC] PHP   1. xhprof_shutdown_function() /home/www/zendphpcertify/public/xhprof/external/header.php:0
+[12-Dec-2012 11:58:19 UTC] PHP   2. require() /home/www/zendphpcertify/public/xhprof/external/header.php:120
+[12-Dec-2012 11:58:20 UTC] PHP Fatal error:  Uncaught exception 'Zend_Translate_Exception' with message 'Error including array or file '/home/www/zendphpcertify/application/Core/i18n'' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php:61
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(646): Zend_Translate_Adapter_Array->_loadTranslationData('/home/www/zendp...', 'fr', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(327): Zend_Translate_Adapter->_addTranslationData(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(176): Zend_Translate_Adapter->addTranslation(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(140): Zend_Translate_Adapter->__construct(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(93): Zend_Translate->setAdapter(Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Resource/Translate.php(12 in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php on line 61
+[12-Dec-2012 11:58:20 UTC] PHP Notice:  Undefined index: doprofile in /home/www/zendphpcertify/public/xhprof/external/footer.php on line 6
+[12-Dec-2012 11:58:20 UTC] PHP Stack trace:
+[12-Dec-2012 11:58:20 UTC] PHP   1. xhprof_shutdown_function() /home/www/zendphpcertify/public/xhprof/external/header.php:0
+[12-Dec-2012 11:58:20 UTC] PHP   2. require() /home/www/zendphpcertify/public/xhprof/external/header.php:120
+[12-Dec-2012 11:58:20 UTC] PHP Fatal error:  Uncaught exception 'Zend_Translate_Exception' with message 'Error including array or file '/home/www/zendphpcertify/application/Core/i18n'' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php:61
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(646): Zend_Translate_Adapter_Array->_loadTranslationData('/home/www/zendp...', 'fr', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(327): Zend_Translate_Adapter->_addTranslationData(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(176): Zend_Translate_Adapter->addTranslation(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(140): Zend_Translate_Adapter->__construct(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(93): Zend_Translate->setAdapter(Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Resource/Translate.php(12 in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php on line 61
+[12-Dec-2012 11:58:20 UTC] PHP Notice:  Undefined index: doprofile in /home/www/zendphpcertify/public/xhprof/external/footer.php on line 6
+[12-Dec-2012 11:58:20 UTC] PHP Stack trace:
+[12-Dec-2012 11:58:20 UTC] PHP   1. xhprof_shutdown_function() /home/www/zendphpcertify/public/xhprof/external/header.php:0
+[12-Dec-2012 11:58:20 UTC] PHP   2. require() /home/www/zendphpcertify/public/xhprof/external/header.php:120
+[12-Dec-2012 11:58:20 UTC] PHP Fatal error:  Uncaught exception 'Zend_Translate_Exception' with message 'Error including array or file '/home/www/zendphpcertify/application/Core/i18n'' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php:61
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(646): Zend_Translate_Adapter_Array->_loadTranslationData('/home/www/zendp...', 'fr', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(327): Zend_Translate_Adapter->_addTranslationData(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(176): Zend_Translate_Adapter->addTranslation(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(140): Zend_Translate_Adapter->__construct(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(93): Zend_Translate->setAdapter(Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Resource/Translate.php(12 in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php on line 61
+[12-Dec-2012 11:58:20 UTC] PHP Notice:  Undefined index: doprofile in /home/www/zendphpcertify/public/xhprof/external/footer.php on line 6
+[12-Dec-2012 11:58:20 UTC] PHP Stack trace:
+[12-Dec-2012 11:58:20 UTC] PHP   1. xhprof_shutdown_function() /home/www/zendphpcertify/public/xhprof/external/header.php:0
+[12-Dec-2012 11:58:20 UTC] PHP   2. require() /home/www/zendphpcertify/public/xhprof/external/header.php:120
+[12-Dec-2012 11:58:21 UTC] PHP Fatal error:  Uncaught exception 'Zend_Translate_Exception' with message 'Error including array or file '/home/www/zendphpcertify/application/Core/i18n'' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php:61
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(646): Zend_Translate_Adapter_Array->_loadTranslationData('/home/www/zendp...', 'fr', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(327): Zend_Translate_Adapter->_addTranslationData(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(176): Zend_Translate_Adapter->addTranslation(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(140): Zend_Translate_Adapter->__construct(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(93): Zend_Translate->setAdapter(Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Resource/Translate.php(12 in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php on line 61
+[12-Dec-2012 11:58:21 UTC] PHP Notice:  Undefined index: doprofile in /home/www/zendphpcertify/public/xhprof/external/footer.php on line 6
+[12-Dec-2012 11:58:21 UTC] PHP Stack trace:
+[12-Dec-2012 11:58:21 UTC] PHP   1. xhprof_shutdown_function() /home/www/zendphpcertify/public/xhprof/external/header.php:0
+[12-Dec-2012 11:58:21 UTC] PHP   2. require() /home/www/zendphpcertify/public/xhprof/external/header.php:120
+[12-Dec-2012 13:04:01 UTC] PHP Fatal error:  Uncaught exception 'Zend_Translate_Exception' with message 'Error including array or file '/home/www/zendphpcertify/application/Core/i18n'' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php:61
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(646): Zend_Translate_Adapter_Array->_loadTranslationData('/home/www/zendp...', 'fr', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(327): Zend_Translate_Adapter->_addTranslationData(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter.php(176): Zend_Translate_Adapter->addTranslation(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(140): Zend_Translate_Adapter->__construct(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate.php(93): Zend_Translate->setAdapter(Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Resource/Translate.php(12 in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Translate/Adapter/Array.php on line 61
+[12-Dec-2012 13:07:46 UTC] PHP Fatal error:  Class 'Core_Model_Role' not found in /home/www/zendphpcertify/tests/unit/application/Core/models/RoleTest.php on line 10
+[12-Dec-2012 13:07:46 UTC] PHP Stack trace:
+[12-Dec-2012 13:07:46 UTC] PHP   1. {main}() /usr/local/zend/bin/phpunit:0
+[12-Dec-2012 13:07:46 UTC] PHP   2. PHPUnit_TextUI_Command::main() /usr/local/zend/bin/phpunit:46
+[12-Dec-2012 13:07:46 UTC] PHP   3. PHPUnit_TextUI_Command->run() /usr/local/zend/share/pear/PHPUnit/TextUI/Command.php:130
+[12-Dec-2012 13:07:46 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /usr/local/zend/share/pear/PHPUnit/TextUI/Command.php:192
+[12-Dec-2012 13:07:46 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /usr/local/zend/share/pear/PHPUnit/TextUI/TestRunner.php:325
+[12-Dec-2012 13:07:46 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:705
+[12-Dec-2012 13:07:46 UTC] PHP   7. PHPUnit_Framework_TestSuite->runTest() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:745
+[12-Dec-2012 13:07:46 UTC] PHP   8. PHPUnit_Framework_TestCase->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:772
+[12-Dec-2012 13:07:46 UTC] PHP   9. PHPUnit_Framework_TestResult->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:751
+[12-Dec-2012 13:07:46 UTC] PHP  10. PHPUnit_Framework_TestCase->runBare() /usr/local/zend/share/pear/PHPUnit/Framework/TestResult.php:649
+[12-Dec-2012 13:07:46 UTC] PHP  11. Core_Model_RoleTest->setUp() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:801
+[12-Dec-2012 13:07:49 UTC] PHP Fatal error:  Class 'Core_Service_User' not found in /home/www/zendphpcertify/tests/functionnal/application/Core/controllers/AuthControllerTest.php on line 34
+[12-Dec-2012 13:07:49 UTC] PHP Stack trace:
+[12-Dec-2012 13:07:49 UTC] PHP   1. {main}() /usr/local/zend/bin/phpunit:0
+[12-Dec-2012 13:07:49 UTC] PHP   2. PHPUnit_TextUI_Command::main() /usr/local/zend/bin/phpunit:46
+[12-Dec-2012 13:07:49 UTC] PHP   3. PHPUnit_TextUI_Command->run() /usr/local/zend/share/pear/PHPUnit/TextUI/Command.php:130
+[12-Dec-2012 13:07:49 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /usr/local/zend/share/pear/PHPUnit/TextUI/Command.php:192
+[12-Dec-2012 13:07:49 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /usr/local/zend/share/pear/PHPUnit/TextUI/TestRunner.php:325
+[12-Dec-2012 13:07:49 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:705
+[12-Dec-2012 13:07:49 UTC] PHP   7. PHPUnit_Framework_TestSuite->runTest() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:745
+[12-Dec-2012 13:07:49 UTC] PHP   8. PHPUnit_Framework_TestCase->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:772
+[12-Dec-2012 13:07:49 UTC] PHP   9. PHPUnit_Framework_TestResult->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:751
+[12-Dec-2012 13:07:49 UTC] PHP  10. PHPUnit_Framework_TestCase->runBare() /usr/local/zend/share/pear/PHPUnit/Framework/TestResult.php:649
+[12-Dec-2012 13:07:49 UTC] PHP  11. PHPUnit_Framework_TestCase->runTest() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:804
+[12-Dec-2012 13:07:49 UTC] PHP  12. ReflectionMethod->invokeArgs() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:942
+[12-Dec-2012 13:07:49 UTC] PHP  13. AuthControllerTest->testSignoutRedirectsToSignin() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:942
+[12-Dec-2012 13:09:54 UTC] PHP Fatal error:  Class 'Core_Model_Role' not found in /home/www/zendphpcertify/tests/unit/application/Core/models/RoleTest.php on line 10
+[12-Dec-2012 13:09:54 UTC] PHP Stack trace:
+[12-Dec-2012 13:09:54 UTC] PHP   1. {main}() /usr/local/zend/bin/phpunit:0
+[12-Dec-2012 13:09:54 UTC] PHP   2. PHPUnit_TextUI_Command::main() /usr/local/zend/bin/phpunit:46
+[12-Dec-2012 13:09:54 UTC] PHP   3. PHPUnit_TextUI_Command->run() /usr/local/zend/share/pear/PHPUnit/TextUI/Command.php:130
+[12-Dec-2012 13:09:54 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /usr/local/zend/share/pear/PHPUnit/TextUI/Command.php:192
+[12-Dec-2012 13:09:54 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /usr/local/zend/share/pear/PHPUnit/TextUI/TestRunner.php:325
+[12-Dec-2012 13:09:54 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:705
+[12-Dec-2012 13:09:54 UTC] PHP   7. PHPUnit_Framework_TestSuite->runTest() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:745
+[12-Dec-2012 13:09:54 UTC] PHP   8. PHPUnit_Framework_TestCase->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:772
+[12-Dec-2012 13:09:54 UTC] PHP   9. PHPUnit_Framework_TestResult->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:751
+[12-Dec-2012 13:09:54 UTC] PHP  10. PHPUnit_Framework_TestCase->runBare() /usr/local/zend/share/pear/PHPUnit/Framework/TestResult.php:649
+[12-Dec-2012 13:09:54 UTC] PHP  11. Core_Model_RoleTest->setUp() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:801
+[12-Dec-2012 13:09:56 UTC] PHP Fatal error:  Class 'Core_Service_User' not found in /home/www/zendphpcertify/tests/functionnal/application/Core/controllers/AuthControllerTest.php on line 34
+[12-Dec-2012 13:09:56 UTC] PHP Stack trace:
+[12-Dec-2012 13:09:56 UTC] PHP   1. {main}() /usr/local/zend/bin/phpunit:0
+[12-Dec-2012 13:09:56 UTC] PHP   2. PHPUnit_TextUI_Command::main() /usr/local/zend/bin/phpunit:46
+[12-Dec-2012 13:09:56 UTC] PHP   3. PHPUnit_TextUI_Command->run() /usr/local/zend/share/pear/PHPUnit/TextUI/Command.php:130
+[12-Dec-2012 13:09:56 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /usr/local/zend/share/pear/PHPUnit/TextUI/Command.php:192
+[12-Dec-2012 13:09:56 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /usr/local/zend/share/pear/PHPUnit/TextUI/TestRunner.php:325
+[12-Dec-2012 13:09:56 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:705
+[12-Dec-2012 13:09:56 UTC] PHP   7. PHPUnit_Framework_TestSuite->runTest() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:745
+[12-Dec-2012 13:09:56 UTC] PHP   8. PHPUnit_Framework_TestCase->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:772
+[12-Dec-2012 13:09:56 UTC] PHP   9. PHPUnit_Framework_TestResult->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:751
+[12-Dec-2012 13:09:56 UTC] PHP  10. PHPUnit_Framework_TestCase->runBare() /usr/local/zend/share/pear/PHPUnit/Framework/TestResult.php:649
+[12-Dec-2012 13:09:56 UTC] PHP  11. PHPUnit_Framework_TestCase->runTest() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:804
+[12-Dec-2012 13:09:56 UTC] PHP  12. ReflectionMethod->invokeArgs() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:942
+[12-Dec-2012 13:09:56 UTC] PHP  13. AuthControllerTest->testSignoutRedirectsToSignin() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:942
+[12-Dec-2012 13:17:44 UTC] PHP Fatal error:  Class 'Core_Model_Role' not found in /home/www/zendphpcertify/tests/unit/application/Core/models/RoleTest.php on line 10
+[12-Dec-2012 13:17:44 UTC] PHP Stack trace:
+[12-Dec-2012 13:17:44 UTC] PHP   1. {main}() /usr/local/zend/bin/phpunit:0
+[12-Dec-2012 13:17:44 UTC] PHP   2. PHPUnit_TextUI_Command::main() /usr/local/zend/bin/phpunit:46
+[12-Dec-2012 13:17:44 UTC] PHP   3. PHPUnit_TextUI_Command->run() /usr/local/zend/share/pear/PHPUnit/TextUI/Command.php:130
+[12-Dec-2012 13:17:44 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /usr/local/zend/share/pear/PHPUnit/TextUI/Command.php:192
+[12-Dec-2012 13:17:44 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /usr/local/zend/share/pear/PHPUnit/TextUI/TestRunner.php:325
+[12-Dec-2012 13:17:44 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:705
+[12-Dec-2012 13:17:44 UTC] PHP   7. PHPUnit_Framework_TestSuite->runTest() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:745
+[12-Dec-2012 13:17:44 UTC] PHP   8. PHPUnit_Framework_TestCase->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:772
+[12-Dec-2012 13:17:44 UTC] PHP   9. PHPUnit_Framework_TestResult->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:751
+[12-Dec-2012 13:17:44 UTC] PHP  10. PHPUnit_Framework_TestCase->runBare() /usr/local/zend/share/pear/PHPUnit/Framework/TestResult.php:649
+[12-Dec-2012 13:17:44 UTC] PHP  11. Core_Model_RoleTest->setUp() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:801
+[12-Dec-2012 13:17:46 UTC] PHP Fatal error:  Class 'Core_Service_User' not found in /home/www/zendphpcertify/tests/functionnal/application/Core/controllers/AuthControllerTest.php on line 34
+[12-Dec-2012 13:17:46 UTC] PHP Stack trace:
+[12-Dec-2012 13:17:46 UTC] PHP   1. {main}() /usr/local/zend/bin/phpunit:0
+[12-Dec-2012 13:17:46 UTC] PHP   2. PHPUnit_TextUI_Command::main() /usr/local/zend/bin/phpunit:46
+[12-Dec-2012 13:17:46 UTC] PHP   3. PHPUnit_TextUI_Command->run() /usr/local/zend/share/pear/PHPUnit/TextUI/Command.php:130
+[12-Dec-2012 13:17:46 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /usr/local/zend/share/pear/PHPUnit/TextUI/Command.php:192
+[12-Dec-2012 13:17:46 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /usr/local/zend/share/pear/PHPUnit/TextUI/TestRunner.php:325
+[12-Dec-2012 13:17:46 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:705
+[12-Dec-2012 13:17:46 UTC] PHP   7. PHPUnit_Framework_TestSuite->runTest() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:745
+[12-Dec-2012 13:17:46 UTC] PHP   8. PHPUnit_Framework_TestCase->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:772
+[12-Dec-2012 13:17:46 UTC] PHP   9. PHPUnit_Framework_TestResult->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:751
+[12-Dec-2012 13:17:46 UTC] PHP  10. PHPUnit_Framework_TestCase->runBare() /usr/local/zend/share/pear/PHPUnit/Framework/TestResult.php:649
+[12-Dec-2012 13:17:46 UTC] PHP  11. PHPUnit_Framework_TestCase->runTest() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:804
+[12-Dec-2012 13:17:46 UTC] PHP  12. ReflectionMethod->invokeArgs() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:942
+[12-Dec-2012 13:17:46 UTC] PHP  13. AuthControllerTest->testSignoutRedirectsToSignin() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:942
+[13-Dec-2012 08:54:14 UTC] PHP Fatal error:  Class 'Core_Model_Role' not found in /home/www/zendphpcertify/tests/unit/application/Core/models/RoleTest.php on line 10
+[13-Dec-2012 08:54:14 UTC] PHP Stack trace:
+[13-Dec-2012 08:54:14 UTC] PHP   1. {main}() /usr/local/zend/bin/phpunit:0
+[13-Dec-2012 08:54:14 UTC] PHP   2. PHPUnit_TextUI_Command::main() /usr/local/zend/bin/phpunit:46
+[13-Dec-2012 08:54:14 UTC] PHP   3. PHPUnit_TextUI_Command->run() /usr/local/zend/share/pear/PHPUnit/TextUI/Command.php:130
+[13-Dec-2012 08:54:14 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /usr/local/zend/share/pear/PHPUnit/TextUI/Command.php:192
+[13-Dec-2012 08:54:14 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /usr/local/zend/share/pear/PHPUnit/TextUI/TestRunner.php:325
+[13-Dec-2012 08:54:14 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:705
+[13-Dec-2012 08:54:14 UTC] PHP   7. PHPUnit_Framework_TestSuite->runTest() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:745
+[13-Dec-2012 08:54:14 UTC] PHP   8. PHPUnit_Framework_TestCase->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:772
+[13-Dec-2012 08:54:14 UTC] PHP   9. PHPUnit_Framework_TestResult->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:751
+[13-Dec-2012 08:54:14 UTC] PHP  10. PHPUnit_Framework_TestCase->runBare() /usr/local/zend/share/pear/PHPUnit/Framework/TestResult.php:649
+[13-Dec-2012 08:54:14 UTC] PHP  11. Core_Model_RoleTest->setUp() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:801
+[13-Dec-2012 08:54:17 UTC] PHP Fatal error:  Class 'Core_Service_User' not found in /home/www/zendphpcertify/tests/functionnal/application/Core/controllers/AuthControllerTest.php on line 34
+[13-Dec-2012 08:54:17 UTC] PHP Stack trace:
+[13-Dec-2012 08:54:17 UTC] PHP   1. {main}() /usr/local/zend/bin/phpunit:0
+[13-Dec-2012 08:54:17 UTC] PHP   2. PHPUnit_TextUI_Command::main() /usr/local/zend/bin/phpunit:46
+[13-Dec-2012 08:54:17 UTC] PHP   3. PHPUnit_TextUI_Command->run() /usr/local/zend/share/pear/PHPUnit/TextUI/Command.php:130
+[13-Dec-2012 08:54:17 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /usr/local/zend/share/pear/PHPUnit/TextUI/Command.php:192
+[13-Dec-2012 08:54:17 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /usr/local/zend/share/pear/PHPUnit/TextUI/TestRunner.php:325
+[13-Dec-2012 08:54:17 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:705
+[13-Dec-2012 08:54:17 UTC] PHP   7. PHPUnit_Framework_TestSuite->runTest() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:745
+[13-Dec-2012 08:54:17 UTC] PHP   8. PHPUnit_Framework_TestCase->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:772
+[13-Dec-2012 08:54:17 UTC] PHP   9. PHPUnit_Framework_TestResult->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:751
+[13-Dec-2012 08:54:17 UTC] PHP  10. PHPUnit_Framework_TestCase->runBare() /usr/local/zend/share/pear/PHPUnit/Framework/TestResult.php:649
+[13-Dec-2012 08:54:17 UTC] PHP  11. PHPUnit_Framework_TestCase->runTest() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:804
+[13-Dec-2012 08:54:17 UTC] PHP  12. ReflectionMethod->invokeArgs() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:942
+[13-Dec-2012 08:54:17 UTC] PHP  13. AuthControllerTest->testSignoutRedirectsToSignin() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:942
+[13-Dec-2012 09:22:09 UTC] PHP Fatal error:  Class 'Core_Model_Role' not found in /home/www/zendphpcertify/tests/unit/application/Core/models/RoleTest.php on line 10
+[13-Dec-2012 09:22:09 UTC] PHP Stack trace:
+[13-Dec-2012 09:22:09 UTC] PHP   1. {main}() /usr/local/zend/bin/phpunit:0
+[13-Dec-2012 09:22:09 UTC] PHP   2. PHPUnit_TextUI_Command::main() /usr/local/zend/bin/phpunit:46
+[13-Dec-2012 09:22:09 UTC] PHP   3. PHPUnit_TextUI_Command->run() /usr/local/zend/share/pear/PHPUnit/TextUI/Command.php:130
+[13-Dec-2012 09:22:09 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /usr/local/zend/share/pear/PHPUnit/TextUI/Command.php:192
+[13-Dec-2012 09:22:09 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /usr/local/zend/share/pear/PHPUnit/TextUI/TestRunner.php:325
+[13-Dec-2012 09:22:09 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:705
+[13-Dec-2012 09:22:09 UTC] PHP   7. PHPUnit_Framework_TestSuite->runTest() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:745
+[13-Dec-2012 09:22:09 UTC] PHP   8. PHPUnit_Framework_TestCase->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:772
+[13-Dec-2012 09:22:09 UTC] PHP   9. PHPUnit_Framework_TestResult->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:751
+[13-Dec-2012 09:22:09 UTC] PHP  10. PHPUnit_Framework_TestCase->runBare() /usr/local/zend/share/pear/PHPUnit/Framework/TestResult.php:649
+[13-Dec-2012 09:22:09 UTC] PHP  11. Core_Model_RoleTest->setUp() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:801
+[13-Dec-2012 09:22:12 UTC] PHP Fatal error:  Class 'Core_Service_User' not found in /home/www/zendphpcertify/tests/functionnal/application/Core/controllers/AuthControllerTest.php on line 34
+[13-Dec-2012 09:22:12 UTC] PHP Stack trace:
+[13-Dec-2012 09:22:12 UTC] PHP   1. {main}() /usr/local/zend/bin/phpunit:0
+[13-Dec-2012 09:22:12 UTC] PHP   2. PHPUnit_TextUI_Command::main() /usr/local/zend/bin/phpunit:46
+[13-Dec-2012 09:22:12 UTC] PHP   3. PHPUnit_TextUI_Command->run() /usr/local/zend/share/pear/PHPUnit/TextUI/Command.php:130
+[13-Dec-2012 09:22:12 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /usr/local/zend/share/pear/PHPUnit/TextUI/Command.php:192
+[13-Dec-2012 09:22:12 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /usr/local/zend/share/pear/PHPUnit/TextUI/TestRunner.php:325
+[13-Dec-2012 09:22:12 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:705
+[13-Dec-2012 09:22:12 UTC] PHP   7. PHPUnit_Framework_TestSuite->runTest() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:745
+[13-Dec-2012 09:22:12 UTC] PHP   8. PHPUnit_Framework_TestCase->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:772
+[13-Dec-2012 09:22:12 UTC] PHP   9. PHPUnit_Framework_TestResult->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:751
+[13-Dec-2012 09:22:12 UTC] PHP  10. PHPUnit_Framework_TestCase->runBare() /usr/local/zend/share/pear/PHPUnit/Framework/TestResult.php:649
+[13-Dec-2012 09:22:12 UTC] PHP  11. PHPUnit_Framework_TestCase->runTest() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:804
+[13-Dec-2012 09:22:12 UTC] PHP  12. ReflectionMethod->invokeArgs() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:942
+[13-Dec-2012 09:22:12 UTC] PHP  13. AuthControllerTest->testSignoutRedirectsToSignin() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:942
+[13-Dec-2012 09:25:11 UTC] PHP Fatal error:  Class 'Core_Model_Role' not found in /home/www/zendphpcertify/tests/unit/application/Core/models/RoleTest.php on line 10
+[13-Dec-2012 09:25:11 UTC] PHP Stack trace:
+[13-Dec-2012 09:25:11 UTC] PHP   1. {main}() /usr/local/zend/bin/phpunit:0
+[13-Dec-2012 09:25:11 UTC] PHP   2. PHPUnit_TextUI_Command::main() /usr/local/zend/bin/phpunit:46
+[13-Dec-2012 09:25:11 UTC] PHP   3. PHPUnit_TextUI_Command->run() /usr/local/zend/share/pear/PHPUnit/TextUI/Command.php:130
+[13-Dec-2012 09:25:11 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /usr/local/zend/share/pear/PHPUnit/TextUI/Command.php:192
+[13-Dec-2012 09:25:11 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /usr/local/zend/share/pear/PHPUnit/TextUI/TestRunner.php:325
+[13-Dec-2012 09:25:11 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:705
+[13-Dec-2012 09:25:11 UTC] PHP   7. PHPUnit_Framework_TestSuite->runTest() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:745
+[13-Dec-2012 09:25:11 UTC] PHP   8. PHPUnit_Framework_TestCase->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:772
+[13-Dec-2012 09:25:11 UTC] PHP   9. PHPUnit_Framework_TestResult->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:751
+[13-Dec-2012 09:25:11 UTC] PHP  10. PHPUnit_Framework_TestCase->runBare() /usr/local/zend/share/pear/PHPUnit/Framework/TestResult.php:649
+[13-Dec-2012 09:25:11 UTC] PHP  11. Core_Model_RoleTest->setUp() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:801
+[13-Dec-2012 09:25:13 UTC] PHP Fatal error:  Class 'Core_Service_User' not found in /home/www/zendphpcertify/tests/functionnal/application/Core/controllers/AuthControllerTest.php on line 34
+[13-Dec-2012 09:25:13 UTC] PHP Stack trace:
+[13-Dec-2012 09:25:13 UTC] PHP   1. {main}() /usr/local/zend/bin/phpunit:0
+[13-Dec-2012 09:25:13 UTC] PHP   2. PHPUnit_TextUI_Command::main() /usr/local/zend/bin/phpunit:46
+[13-Dec-2012 09:25:13 UTC] PHP   3. PHPUnit_TextUI_Command->run() /usr/local/zend/share/pear/PHPUnit/TextUI/Command.php:130
+[13-Dec-2012 09:25:13 UTC] PHP   4. PHPUnit_TextUI_TestRunner->doRun() /usr/local/zend/share/pear/PHPUnit/TextUI/Command.php:192
+[13-Dec-2012 09:25:13 UTC] PHP   5. PHPUnit_Framework_TestSuite->run() /usr/local/zend/share/pear/PHPUnit/TextUI/TestRunner.php:325
+[13-Dec-2012 09:25:13 UTC] PHP   6. PHPUnit_Framework_TestSuite->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:705
+[13-Dec-2012 09:25:13 UTC] PHP   7. PHPUnit_Framework_TestSuite->runTest() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:745
+[13-Dec-2012 09:25:13 UTC] PHP   8. PHPUnit_Framework_TestCase->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestSuite.php:772
+[13-Dec-2012 09:25:13 UTC] PHP   9. PHPUnit_Framework_TestResult->run() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:751
+[13-Dec-2012 09:25:13 UTC] PHP  10. PHPUnit_Framework_TestCase->runBare() /usr/local/zend/share/pear/PHPUnit/Framework/TestResult.php:649
+[13-Dec-2012 09:25:13 UTC] PHP  11. PHPUnit_Framework_TestCase->runTest() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:804
+[13-Dec-2012 09:25:13 UTC] PHP  12. ReflectionMethod->invokeArgs() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:942
+[13-Dec-2012 09:25:13 UTC] PHP  13. AuthControllerTest->testSignoutRedirectsToSignin() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:942
