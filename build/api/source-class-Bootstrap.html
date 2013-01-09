@@ -8,7 +8,7 @@
 	<title>File Bootstrap.php | Documentation du projet www5</title>
 
 	<script type="text/javascript" src="resources/combined.js?3330809100"></script>
-	<script type="text/javascript" src="elementlist.js?989047311"></script>
+	<script type="text/javascript" src="elementlist.js?1759815749"></script>
 	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?1567499433" />
 
 </head>
@@ -26,16 +26,10 @@
 						<ul>
 				<li><a href="package-Core.Controller.html">Controller</a>
 						</li>
-				<li><a href="package-Core.Form.html">Form</a>
-						</li>
-				<li><a href="package-Core.Model.html">Model</a>
-						</li>
-				<li><a href="package-Core.Plugin.html">Plugin</a>
-						</li>
-				<li><a href="package-Core.Service.html">Service</a>
-						</li>
 							</ul></li>
 				<li class="active"><a href="package-Main.html">Main</a>
+						</li>
+				<li><a href="package-None.html">None</a>
 						</li>
 			</ul>
 		</div>
@@ -148,30 +142,38 @@
 </span><a href="#54" id="54" class="l">54: </a><span class="php-comment">     * Si la locale actuelle n'existe pas (celle demandée par le navigateur),
 </span><a href="#55" id="55" class="l">55: </a><span class="php-comment">     * charge cet adaptateur par défaut.
 </span><a href="#56" id="56" class="l">56: </a><span class="php-comment">     */</span>
-<a href="#57" id="57" class="l">57: </a>    <span class="php-keyword1">protected</span> <span class="php-keyword1">function</span> _initDefaultTranslation()
-<a href="#58" id="58" class="l">58: </a>    {
-<a href="#59" id="59" class="l">59: </a>        <span class="php-keyword1">if</span> (!<span class="php-var">$this</span>-&gt;hasResource(<span class="php-quote">'locale'</span>)) {
-<a href="#60" id="60" class="l">60: </a>            <span class="php-var">$this</span>-&gt;bootstrap(<span class="php-quote">'locale'</span>);
-<a href="#61" id="61" class="l">61: </a>        }
+<a href="#57" id="57" class="l">57: </a><span class="php-comment">//     protected function _initDefaultTranslation()</span>
+<a href="#58" id="58" class="l">58: </a><span class="php-comment">//     {</span>
+<a href="#59" id="59" class="l">59: </a><span class="php-comment">//         if (!$this-&gt;hasResource('locale')) {</span>
+<a href="#60" id="60" class="l">60: </a><span class="php-comment">//             $this-&gt;bootstrap('locale');</span>
+<a href="#61" id="61" class="l">61: </a><span class="php-comment">//         }</span>
 <a href="#62" id="62" class="l">62: </a>
-<a href="#63" id="63" class="l">63: </a>        <span class="php-keyword1">if</span> (!<span class="php-var">$this</span>-&gt;hasResource(<span class="php-quote">'translate'</span>)) {
-<a href="#64" id="64" class="l">64: </a>            <span class="php-var">$this</span>-&gt;bootstrap(<span class="php-quote">'translate'</span>);
-<a href="#65" id="65" class="l">65: </a>        }
+<a href="#63" id="63" class="l">63: </a><span class="php-comment">//         if (!$this-&gt;hasResource('translate')) {</span>
+<a href="#64" id="64" class="l">64: </a><span class="php-comment">//             $this-&gt;bootstrap('translate');</span>
+<a href="#65" id="65" class="l">65: </a><span class="php-comment">//         }</span>
 <a href="#66" id="66" class="l">66: </a>
-<a href="#67" id="67" class="l">67: </a>        <span class="php-var">$locale</span> = <span class="php-var">$this</span>-&gt;getResource(<span class="php-quote">'locale'</span>);
-<a href="#68" id="68" class="l">68: </a>        <span class="php-var">$translate</span> = <span class="php-var">$this</span>-&gt;getResource(<span class="php-quote">'translate'</span>);
+<a href="#67" id="67" class="l">67: </a><span class="php-comment">//         $locale = $this-&gt;getResource('locale');</span>
+<a href="#68" id="68" class="l">68: </a><span class="php-comment">//         $translate = $this-&gt;getResource('translate');</span>
 <a href="#69" id="69" class="l">69: </a>
-<a href="#70" id="70" class="l">70: </a>        <span class="php-var">$translate</span>-&gt;<span class="php-keyword2">setLocale</span>(<span class="php-var">$locale</span>);
+<a href="#70" id="70" class="l">70: </a><span class="php-comment">//         $translate-&gt;setLocale($locale);</span>
 <a href="#71" id="71" class="l">71: </a>
-<a href="#72" id="72" class="l">72: </a>        <span class="php-var">$config</span> = <span class="php-var">$this</span>-&gt;getOptions();
-<a href="#73" id="73" class="l">73: </a>        <span class="php-var">$defaultLanguage</span> = <span class="php-var">$config</span>[<span class="php-quote">'resources'</span>][<span class="php-quote">'translate'</span>][<span class="php-quote">'default'</span>];
-<a href="#74" id="74" class="l">74: </a>
-<a href="#75" id="75" class="l">75: </a>        <span class="php-keyword1">if</span> (!<span class="php-var">$translate</span>-&gt;isAvailable(<span class="php-var">$locale</span>-&gt;getLanguage())) {
-<a href="#76" id="76" class="l">76: </a>            <span class="php-var">$translate</span>-&gt;<span class="php-keyword2">setLocale</span>(<span class="php-var">$defaultLanguage</span>);
-<a href="#77" id="77" class="l">77: </a>        }
-<a href="#78" id="78" class="l">78: </a>    }
-<a href="#79" id="79" class="l">79: </a>}
-<a href="#80" id="80" class="l">80: </a></code></pre>
+<a href="#72" id="72" class="l">72: </a><span class="php-comment">//         $config = $this-&gt;getOptions();</span>
+<a href="#73" id="73" class="l">73: </a>
+<a href="#74" id="74" class="l">74: </a><span class="php-comment">//         $defaultLanguage = $config['resources']['translate']['default'];</span>
+<a href="#75" id="75" class="l">75: </a>
+<a href="#76" id="76" class="l">76: </a><span class="php-comment">//         if (!$translate-&gt;isAvailable($locale-&gt;getLanguage())) {</span>
+<a href="#77" id="77" class="l">77: </a><span class="php-comment">//             $translate-&gt;setLocale($defaultLanguage);</span>
+<a href="#78" id="78" class="l">78: </a><span class="php-comment">//         }</span>
+<a href="#79" id="79" class="l">79: </a><span class="php-comment">//     }</span>
+<a href="#80" id="80" class="l">80: </a>
+<a href="#81" id="81" class="l">81: </a><span class="php-comment">//     protected function _initDefaultAcl()</span>
+<a href="#82" id="82" class="l">82: </a><span class="php-comment">//     {</span>
+<a href="#83" id="83" class="l">83: </a><span class="php-comment">//      if (!$this-&gt;hasResource('acl')) {</span>
+<a href="#84" id="84" class="l">84: </a><span class="php-comment">//          $this-&gt;bootstrap('acl');</span>
+<a href="#85" id="85" class="l">85: </a><span class="php-comment">//      }</span>
+<a href="#86" id="86" class="l">86: </a><span class="php-comment">//     }</span>
+<a href="#87" id="87" class="l">87: </a>}
+<a href="#88" id="88" class="l">88: </a></code></pre>
 
 	<div id="footer">
 		Documentation du projet www5 API documentation generated by <a href="http://apigen.org">ApiGen 2.7.0</a>

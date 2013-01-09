@@ -55,9 +55,9 @@ class ErrorController extends Zend_Controller_Action
         $log->info($errorHandler->exception);
 
     }
-    
+
     public function forbidenAction()
     {
-    	
+
     }
 }

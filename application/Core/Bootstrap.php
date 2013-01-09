@@ -28,22 +28,15 @@ class Core_Bootstrap extends Zend_Application_Module_Bootstrap
         //$fc->registerPlugin(new Core_Plugin_Acl());
         //$fc->registerPlugin(new Core_Plugin_Auth());
     }
-    
+
 //     protected function _initModuleAcl()
 //     {
-//     	if(!$this->getApplication()->hasResource('multidb')){
+//     	if (!$this->getApplication()->hasResource('multidb')) {
 //     		$this->getApplication()->bootstrap('multidb');
 //     	}
-    	
+
 //     	$aclSvc = new Core_Service_Acl();
 //     	$aclSvc->load();
 
 //     }
 }
-
-
-
-
-
-
-
