@@ -3110,6 +3110,7 @@ Stack trace:
 [13-Dec-2012 09:25:13 UTC] PHP  11. PHPUnit_Framework_TestCase->runTest() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:804
 [13-Dec-2012 09:25:13 UTC] PHP  12. ReflectionMethod->invokeArgs() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:942
 [13-Dec-2012 09:25:13 UTC] PHP  13. AuthControllerTest->testSignoutRedirectsToSignin() /usr/local/zend/share/pear/PHPUnit/Framework/TestCase.php:942
+<<<<<<< HEAD
 [07-Jan-2013 13:47:00 UTC] PHP Fatal error:  Zend_Controller_Router_Exception: Route coreRoleNew is not defined in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php on line 522
 [07-Jan-2013 13:47:00 UTC] PHP Stack trace:
 [07-Jan-2013 13:47:00 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
@@ -5066,3 +5067,119 @@ Stack Trace:
 [09-Jan-2013 14:09:44 UTC] PHP  10. include() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:108
 [09-Jan-2013 14:09:44 UTC] PHP  11. Zend_View_Helper_Navigation_HelperAbstract->__toString() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:64
 [09-Jan-2013 14:09:44 UTC] PHP  12. trigger_error() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php:522
+=======
+[08-Jan-2013 14:11:02 UTC] PHP Fatal error:  Call to a member function json() on a non-object in /home/www/zendphpcertify/application/Core/views/scripts/index/login.phtml on line 6
+[08-Jan-2013 14:11:02 UTC] PHP Stack trace:
+[08-Jan-2013 14:11:02 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[08-Jan-2013 14:11:02 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[08-Jan-2013 14:11:02 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[08-Jan-2013 14:11:02 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[08-Jan-2013 14:11:02 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[08-Jan-2013 14:11:02 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[08-Jan-2013 14:11:02 UTC] PHP   7. Zend_Controller_Action_HelperBroker->notifyPostDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:527
+[08-Jan-2013 14:11:02 UTC] PHP   8. Zend_Controller_Action_Helper_ViewRenderer->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/HelperBroker.php:277
+[08-Jan-2013 14:11:02 UTC] PHP   9. Zend_Controller_Action_Helper_ViewRenderer->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php:960
+[08-Jan-2013 14:11:02 UTC] PHP  10. Zend_Controller_Action_Helper_ViewRenderer->renderScript() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php:921
+[08-Jan-2013 14:11:02 UTC] PHP  11. Zend_View_Abstract->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php:900
+[08-Jan-2013 14:11:02 UTC] PHP  12. Zend_View->_run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:888
+[08-Jan-2013 14:11:02 UTC] PHP  13. include() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:108
+[08-Jan-2013 14:12:08 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/www/zendphpcertify/application/Core/views/scripts/index/login.phtml on line 3
+[08-Jan-2013 14:12:08 UTC] PHP Stack trace:
+[08-Jan-2013 14:12:08 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[08-Jan-2013 14:12:08 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[08-Jan-2013 14:12:08 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[08-Jan-2013 14:12:08 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[08-Jan-2013 14:12:08 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[08-Jan-2013 14:12:08 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[08-Jan-2013 14:12:08 UTC] PHP   7. Zend_Controller_Action_HelperBroker->notifyPostDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:527
+[08-Jan-2013 14:12:08 UTC] PHP   8. Zend_Controller_Action_Helper_ViewRenderer->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/HelperBroker.php:277
+[08-Jan-2013 14:12:08 UTC] PHP   9. Zend_Controller_Action_Helper_ViewRenderer->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php:960
+[08-Jan-2013 14:12:08 UTC] PHP  10. Zend_Controller_Action_Helper_ViewRenderer->renderScript() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php:921
+[08-Jan-2013 14:12:08 UTC] PHP  11. Zend_View_Abstract->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php:900
+[08-Jan-2013 14:12:08 UTC] PHP  12. Zend_View->_run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:888
+[08-Jan-2013 14:12:41 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/www/zendphpcertify/application/Core/views/scripts/index/login.phtml on line 4
+[08-Jan-2013 14:12:41 UTC] PHP Stack trace:
+[08-Jan-2013 14:12:41 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[08-Jan-2013 14:12:41 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[08-Jan-2013 14:12:41 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[08-Jan-2013 14:12:41 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[08-Jan-2013 14:12:41 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[08-Jan-2013 14:12:41 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[08-Jan-2013 14:12:41 UTC] PHP   7. Zend_Controller_Action_HelperBroker->notifyPostDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:527
+[08-Jan-2013 14:12:41 UTC] PHP   8. Zend_Controller_Action_Helper_ViewRenderer->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/HelperBroker.php:277
+[08-Jan-2013 14:12:41 UTC] PHP   9. Zend_Controller_Action_Helper_ViewRenderer->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php:960
+[08-Jan-2013 14:12:41 UTC] PHP  10. Zend_Controller_Action_Helper_ViewRenderer->renderScript() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php:921
+[08-Jan-2013 14:12:41 UTC] PHP  11. Zend_View_Abstract->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php:900
+[08-Jan-2013 14:12:41 UTC] PHP  12. Zend_View->_run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:888
+[08-Jan-2013 14:13:38 UTC] PHP Fatal error:  Call to a member function json() on a non-object in /home/www/zendphpcertify/application/Core/views/scripts/index/login.phtml on line 9
+[08-Jan-2013 14:13:38 UTC] PHP Stack trace:
+[08-Jan-2013 14:13:38 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[08-Jan-2013 14:13:38 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[08-Jan-2013 14:13:38 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[08-Jan-2013 14:13:38 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[08-Jan-2013 14:13:38 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[08-Jan-2013 14:13:38 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[08-Jan-2013 14:13:38 UTC] PHP   7. Zend_Controller_Action_HelperBroker->notifyPostDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:527
+[08-Jan-2013 14:13:38 UTC] PHP   8. Zend_Controller_Action_Helper_ViewRenderer->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/HelperBroker.php:277
+[08-Jan-2013 14:13:38 UTC] PHP   9. Zend_Controller_Action_Helper_ViewRenderer->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php:960
+[08-Jan-2013 14:13:38 UTC] PHP  10. Zend_Controller_Action_Helper_ViewRenderer->renderScript() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php:921
+[08-Jan-2013 14:13:38 UTC] PHP  11. Zend_View_Abstract->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php:900
+[08-Jan-2013 14:13:38 UTC] PHP  12. Zend_View->_run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:888
+[08-Jan-2013 14:13:38 UTC] PHP  13. include() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:108
+[08-Jan-2013 14:14:06 UTC] PHP Fatal error:  Call to a member function json() on a non-object in /home/www/zendphpcertify/application/Core/views/scripts/index/login.phtml on line 9
+[08-Jan-2013 14:14:06 UTC] PHP Stack trace:
+[08-Jan-2013 14:14:06 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[08-Jan-2013 14:14:06 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[08-Jan-2013 14:14:06 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[08-Jan-2013 14:14:06 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[08-Jan-2013 14:14:06 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[08-Jan-2013 14:14:06 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[08-Jan-2013 14:14:06 UTC] PHP   7. Zend_Controller_Action_HelperBroker->notifyPostDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:527
+[08-Jan-2013 14:14:06 UTC] PHP   8. Zend_Controller_Action_Helper_ViewRenderer->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/HelperBroker.php:277
+[08-Jan-2013 14:14:06 UTC] PHP   9. Zend_Controller_Action_Helper_ViewRenderer->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php:960
+[08-Jan-2013 14:14:06 UTC] PHP  10. Zend_Controller_Action_Helper_ViewRenderer->renderScript() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php:921
+[08-Jan-2013 14:14:06 UTC] PHP  11. Zend_View_Abstract->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php:900
+[08-Jan-2013 14:14:06 UTC] PHP  12. Zend_View->_run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:888
+[08-Jan-2013 14:14:06 UTC] PHP  13. include() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:108
+[08-Jan-2013 14:48:53 UTC] PHP Fatal error:  Cannot redeclare class Core_Bootstrap in /home/www/zendphpcertify/application/Front/Bootstrap.php on line 4
+[08-Jan-2013 14:48:53 UTC] PHP Stack trace:
+[08-Jan-2013 14:48:53 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[08-Jan-2013 14:48:53 UTC] PHP   2. Zend_Application->bootstrap() /home/www/zendphpcertify/public/index.php:23
+[08-Jan-2013 14:48:53 UTC] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:355
+[08-Jan-2013 14:48:53 UTC] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/BootstrapAbstract.php:586
+[08-Jan-2013 14:48:53 UTC] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/BootstrapAbstract.php:626
+[08-Jan-2013 14:48:53 UTC] PHP   6. Zend_Application_Resource_Modules->init() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/BootstrapAbstract.php:683
+[08-Jan-2013 14:49:05 UTC] PHP Fatal error:  Cannot redeclare class Core_Bootstrap in /home/www/zendphpcertify/application/Front/Bootstrap.php on line 4
+[08-Jan-2013 14:49:05 UTC] PHP Stack trace:
+[08-Jan-2013 14:49:05 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[08-Jan-2013 14:49:05 UTC] PHP   2. Zend_Application->bootstrap() /home/www/zendphpcertify/public/index.php:23
+[08-Jan-2013 14:49:05 UTC] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:355
+[08-Jan-2013 14:49:05 UTC] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/BootstrapAbstract.php:586
+[08-Jan-2013 14:49:05 UTC] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/BootstrapAbstract.php:626
+[08-Jan-2013 14:49:05 UTC] PHP   6. Zend_Application_Resource_Modules->init() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/BootstrapAbstract.php:683
+[08-Jan-2013 14:49:06 UTC] PHP Fatal error:  Cannot redeclare class Core_Bootstrap in /home/www/zendphpcertify/application/Front/Bootstrap.php on line 4
+[08-Jan-2013 14:49:06 UTC] PHP Stack trace:
+[08-Jan-2013 14:49:06 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[08-Jan-2013 14:49:06 UTC] PHP   2. Zend_Application->bootstrap() /home/www/zendphpcertify/public/index.php:23
+[08-Jan-2013 14:49:06 UTC] PHP   3. Zend_Application_Bootstrap_BootstrapAbstract->bootstrap() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:355
+[08-Jan-2013 14:49:06 UTC] PHP   4. Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/BootstrapAbstract.php:586
+[08-Jan-2013 14:49:06 UTC] PHP   5. Zend_Application_Bootstrap_BootstrapAbstract->_executeResource() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/BootstrapAbstract.php:626
+[08-Jan-2013 14:49:06 UTC] PHP   6. Zend_Application_Resource_Modules->init() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/BootstrapAbstract.php:683
+[08-Jan-2013 14:56:04 UTC] PHP Notice:  Undefined index: CORE in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php on line 384
+[08-Jan-2013 14:56:04 UTC] PHP Stack trace:
+[08-Jan-2013 14:56:04 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[08-Jan-2013 14:56:04 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[08-Jan-2013 14:56:04 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[08-Jan-2013 14:56:04 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[08-Jan-2013 14:56:04 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[08-Jan-2013 14:56:04 UTC] PHP   6. Zend_Controller_Dispatcher_Standard->isDispatchable() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:244
+[08-Jan-2013 14:56:04 UTC] PHP   7. Zend_Controller_Dispatcher_Standard->getControllerClass() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:204
+[08-Jan-2013 15:32:48 UTC] PHP Fatal error:  Uncaught exception 'Zend_Config_Exception' with message 'parse_ini_file(/home/www/zendphpcertify/application/Front/config/routes.ini): failed to open stream: No such file or directory' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Config/Ini.php:182
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Config/Ini.php(202): Zend_Config_Ini->_parseIniFile('/home/www/zendp...')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Config/Ini.php(126): Zend_Config_Ini->_loadIniFile('/home/www/zendp...')
+#2 /home/www/zendphpcertify/application/Front/Bootstrap.php(35): Zend_Config_Ini->__construct('/home/www/zendp...', 'development')
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/BootstrapAbstract.php(669): Front_Bootstrap->_initRoutes()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/BootstrapAbstract.php(622): Zend_Application_Bootstrap_BootstrapAbstract->_executeResource('routes')
+#5 /usr/local/zend/share/ in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Config/Ini.php on line 182
+>>>>>>> bf68dd0a882f5c7f1c50c74d0da40b36387d47d2
