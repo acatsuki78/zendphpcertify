@@ -10069,3 +10069,528 @@ Stack trace:
 #2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
 #3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
 #4 {main}
+2013-01-08T14:24:39+01:00 INFO (6): exception 'Zend_View_Exception' with message 'script 'index/login.phtml' not found in path (/home/www/zendphpcertify/application/Core/views/scripts/)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:988
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php(884): Zend_View_Abstract->_script('index/login.pht...')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(900): Zend_View_Abstract->render('index/login.pht...')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(921): Zend_Controller_Action_Helper_ViewRenderer->renderScript('index/login.pht...', NULL)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(960): Zend_Controller_Action_Helper_ViewRenderer->render()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/HelperBroker.php(277): Zend_Controller_Action_Helper_ViewRenderer->postDispatch()
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(527): Zend_Controller_Action_HelperBroker->notifyPostDispatch()
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('loginAction')
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#9 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#10 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#11 {main}
+2013-01-08T14:26:35+01:00 INFO (6): exception 'Zend_View_Exception' with message 'script 'index/login.phtml' not found in path (/home/www/zendphpcertify/application/Core/views/scripts/)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:988
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php(884): Zend_View_Abstract->_script('index/login.pht...')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(900): Zend_View_Abstract->render('index/login.pht...')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(921): Zend_Controller_Action_Helper_ViewRenderer->renderScript('index/login.pht...', NULL)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(960): Zend_Controller_Action_Helper_ViewRenderer->render()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/HelperBroker.php(277): Zend_Controller_Action_Helper_ViewRenderer->postDispatch()
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(527): Zend_Controller_Action_HelperBroker->notifyPostDispatch()
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('loginAction')
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#9 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#10 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#11 {main}
+2013-01-08T14:26:59+01:00 INFO (6): exception 'Zend_View_Exception' with message 'script 'index/login.phtml' not found in path (/home/www/zendphpcertify/application/Core/views/scripts/)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:988
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php(884): Zend_View_Abstract->_script('index/login.pht...')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(900): Zend_View_Abstract->render('index/login.pht...')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(921): Zend_Controller_Action_Helper_ViewRenderer->renderScript('index/login.pht...', NULL)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(960): Zend_Controller_Action_Helper_ViewRenderer->render()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/HelperBroker.php(277): Zend_Controller_Action_Helper_ViewRenderer->postDispatch()
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(527): Zend_Controller_Action_HelperBroker->notifyPostDispatch()
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('loginAction')
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#9 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#10 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#11 {main}
+2013-01-08T14:28:31+01:00 INFO (6): exception 'Zend_View_Exception' with message 'script 'index/login.phtml' not found in path (/home/www/zendphpcertify/application/Core/views/scripts/)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:988
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php(884): Zend_View_Abstract->_script('index/login.pht...')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(900): Zend_View_Abstract->render('index/login.pht...')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(921): Zend_Controller_Action_Helper_ViewRenderer->renderScript('index/login.pht...', NULL)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(960): Zend_Controller_Action_Helper_ViewRenderer->render()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/HelperBroker.php(277): Zend_Controller_Action_Helper_ViewRenderer->postDispatch()
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(527): Zend_Controller_Action_HelperBroker->notifyPostDispatch()
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('loginAction')
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#9 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#10 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#11 {main}
+2013-01-08T14:28:48+01:00 INFO (6): exception 'Zend_View_Exception' with message 'script 'index/login.phtml' not found in path (/home/www/zendphpcertify/application/Core/views/scripts/)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:988
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php(884): Zend_View_Abstract->_script('index/login.pht...')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(900): Zend_View_Abstract->render('index/login.pht...')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(921): Zend_Controller_Action_Helper_ViewRenderer->renderScript('index/login.pht...', NULL)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(960): Zend_Controller_Action_Helper_ViewRenderer->render()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/HelperBroker.php(277): Zend_Controller_Action_Helper_ViewRenderer->postDispatch()
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(527): Zend_Controller_Action_HelperBroker->notifyPostDispatch()
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('loginAction')
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#9 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#10 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#11 {main}
+2013-01-08T14:29:20+01:00 INFO (6): exception 'Zend_View_Exception' with message 'script 'index/login.phtml' not found in path (/home/www/zendphpcertify/application/Core/views/scripts/)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:988
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php(884): Zend_View_Abstract->_script('index/login.pht...')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(900): Zend_View_Abstract->render('index/login.pht...')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(921): Zend_Controller_Action_Helper_ViewRenderer->renderScript('index/login.pht...', NULL)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(960): Zend_Controller_Action_Helper_ViewRenderer->render()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/HelperBroker.php(277): Zend_Controller_Action_Helper_ViewRenderer->postDispatch()
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(527): Zend_Controller_Action_HelperBroker->notifyPostDispatch()
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('loginAction')
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#9 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#10 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#11 {main}
+2013-01-08T14:30:47+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (login)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-08T14:31:06+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (login)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-08T14:31:37+01:00 INFO (6): exception 'Zend_View_Exception' with message 'script 'index/login.phtml' not found in path (/home/www/zendphpcertify/application/Core/views/scripts/)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:988
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php(884): Zend_View_Abstract->_script('index/login.pht...')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(900): Zend_View_Abstract->render('index/login.pht...')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(921): Zend_Controller_Action_Helper_ViewRenderer->renderScript('index/login.pht...', NULL)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(960): Zend_Controller_Action_Helper_ViewRenderer->render()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/HelperBroker.php(277): Zend_Controller_Action_Helper_ViewRenderer->postDispatch()
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(527): Zend_Controller_Action_HelperBroker->notifyPostDispatch()
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('loginAction')
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#9 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#10 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#11 {main}
+2013-01-08T14:32:15+01:00 INFO (6): exception 'Zend_View_Exception' with message 'script 'index/login.phtml' not found in path (/home/www/zendphpcertify/application/Core/views/scripts/)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:988
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php(884): Zend_View_Abstract->_script('index/login.pht...')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(900): Zend_View_Abstract->render('index/login.pht...')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(921): Zend_Controller_Action_Helper_ViewRenderer->renderScript('index/login.pht...', NULL)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(960): Zend_Controller_Action_Helper_ViewRenderer->render()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/HelperBroker.php(277): Zend_Controller_Action_Helper_ViewRenderer->postDispatch()
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(527): Zend_Controller_Action_HelperBroker->notifyPostDispatch()
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('loginAction')
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#9 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#10 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#11 {main}
+2013-01-08T14:34:53+01:00 INFO (6): exception 'Zend_View_Exception' with message 'script 'index/login.phtml' not found in path (/home/www/zendphpcertify/application/Core/views/scripts/)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:988
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php(884): Zend_View_Abstract->_script('index/login.pht...')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(900): Zend_View_Abstract->render('index/login.pht...')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(921): Zend_Controller_Action_Helper_ViewRenderer->renderScript('index/login.pht...', NULL)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(960): Zend_Controller_Action_Helper_ViewRenderer->render()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/HelperBroker.php(277): Zend_Controller_Action_Helper_ViewRenderer->postDispatch()
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(527): Zend_Controller_Action_HelperBroker->notifyPostDispatch()
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('loginAction')
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#9 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#10 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#11 {main}
+2013-01-08T14:40:13+01:00 INFO (6): exception 'Zend_View_Exception' with message 'script 'index/login.phtml' not found in path (/home/www/zendphpcertify/application/Core/views/scripts/)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:988
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php(884): Zend_View_Abstract->_script('index/login.pht...')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(900): Zend_View_Abstract->render('index/login.pht...')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(921): Zend_Controller_Action_Helper_ViewRenderer->renderScript('index/login.pht...', NULL)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(960): Zend_Controller_Action_Helper_ViewRenderer->render()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/HelperBroker.php(277): Zend_Controller_Action_Helper_ViewRenderer->postDispatch()
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(527): Zend_Controller_Action_HelperBroker->notifyPostDispatch()
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('loginAction')
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#9 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#10 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#11 {main}
+2013-01-08T14:40:15+01:00 INFO (6): exception 'Zend_View_Exception' with message 'script 'index/login.phtml' not found in path (/home/www/zendphpcertify/application/Core/views/scripts/)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:988
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php(884): Zend_View_Abstract->_script('index/login.pht...')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(900): Zend_View_Abstract->render('index/login.pht...')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(921): Zend_Controller_Action_Helper_ViewRenderer->renderScript('index/login.pht...', NULL)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(960): Zend_Controller_Action_Helper_ViewRenderer->render()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/HelperBroker.php(277): Zend_Controller_Action_Helper_ViewRenderer->postDispatch()
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(527): Zend_Controller_Action_HelperBroker->notifyPostDispatch()
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('loginAction')
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#9 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#10 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#11 {main}
+2013-01-08T14:40:31+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (login)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-08T14:41:34+01:00 INFO (6): exception 'Zend_View_Exception' with message 'script 'index/login.phtml' not found in path (/home/www/zendphpcertify/application/Core/views/scripts/)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:988
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php(884): Zend_View_Abstract->_script('index/login.pht...')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(900): Zend_View_Abstract->render('index/login.pht...')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(921): Zend_Controller_Action_Helper_ViewRenderer->renderScript('index/login.pht...', NULL)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(960): Zend_Controller_Action_Helper_ViewRenderer->render()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/HelperBroker.php(277): Zend_Controller_Action_Helper_ViewRenderer->postDispatch()
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(527): Zend_Controller_Action_HelperBroker->notifyPostDispatch()
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('loginAction')
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#9 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#10 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#11 {main}
+2013-01-08T14:42:12+01:00 INFO (6): exception 'Zend_View_Exception' with message 'script 'index/login.phtml' not found in path (/home/www/zendphpcertify/application/Core/views/scripts/)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:988
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php(884): Zend_View_Abstract->_script('index/login.pht...')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(900): Zend_View_Abstract->render('index/login.pht...')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(921): Zend_Controller_Action_Helper_ViewRenderer->renderScript('index/login.pht...', NULL)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(960): Zend_Controller_Action_Helper_ViewRenderer->render()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/HelperBroker.php(277): Zend_Controller_Action_Helper_ViewRenderer->postDispatch()
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(527): Zend_Controller_Action_HelperBroker->notifyPostDispatch()
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('loginAction')
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#9 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#10 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#11 {main}
+2013-01-08T14:45:53+01:00 INFO (6): exception 'Zend_View_Exception' with message 'script 'index/login.phtml' not found in path (/home/www/zendphpcertify/application/Core/views/scripts/)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:988
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php(884): Zend_View_Abstract->_script('index/login.pht...')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(900): Zend_View_Abstract->render('index/login.pht...')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(921): Zend_Controller_Action_Helper_ViewRenderer->renderScript('index/login.pht...', NULL)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(960): Zend_Controller_Action_Helper_ViewRenderer->render()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/HelperBroker.php(277): Zend_Controller_Action_Helper_ViewRenderer->postDispatch()
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(527): Zend_Controller_Action_HelperBroker->notifyPostDispatch()
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('loginAction')
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#9 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#10 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#11 {main}
+2013-01-08T14:46:10+01:00 INFO (6): exception 'Zend_View_Exception' with message 'script 'index/login.phtml' not found in path (/home/www/zendphpcertify/application/Core/views/scripts/)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:988
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php(884): Zend_View_Abstract->_script('index/login.pht...')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(900): Zend_View_Abstract->render('index/login.pht...')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(921): Zend_Controller_Action_Helper_ViewRenderer->renderScript('index/login.pht...', NULL)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(960): Zend_Controller_Action_Helper_ViewRenderer->render()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/HelperBroker.php(277): Zend_Controller_Action_Helper_ViewRenderer->postDispatch()
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(527): Zend_Controller_Action_HelperBroker->notifyPostDispatch()
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('loginAction')
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#9 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#10 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#11 {main}
+2013-01-08T14:48:08+01:00 INFO (6): exception 'Zend_View_Exception' with message 'script 'index/login.phtml' not found in path (/home/www/zendphpcertify/application/Core/views/scripts/)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:988
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php(884): Zend_View_Abstract->_script('index/login.pht...')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(900): Zend_View_Abstract->render('index/login.pht...')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(921): Zend_Controller_Action_Helper_ViewRenderer->renderScript('index/login.pht...', NULL)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php(960): Zend_Controller_Action_Helper_ViewRenderer->render()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/HelperBroker.php(277): Zend_Controller_Action_Helper_ViewRenderer->postDispatch()
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(527): Zend_Controller_Action_HelperBroker->notifyPostDispatch()
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('loginAction')
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#9 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#10 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#11 {main}
+2013-01-08T15:50:02+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller class ("Front_IndexController")' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:352
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(262): Zend_Controller_Dispatcher_Standard->loadClass('IndexController')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#4 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#5 {main}
+2013-01-08T15:51:47+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller class ("Front_IndexController")' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:352
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(262): Zend_Controller_Dispatcher_Standard->loadClass('IndexController')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#4 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#5 {main}
+2013-01-08T15:51:49+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller class ("Front_IndexController")' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:352
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(262): Zend_Controller_Dispatcher_Standard->loadClass('IndexController')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#4 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#5 {main}
+2013-01-08T15:52:04+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller class ("Front_IndexController")' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:352
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(262): Zend_Controller_Dispatcher_Standard->loadClass('IndexController')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#4 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#5 {main}
+2013-01-08T15:52:50+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller class ("Front_IndexController")' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:352
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(262): Zend_Controller_Dispatcher_Standard->loadClass('IndexController')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#4 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#5 {main}
+2013-01-08T15:52:51+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller class ("Front_IndexController")' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:352
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(262): Zend_Controller_Dispatcher_Standard->loadClass('IndexController')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#4 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#5 {main}
+2013-01-08T15:52:53+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller class ("Front_IndexController")' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:352
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(262): Zend_Controller_Dispatcher_Standard->loadClass('IndexController')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#4 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#5 {main}
+2013-01-08T15:55:43+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller class ("Front_IndexController")' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:352
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(262): Zend_Controller_Dispatcher_Standard->loadClass('IndexController')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#4 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#5 {main}
+2013-01-08T15:56:04+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (index)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-08T15:56:18+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller class ("Front_IndexController")' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:352
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(262): Zend_Controller_Dispatcher_Standard->loadClass('IndexController')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#4 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#5 {main}
+2013-01-08T16:01:30+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller class ("Front_IndexController")' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:352
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(262): Zend_Controller_Dispatcher_Standard->loadClass('IndexController')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#4 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#5 {main}
+2013-01-08T16:01:33+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller class ("Front_IndexController")' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:352
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(262): Zend_Controller_Dispatcher_Standard->loadClass('IndexController')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#4 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#5 {main}
+2013-01-08T16:01:33+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller class ("Front_IndexController")' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:352
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(262): Zend_Controller_Dispatcher_Standard->loadClass('IndexController')
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#4 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#5 {main}
+2013-01-08T16:07:13+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (ajaxlogin)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-08T16:07:13+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (ajaxlogin)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-08T16:07:14+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (ajaxlogin)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-08T16:07:14+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (ajaxlogin)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-08T16:07:14+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (ajaxlogin)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-08T16:07:14+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (ajaxlogin)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-08T16:08:13+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (ajaxlogin)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-08T16:08:34+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (css)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-08T16:09:25+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (ajaxlogin)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-08T16:09:52+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (ajaxlogin)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-08T16:16:11+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (ajaxlogin)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-08T16:16:22+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (ajaxlogin)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-08T16:16:37+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (ajaxlogin)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-08T16:16:48+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (ajaxlogin)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-08T16:33:15+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (ajaxlogin)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-08T16:33:25+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (ajaxlogin)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-09T10:50:23+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (ajaxlogin)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-09T10:55:15+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (ajaxlogin)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-09T10:55:17+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (ajaxlogin)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-09T10:55:25+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (ajaxlogin)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-09T10:55:40+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (ajaxlogin)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-09T10:57:16+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (ajaxlogin)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-09T11:11:17+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (ajaxlogin)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-09T12:07:08+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (css)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-09T15:11:39+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "validateinscription" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('validateinscrip...', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('validateinscrip...')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}

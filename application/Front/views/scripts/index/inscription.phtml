@@ -1,0 +1,30 @@
+<?php 
+
+$array = array(
+			'ok' => true,
+			'html'=>'<label class="inscription">INSCRIPTION</label>
+					 <div id="inscription">
+						 <label class="login-label" name="nom">Nom</label>
+						 <input type="text" name="nom" />
+						 <label class="login-label" name="prenom">Prénom</label>
+						 <input type="text" name="prenom" />
+						 <label class="login-label" name="email" >Email</label>
+						 <input type="text" name="email" />
+						 <label class="login-label" name="psw">Mot de passe</label>
+						 <input type="password" name="pwd" />
+
+						<div class="dialog-ctr-button" style="top: 71px;left: -153px;">
+							<div class="dialog-button-green-left" style="margin-left: 325px;"></div>
+							<button class="dialog-green-button" value="valider" ><label class="button-value">Valider</label></button>
+							<div class="dialog-green-button-right"></div>
+						</div>
+
+						<div class="dialog-ctr-button" style="top: 41px;left: -15px;">
+							<div class="dialog-button-left" style="margin-left: 325px;"></div>
+							<button class="dialog-button" value="accueil" ><label class="button-value">Accueil</label></button>
+							<div class="dialog-button-right"></div>
+						</div>
+					 </div>
+					'
+		);
+echo json_encode($array);
