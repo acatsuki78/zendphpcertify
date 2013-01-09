@@ -98,4 +98,10 @@ class Core_Model_QuizRel
 		
 		return $this;
 	}
+	
+	// feinte //
+	public function getId()
+	{
+		return $this->getQuizRelId();
+	}
 }

@@ -17,7 +17,9 @@
 
   <?php 
 	$this->headTitle(
-		$this->translate('title_main')
+// 		$this->translate('title_main')
+		'Zend PHP Certify'
+
 	);
 	echo $this->headTitle()
 			  ->setSeparator(' - ')
@@ -52,7 +54,7 @@
 	   chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
   <header>
-		<h1>Projet www5</h1>
+		<h1>Zend PHP Certify</h1>
   </header>
   <div role="main" style="height:100%;">
 	<div class="topbar" data-scrollspy="scrollspy">
@@ -68,7 +70,7 @@
 	<div class="container canvas">
    <div class="content-canvas">
 	   <div class="breadcrumb">
-	   <?php echo $this->translate('breadcrumbs_begining')?> :
+	   <?php //echo $this->translate('breadcrumbs_begining')?>
 	   <?php 
 		  echo $this->navigation()
 					->breadcrumbs()

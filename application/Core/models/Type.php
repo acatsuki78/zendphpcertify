@@ -37,7 +37,6 @@ class Core_Model_Type
 	 */
 	public function setTypeId($_typeId) {
 		$this->_typeId = $_typeId;
-		return $this;
 	}
 
 	/**
@@ -52,7 +51,6 @@ class Core_Model_Type
 	 */
 	public function setTypeTitle($_typeTitle) {
 		$this->_typeTitle = $_typeTitle;
-		return $this;
 	}
 
 }

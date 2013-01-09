@@ -10,7 +10,7 @@ class Core_Model_DbTable_QuizRel extends Zend_Db_Table_Abstract
 					'columns' => array('quiz_id'),
 					'refcolumns' => array('quiz_id'),
 					'refTableClass' => 'Core_Model_DbTable_Quiz',
-					'onDelete' => self::RESTRICT,
+					'onDelete' => self::CASCADE,
 					'onUpdate' => self::CASCADE
 			),
 			

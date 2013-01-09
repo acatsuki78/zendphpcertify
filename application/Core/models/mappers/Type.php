@@ -8,19 +8,15 @@ class Core_Model_Mapper_Type extends Core_Model_Mapper_Abstract
 	
 	public function rowToObject(Zend_Db_Table_Row_Abstract $row)
 	{
-		$type = new Core_Model_Type();
-		$type->setTypeId($row[self::COL_ID]);
-			  $type->setTypeTitle($row[self::COL_TITLE]);
 		
-		return $type;
 	}
 	
-	public function objectToArray($type)
+	public function objectToArray($level)
 	{
 		$data = array();
-		$data[self::COL_ID] = $type->getTypeId();
-		$data[self::COL_TITLE] = $type->getTypeTitle();
-
+		$data[self::COL_ID] = '';
+		$data[self::COL_TITLE] = '';
+	
 		return $data;
 	}
 }

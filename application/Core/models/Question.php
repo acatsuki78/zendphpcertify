@@ -56,18 +56,12 @@ class Core_Model_Question
 	public function getQuestionId() {
 		return $this->_questionId;
 	}
-	
-	public function getId()
-	{
-		return $this->_questionId;
-	}
 
 	/**
 	 * @param integer $_questionId
 	 */
 	public function setQuestionId($_questionId) {
 		$this->_questionId = $_questionId;
-		return $this;
 	}
 
 	/**
@@ -82,7 +76,6 @@ class Core_Model_Question
 	 */
 	public function setQuestionTitle($_questionTitle) {
 		$this->_questionTitle = $_questionTitle;
-		return $this;
 	}
 
 	/**
@@ -97,7 +90,6 @@ class Core_Model_Question
 	 */
 	public function setActive($_active) {
 		$this->_active = $_active;
-		return $this;
 	}
 
 	/**
@@ -112,7 +104,6 @@ class Core_Model_Question
 	 */
 	public function setImage($_image) {
 		$this->_image = $_image;
-		return $this;
 	}
 
 	/**
@@ -127,7 +118,6 @@ class Core_Model_Question
 	 */
 	public function setLevel($_level) {
 		$this->_level = $_level;
-		return $this;
 	}
 
 	/**
@@ -142,7 +132,6 @@ class Core_Model_Question
 	 */
 	public function setType($_type) {
 		$this->_type = $_type;
-		return $this;
 	}
 
 	/**
@@ -157,7 +146,6 @@ class Core_Model_Question
 	 */
 	public function setTheme($_theme) {
 		$this->_theme = $_theme;
-		return $this;
 	}
 
 	
