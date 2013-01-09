@@ -92,12 +92,6 @@ class Core_Form_Newquiz extends Zend_Form
 		foreach ($themes as $sujet)
 		{
 			$themeArr[$sujet->getThemeId()] = $sujet->getThemeTitle() . ' - ' . $sujet->getLanguage();
-			
-// 			$questionByTheme = new Zend_Form_Element_Text('questionByTheme');
-// 			$questionByTheme->setLabel('Nombre de questions/theme')
-// 							->setAttrib('style', 'width : 20px')
-// 							->setRequired(true);
-// 			$this->addElement($questionByTheme);
 		}
 		
 		$theme->setLabel('Thèmes : ')

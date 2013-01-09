@@ -181,9 +181,5 @@ class Core_Model_Quiz
 		return $this;
 	}
 
-	// feinte //
-	public function getId()
-	{
-		return $this->getQuizId();
-	}
+
 }

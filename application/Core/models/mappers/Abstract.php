@@ -58,7 +58,7 @@ abstract class Core_Model_Mapper_Abstract
 	{
 		if(is_int($entity)) {
 			$id = $entity;
-		} else if ($entity) { 
+		} else if ($entity instanceof Core_Model_Interface) { 
 			$id = $entity->getId();
 		} else {
 			throw new Exception('First param should be an integer or an instance of ' . 

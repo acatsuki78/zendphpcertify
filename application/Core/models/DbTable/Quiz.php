@@ -15,7 +15,7 @@ class Core_Model_DbTable_Quiz extends Zend_Db_Table_Abstract
 			)
 	);
 	
-// 	protected $_dependentTables = array (
-// 			'Core_Mapper_DbTable_Stats'
-// 	);
+	protected $_dependentTables = array (
+			'Core_Model_DbTable_Stats'		
+	);
 }

@@ -13,7 +13,7 @@ class Core_Model_Mapper_Theme extends Core_Model_Mapper_Abstract
 		$theme->setThemeId($row[self::COL_ID])
 			  ->setThemeTitle($row[self::COL_TITLE])
 			  ->setLanguage($row[self::COL_LANGUAGE]);
-		
+
 		return $theme;
 	}
 	

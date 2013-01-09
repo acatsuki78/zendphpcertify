@@ -13,7 +13,7 @@ class Core_Mapper_DbTable_Stats extends Zend_Db_Table_Abstract
 					'columns' => array('quiz_id'),
 					'refcolumns' => array('quiz_id'),
 					'refTableClass' => 'Core_Model_DbTable_Quiz',
-// 					'onDelete' => self::NONE,
+					'onDelete' => self::RESTRICT,
 					'onUpdate' => self::CASCADE
 			),
 			

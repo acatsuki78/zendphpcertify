@@ -41,7 +41,6 @@ class ErrorController extends Zend_Controller_Action
                 $this->getResponse()->setHttpResponseCode(500);
                 // 2nde méthode d'affectation à la vue
                 $this->view->message = $this->getResponse()->getException();
-
         }
 
         // 1ère méthode pour accéder aux ressources dans un controller

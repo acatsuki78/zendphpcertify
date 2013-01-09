@@ -26,11 +26,6 @@ class Core_Model_Reponse
 	private $_reponse;
 	
 	/**
-	 * @var integer
-	 */
-	private $_reponseCorrect;
-	
-	/**
 	 * @var Core_Model_Question
 	 */
 	private $_question;
@@ -61,20 +56,6 @@ class Core_Model_Reponse
 	 */
 	public function setReponse($_reponse) {
 		$this->_reponse = $_reponse;
-	}
-
-	/**
-	 * @return integer $_reponseCorrect
-	 */
-	public function getReponseCorrect() {
-		return $this->_reponseCorrect;
-	}
-
-	/**
-	 * @param integer $_reponseCorrect
-	 */
-	public function setReponseCorrect($_reponseCorrect) {
-		$this->_reponseCorrect = $_reponseCorrect;
 	}
 
 	/**
