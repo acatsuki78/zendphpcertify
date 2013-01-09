@@ -28,8 +28,9 @@
 <body>
   <div class="container">
     <h1>Erreur <span>:(</span></h1>
-	<?php //echo $this->message ?>
-	<?php Zend_Debug::dump($this->message) ?>
+	<?php 
+        Zend_Debug::dump($this->message);
+     ?>
     <script>
       var GOOG_FIXURL_LANG = (navigator.language || '').slice(0,2),GOOG_FIXURL_SITE = location.host;
     </script>

@@ -53,5 +53,3 @@ include_once 'Zend/Controller/Action/Helper/FlashMessenger.php';
 include_once 'Zend/Controller/Action/Helper/Json.php';
 include_once 'Zend/View/Helper/FormTextarea.php';
 include_once 'Zend/Form/Decorator/ViewScript.php';
-include_once 'Zend/Form/Decorator/Callback.php';
-include_once 'Zend/View/Helper/FormErrors.php';
