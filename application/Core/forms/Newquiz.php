@@ -1,10 +1,10 @@
 <?php
 /**
- * Formulaire de crÃ©ation d'un nouveau quiz
+ * Formulaire de crÃƒÂ©ation d'un nouveau quiz
  */
 
 /**
- * Formulaire de crÃ©ation d'un nouveau quiz
+ * Formulaire de crÃƒÂ©ation d'un nouveau quiz
  *
  * @category MyApp
  * @package Core
@@ -42,7 +42,7 @@ class Core_Form_Newquiz extends Zend_Form
 			$lvlArr[$lvl->getLevelId()] = $lvl->getLevel();
 		}
 
-		$level->setLabel('Difficulté : ')
+		$level->setLabel('DifficultÃ© : ')
 			  ->addMultiOptions($lvlArr);
 		$this->addElement($level);
 		
@@ -62,7 +62,7 @@ class Core_Form_Newquiz extends Zend_Form
 		
 		$duration = new Zend_Form_Element_Text('duration');
 		$duration->setRequired(true)
-				 ->setLabel('Durée (en minute) : ')
+				 ->setLabel('DurÃ©e (en minute) : ')
 				 ->setAttrib('style', 'width : 20px')
 				 ->addValidator(
 					new Zend_Validate_Digits()
@@ -100,7 +100,7 @@ class Core_Form_Newquiz extends Zend_Form
 // 			$this->addElement($questionByTheme);
 		}
 		
-		$theme->setLabel('Thèmes : ')
+		$theme->setLabel('ThÃ¨mes : ')
 			  ->addMultiOptions($themeArr);
 // 			  ->addDecorators($checkboxDecorators);
 		$this->addElement($theme);
