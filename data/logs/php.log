@@ -5183,3 +5183,14 @@ Stack trace:
 #4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/BootstrapAbstract.php(622): Zend_Application_Bootstrap_BootstrapAbstract->_executeResource('routes')
 #5 /usr/local/zend/share/ in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Config/Ini.php on line 182
 >>>>>>> bf68dd0a882f5c7f1c50c74d0da40b36387d47d2
+[09-Jan-2013 14:31:03 UTC] PHP Parse error:  syntax error, unexpected T_SL, expecting ')' in /home/www/zendphpcertify/application/Core/views/layouts/layout.phtml on line 20
+[09-Jan-2013 14:31:03 UTC] PHP Stack trace:
+[09-Jan-2013 14:31:03 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[09-Jan-2013 14:31:03 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[09-Jan-2013 14:31:03 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[09-Jan-2013 14:31:03 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[09-Jan-2013 14:31:03 UTC] PHP   5. Zend_Controller_Plugin_Broker->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:965
+[09-Jan-2013 14:31:03 UTC] PHP   6. Zend_Layout_Controller_Plugin_Layout->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Plugin/Broker.php:333
+[09-Jan-2013 14:31:03 UTC] PHP   7. Zend_Layout->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout/Controller/Plugin/Layout.php:143
+[09-Jan-2013 14:31:03 UTC] PHP   8. Zend_View_Abstract->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout.php:796
+[09-Jan-2013 14:31:03 UTC] PHP   9. Zend_View->_run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:888
