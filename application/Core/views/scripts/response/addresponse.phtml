@@ -1,0 +1,33 @@
+
+<style>
+    dd, dt {
+        display: inline;
+    }
+</style>
+<h2>Réponse pour la question <em><?= $this->escape($this->dataQuestion->getQuestionTitle()) ?></em></h2>
+<form action="" method="post">
+<?php
+
+    if ('text' === $this->typeObject->getTypeTitle()) :
+        echo $this->form->getElement('response');
+        echo $this->form->getElement('submit');
+    elseif ('checkbox' === $this->typeObject->getTypeTitle()) :
+        echo '<p>Cocher la ou les bonnes réponses (Ne fonctionne pas)</p>';
+        echo '<p>' . $this->form->getElement('response1') . $this->form->getElement('checkbox1') . '</p>';
+        echo '<p>' . $this->form->getElement('response2') . $this->form->getElement('checkbox2') . '</p>';
+        echo '<p>' . $this->form->getElement('response3') . $this->form->getElement('checkbox3') . '</p>';
+        echo '<p>' . $this->form->getElement('response4') . $this->form->getElement('checkbox4') . '</p>';
+        echo $this->form->getElement('submit');
+    elseif ('radio' === $this->typeObject->getTypeTitle()) :
+        echo '<p>Cocher la bonne réponse (Ne fonctionne pas aussi ...)</p><br>';
+        echo '<p>' . $this->form->getElement('radio') . '</p><br>';
+        echo '<p>' . $this->form->getElement('response1') . '</p>';
+        echo '<p>' . $this->form->getElement('response2') . '</p>';
+        echo '<p>' . $this->form->getElement('response3') . '</p>';
+        echo '<p>' . $this->form->getElement('response4') . '</p>';
+        echo $this->form->getElement('submit');
+    endif;
+
+?>
+</form>
+<?php //$this->form ?>

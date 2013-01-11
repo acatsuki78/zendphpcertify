@@ -1,0 +1,13 @@
+<a href="/Core/questions/new">Ajouter une nouvelle question</a>
+<table>
+<?php foreach ($this->questions as $question) : ?>
+	<tr>
+		<td><?php echo $this->escape($question->getQuestionId()) ?></td>
+		<td><?php echo $this->escape($question->getQuestionTitle())?></td>
+		<td>
+			<a href="#">Edit</a>
+			<a href="#">Delete</a>
+		</td>
+	</tr>
+<?php endforeach ?>
+</table>

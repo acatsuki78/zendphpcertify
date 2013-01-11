@@ -17,16 +17,22 @@ class Core_Form_Questionadd extends Zend_Form
 	public function __construct(Core_Model_Question $question = null)
 	{
 		parent::__construct();
-		$this->setMethod('post')->setAction('');
-		$this->populate(
-				array(
-					$this->getValue(self::QUESTION_NAME)
-				)
-		);
+		if (null !== $question) {
+			$this->populate(
+					array(
+						self::QUESTION_NAME => $question->getQuestionTitle()
+					)
+			);
+		}
 	}
 	
 	public function init()
 	{
+		$this->clearDecorators();
+		$this->setMethod('post')
+			 ->setAction('')
+			 ->setAttrib('id', 'formQuestion');
+
 		// 	Data
 			$mapperLevel = new Core_Model_Mapper_Level();
 			$levels = $mapperLevel->fetchAll();
@@ -52,30 +58,33 @@ class Core_Form_Questionadd extends Zend_Form
 		
 		
 		$question = new Zend_Form_Element_Text(self::QUESTION_NAME);
-		$question->setRequired(true)
+		$question->setLabel('Intitulé de la question ')
+				 ->setRequired(true)
 				 ->addFilter(
                        new Zend_Filter_StripTags()
                   )
+                 //->addDecorators($this->decorator())
                  ->addValidator(
                           new Zend_Validate_StringLength(
-                              array('min' => 3, 'max' => 60)
+                              array('min' => 3)
                           )
                   );
 
-		$question->setLabel('Intitulé de la question ');
-
 		$questionTheme = new Zend_Form_Element_Select(self::QUESTION_THEME);
 		$questionTheme->setLabel('Choisir le thème de la question')
+					  //->addDecorators($this->decorator())
 					  ->setRequired(true)
 					  ->addMultiOptions($themeList);;
 		
 		$questionLevel = new Zend_Form_Element_Select(self::QUESTION_LEVEL);
 		$questionLevel->setLabel('Choisir une difficulté ')
+					  //->addDecorators($this->decorator())
 					  ->setRequired(true)
 					  ->addMultiOptions($levelList);
 		
 		$questionType = new Zend_Form_Element_Select(self::QUESTION_TYPE);
 		$questionType->setLabel('Choisir un type de question')
+					 //->addDecorators($this->decorator())
 					 ->setRequired(true)
 					 ->addMultiOptions($typeList);
 		
@@ -89,5 +98,27 @@ class Core_Form_Questionadd extends Zend_Form
 					$question, $questionTheme, $questionLevel, $questionType, $questionId, $submit
 				)
 		);
+	}
+	
+	public function decorator() {
+		$decorator = array(
+				'ViewHelper',
+				array(
+						'Label',
+						array(
+								'class' => 'label'
+						)
+				),
+				'Errors',
+				'Description',
+				array(
+						'HtmlTag',
+						array(
+								'tag' => 'p'
+						)
+				)
+		);
+	
+		return $decorator;
 	}
 }
