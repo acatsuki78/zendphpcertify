@@ -27,15 +27,15 @@
  */
 class Core_Model_Mapper_User extends Core_Model_Mapper_Abstract
 {
-    protected $_dbTableClass = 'Core_Model_DbTable_User';
+    protected $_dbTableClass = 'Core_Model_DbTable_Users';
 
-    const COL_ID = 'u_id';
-    const COL_ROLE_ID = 'r_id';
-    const COL_LOGIN = 'u_login';
-    const COL_PASSWORD = 'u_password';
-    const COL_EMAIL = 'u_email';
-    const COL_FIRSTNAME = 'u_firstname';
-    const COL_LASTNAME = 'u_lastname';
+    const COL_ID = 'user_id';
+    // const COL_ROLE_ID = 'r_id';
+    // const COL_LOGIN = 'u_login';
+    const COL_PASSWORD = 'user_password';
+    const COL_EMAIL = 'user_email';
+    const COL_FIRSTNAME = 'user_firstname';
+    const COL_LASTNAME = 'user_lastname';
 
     public function fetchAll()
     {
@@ -61,8 +61,8 @@ class Core_Model_Mapper_User extends Core_Model_Mapper_Abstract
 
         $user = new Core_Model_User();
         $user->setId($row[self::COL_ID]);
-        $user->setRole($role);
-        $user->setLogin($row[self::COL_LOGIN]);
+        // $user->setRole($role);
+        // $user->setLogin($row[self::COL_LOGIN]);
         $user->setPassword($row[self::COL_PASSWORD]);
         $user->setEmail($row[self::COL_EMAIL]);
         $user->setFirstname($row[self::COL_FIRSTNAME]);
@@ -74,13 +74,32 @@ class Core_Model_Mapper_User extends Core_Model_Mapper_Abstract
     public function objectToArray($user)
     {
         $data[self::COL_ID] = $user->getId();
-        $data[self::COL_ROLE_ID] = $user->getRole()->getId();
-        $data[self::COL_LOGIN] = $user->getLogin();
+        // $data[self::COL_ROLE_ID] = $user->getRole()->getId();
+        // $data[self::COL_LOGIN] = $user->getLogin();
         $data[self::COL_PASSWORD] = $user->getPassword();
         $data[self::COL_EMAIL] = $user->getEmail();
         $data[self::COL_FIRSTNAME] = $user->getFirstname();
         $data[self::COL_LASTNAME] = $user->getLastname();
 
         return $data;
+    }
+
+    public function verifEmail($email) {
+        $query = "SELECT user_email FROM users WHERE user_email = ?";
+        $result = $this->getDbTable()->getAdapter()->query($query,array($email))->fetchAll();
+        if (count($result) === 0) {
+            return true;
+        }
+        return false;
+    }
+
+    public function connexion_user($email,$pwd){
+        $query = "SELECT user_password FROM users WHERE user_email = ?";
+        $result = $this->getDbTable()->getAdapter()->query($query,array($email))->fetchAll();
+
+        if($result[0]['user_password'] === $pwd){
+            return true;
+        }
+        return false;
     }
 }
