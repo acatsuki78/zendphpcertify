@@ -1,0 +1,33 @@
+<ul class="nav">
+<?php 
+	foreach ($this->container as $page) :
+	
+	$active = $page->isActive() ? 'active' : '';
+	
+	if ( 0 === count($page)) : 
+		if ($page->isVisible() && $this->navigation()->accept($page) ) : ?>
+			<li class="<?php echo $active?>">
+				<?php echo $this->navigation()->menu()->htmlify($page) . PHP_EOL?>
+			</li>
+		<?php endif;
+	else :
+		if ($this->navigation()->accept($page)) :
+			$subMenu = '';
+			$visibility = false;
+			foreach ($page as $subPage) :
+				if ($subPage->isVisible() && $this->navigation()->accept($page)) :
+					$visibility = true;
+					$subMenu .= '<li>' . $this->navigation()->menu()->htmlify($subPage) . '</li>' . PHP_EOL;
+				endif;
+				$active |= $subPage->isActive() ? true : false;
+			endforeach;
+			$active = $active ? 'active' : '';
+			if ($visibility == true) : ?>
+				<li class="dropdown <?php echo $active ?>" data-dropdown="dropdown">
+	  				<?php echo $this->navigation()->menu()->htmlify($page) . PHP_EOL?>
+	  				<ul class="dropdown-menu">
+	  					<?php echo $subMenu?>
+	  				</ul>
+	  			</li>
+			<?php endif; endif; endif; endforeach; ?>
+</ul>

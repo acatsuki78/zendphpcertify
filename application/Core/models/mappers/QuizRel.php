@@ -10,7 +10,7 @@ class Core_Model_Mapper_QuizRel extends Core_Model_Mapper_Abstract
 	
 	public function rowToObject(Zend_Db_Table_Row_Abstract $row)
 	{
-		$quizRel = new Core_Model_Quiz();
+		$quizRel = new Core_Model_QuizRel();
 		$quizRel->setQuizRelId($row[self::COL_ID])
 				->setQuiz($row[self::COL_QUIZ_ID])
 			 	->setTheme($row[self::COL_THEME_ID])
@@ -28,5 +28,19 @@ class Core_Model_Mapper_QuizRel extends Core_Model_Mapper_Abstract
 		$data[self::COL_QUESTION_BY_THEME] = $quizRel->getQuestionByTheme();
 	
 		return $data;
+	}
+	
+	public function fetchByQuizId($quizId)
+	{
+		$select = $this->getDbTable()->select()->where("quiz_id = ?", $quizId); #echo $quizId;exit;
+		$rowSet = $this->getDbTable()->fetchAll($select);
+		$arr = array();
+		
+		foreach($rowSet as $row)
+		{
+			$arr[] = $this->rowToObject($row);
+		}
+		
+		return $arr;
 	}
 }

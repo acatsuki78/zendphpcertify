@@ -10665,3 +10665,1195 @@ Stack trace:
 #2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
 #3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
 #4 {main}
+2013-01-10T09:12:50+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T09:28:02+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (css)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-10T10:24:29+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (css)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-10T11:29:15+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (quizz)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-10T11:29:19+01:00 INFO (6): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (quizz)' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:248
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#4 {main}
+2013-01-10T11:42:37+01:00 INFO (6): exception 'Zend_Navigation_Exception' with message 'Bad method call: Unknown method Zend_Navigation::setPartial' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Container.php:366
+Stack trace:
+#0 [internal function]: Zend_Navigation_Container->__call('setPartial', Array)
+#1 [internal function]: Zend_Navigation->setPartial('menu.phtml')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php(503): call_user_func_array(Array, Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation.php(132): Zend_View_Helper_Navigation_HelperAbstract->__call('setPartial', Array)
+#4 /home/www/zendphpcertify/application/Core/views/layouts/layout.phtml(69): Zend_View_Helper_Navigation->__call('setPartial', Array)
+#5 /home/www/zendphpcertify/application/Core/views/layouts/layout.phtml(69): Zend_View_Helper_Navigation->setPartial('menu.phtml')
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php(108): include('/home/www/zendp...')
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php(888): Zend_View->_run('/home/www/zendp...')
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout.php(796): Zend_View_Abstract->render('layout.phtml')
+#9 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout/Controller/Plugin/Layout.php(143): Zend_Layout->render()
+#10 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Plugin/Broker.php(333): Zend_Layout_Controller_Plugin_Layout->postDispatch(Object(Zend_Controller_Request_Http))
+#11 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(965): Zend_Controller_Plugin_Broker->postDispatch(Object(Zend_Controller_Request_Http))
+#12 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#13 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#14 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#15 {main}
+2013-01-10T14:25:32+01:00 INFO (6): exception 'Zend_Form_Exception' with message 'Method getRequest does not exist' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Form.php:3173
+Stack trace:
+#0 /home/www/zendphpcertify/application/Core/forms/Editquiz.php(20): Zend_Form->__call('getRequest', Array)
+#1 /home/www/zendphpcertify/application/Core/forms/Editquiz.php(20): Core_Form_Editquiz->getRequest()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Form.php(240): Core_Form_Editquiz->init()
+#3 /home/www/zendphpcertify/application/Core/controllers/QuizController.php(93): Zend_Form->__construct()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(516): QuizController->editAction()
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('editAction')
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#9 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#10 {main}
+2013-01-10T14:25:32+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T14:25:45+01:00 INFO (6): exception 'Zend_Form_Exception' with message 'Method getRequest does not exist' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Form.php:3173
+Stack trace:
+#0 /home/www/zendphpcertify/application/Core/forms/Editquiz.php(20): Zend_Form->__call('getRequest', Array)
+#1 /home/www/zendphpcertify/application/Core/forms/Editquiz.php(20): Core_Form_Editquiz->getRequest()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Form.php(240): Core_Form_Editquiz->init()
+#3 /home/www/zendphpcertify/application/Core/controllers/QuizController.php(93): Zend_Form->__construct()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(516): QuizController->editAction()
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('editAction')
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#9 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#10 {main}
+2013-01-10T14:25:46+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T14:26:53+01:00 INFO (6): exception 'Zend_Form_Exception' with message 'Method getRequest does not exist' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Form.php:3173
+Stack trace:
+#0 /home/www/zendphpcertify/application/Core/forms/Editquiz.php(20): Zend_Form->__call('getRequest', Array)
+#1 /home/www/zendphpcertify/application/Core/forms/Editquiz.php(20): Core_Form_Editquiz->getRequest()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Form.php(240): Core_Form_Editquiz->init()
+#3 /home/www/zendphpcertify/application/Core/controllers/QuizController.php(93): Zend_Form->__construct()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(516): QuizController->editAction()
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('editAction')
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#9 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#10 {main}
+2013-01-10T14:26:53+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T14:35:09+01:00 INFO (6): exception 'Zend_Form_Exception' with message 'Method getRequest does not exist' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Form.php:3173
+Stack trace:
+#0 /home/www/zendphpcertify/application/Core/forms/Editquiz.php(20): Zend_Form->__call('getRequest', Array)
+#1 /home/www/zendphpcertify/application/Core/forms/Editquiz.php(20): Core_Form_Editquiz->getRequest()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Form.php(240): Core_Form_Editquiz->init()
+#3 /home/www/zendphpcertify/application/Core/controllers/QuizController.php(93): Zend_Form->__construct()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(516): QuizController->editAction()
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('editAction')
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#9 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#10 {main}
+2013-01-10T14:35:09+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T14:35:43+01:00 INFO (6): exception 'Zend_Form_Exception' with message 'Method getRequest does not exist' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Form.php:3173
+Stack trace:
+#0 /home/www/zendphpcertify/application/Core/forms/Editquiz.php(20): Zend_Form->__call('getRequest', Array)
+#1 /home/www/zendphpcertify/application/Core/forms/Editquiz.php(20): Core_Form_Editquiz->getRequest()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Form.php(240): Core_Form_Editquiz->init()
+#3 /home/www/zendphpcertify/application/Core/controllers/QuizController.php(93): Zend_Form->__construct()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(516): QuizController->editAction()
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('editAction')
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#9 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#10 {main}
+2013-01-10T14:35:43+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T14:35:49+01:00 INFO (6): exception 'Zend_Form_Exception' with message 'Method getRequest does not exist' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Form.php:3173
+Stack trace:
+#0 /home/www/zendphpcertify/application/Core/forms/Editquiz.php(20): Zend_Form->__call('getRequest', Array)
+#1 /home/www/zendphpcertify/application/Core/forms/Editquiz.php(20): Core_Form_Editquiz->getRequest()
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Form.php(240): Core_Form_Editquiz->init()
+#3 /home/www/zendphpcertify/application/Core/controllers/QuizController.php(93): Zend_Form->__construct()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(516): QuizController->editAction()
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('editAction')
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#9 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#10 {main}
+2013-01-10T14:35:49+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T14:35:59+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T14:41:40+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T14:41:46+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T14:42:09+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T14:42:29+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T14:42:33+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T14:43:19+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T14:43:54+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T14:44:24+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T14:52:24+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T14:54:46+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T15:00:03+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T15:00:16+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T15:01:21+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T15:58:18+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T15:58:18+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T16:00:13+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T16:10:59+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T16:31:50+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T16:58:15+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-10T16:59:13+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T09:06:56+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T09:10:20+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T09:16:05+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T09:16:15+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T09:18:02+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T09:18:51+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T09:19:08+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T09:19:19+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T09:19:36+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T09:21:22+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T09:21:28+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T09:29:58+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T09:30:44+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T09:30:57+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T09:32:48+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T09:34:26+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T09:42:22+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T09:48:49+01:00 INFO (6): exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE quiz_id = '64') LIMIT 1' at line 1' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Statement.php(320): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select), Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Table/Abstract.php(1529): Zend_Db_Adapter_Pdo_Abstract->query(Object(Zend_Db_Table_Select))
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Table/Abstract.php(1391): Zend_Db_Table_Abstract->_fetch(Object(Zend_Db_Table_Select))
+#6 /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php(39): Zend_Db_Table_Abstract->fetchRow('WHERE quiz_id =...')
+#7 /home/www/zendphpcertify/application/Core/controllers/QuizController.php(118): Core_Model_Mapper_QuizRel->findByQuizId('64')
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(516): QuizController->editAction()
+#9 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('editAction')
+#10 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#11 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#12 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#13 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#14 {main}
+
+Next exception 'Zend_Db_Statement_Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE quiz_id = '64') LIMIT 1' at line 1' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Statement/Pdo.php:234
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Statement.php(320): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select), Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Table/Abstract.php(1529): Zend_Db_Adapter_Pdo_Abstract->query(Object(Zend_Db_Table_Select))
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Table/Abstract.php(1391): Zend_Db_Table_Abstract->_fetch(Object(Zend_Db_Table_Select))
+#5 /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php(39): Zend_Db_Table_Abstract->fetchRow('WHERE quiz_id =...')
+#6 /home/www/zendphpcertify/application/Core/controllers/QuizController.php(118): Core_Model_Mapper_QuizRel->findByQuizId('64')
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(516): QuizController->editAction()
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('editAction')
+#9 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#10 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#11 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#12 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#13 {main}
+2013-01-11T09:48:49+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T09:49:09+01:00 INFO (6): exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE quiz_id = $quizId) LIMIT 1' at line 1' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Statement.php(320): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select), Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Table/Abstract.php(1529): Zend_Db_Adapter_Pdo_Abstract->query(Object(Zend_Db_Table_Select))
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Table/Abstract.php(1391): Zend_Db_Table_Abstract->_fetch(Object(Zend_Db_Table_Select))
+#6 /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php(39): Zend_Db_Table_Abstract->fetchRow('WHERE quiz_id =...')
+#7 /home/www/zendphpcertify/application/Core/controllers/QuizController.php(118): Core_Model_Mapper_QuizRel->findByQuizId('64')
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(516): QuizController->editAction()
+#9 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('editAction')
+#10 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#11 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#12 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#13 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#14 {main}
+
+Next exception 'Zend_Db_Statement_Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE quiz_id = $quizId) LIMIT 1' at line 1' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Statement/Pdo.php:234
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Statement.php(320): Zend_Db_Statement_Pdo->_execute(Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Table_Select), Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Table/Abstract.php(1529): Zend_Db_Adapter_Pdo_Abstract->query(Object(Zend_Db_Table_Select))
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Table/Abstract.php(1391): Zend_Db_Table_Abstract->_fetch(Object(Zend_Db_Table_Select))
+#5 /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php(39): Zend_Db_Table_Abstract->fetchRow('WHERE quiz_id =...')
+#6 /home/www/zendphpcertify/application/Core/controllers/QuizController.php(118): Core_Model_Mapper_QuizRel->findByQuizId('64')
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(516): QuizController->editAction()
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('editAction')
+#9 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#10 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#11 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#12 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#13 {main}
+2013-01-11T09:49:09+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:13:42+01:00 INFO (6): exception 'Zend_Db_Table_Row_Exception' with message 'Unrecognized method 'getQuizRelId()'' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Table/Row/Abstract.php:1158
+Stack trace:
+#0 /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php(25): Zend_Db_Table_Row_Abstract->__call('getQuizRelId', Array)
+#1 /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php(25): Zend_Db_Table_Row->getQuizRelId()
+#2 /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php(41): Core_Model_Mapper_QuizRel->objectToArray(Object(Zend_Db_Table_Row))
+#3 /home/www/zendphpcertify/application/Core/controllers/QuizController.php(118): Core_Model_Mapper_QuizRel->fetchByQuizId('64')
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(516): QuizController->editAction()
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('editAction')
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#9 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#10 {main}
+2013-01-11T10:13:42+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:15:12+01:00 INFO (6): exception 'Zend_Db_Table_Row_Exception' with message 'Unrecognized method 'getQuizRelId()'' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Db/Table/Row/Abstract.php:1158
+Stack trace:
+#0 /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php(25): Zend_Db_Table_Row_Abstract->__call('getQuizRelId', Array)
+#1 /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php(25): Zend_Db_Table_Row->getQuizRelId()
+#2 /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php(41): Core_Model_Mapper_QuizRel->objectToArray(Object(Zend_Db_Table_Row))
+#3 /home/www/zendphpcertify/application/Core/controllers/QuizController.php(118): Core_Model_Mapper_QuizRel->fetchByQuizId('64')
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(516): QuizController->editAction()
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('editAction')
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#7 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#8 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#9 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#10 {main}
+2013-01-11T10:15:12+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:29:46+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:36:11+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:36:25+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:37:03+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:37:10+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:37:32+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:39:29+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:40:18+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:41:27+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:47:47+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:47:49+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:47:49+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:47:50+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:47:50+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:48:16+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:48:36+01:00 INFO (6): exception 'Zend_Form_Element_Exception' with message 'Method setMultiValues does not exist' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Form/Element.php:981
+Stack trace:
+#0 /home/www/zendphpcertify/application/Core/controllers/QuizController.php(116): Zend_Form_Element->__call('setMultiValues', Array)
+#1 /home/www/zendphpcertify/application/Core/controllers/QuizController.php(116): Zend_Form_Element_MultiCheckbox->setMultiValues(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(516): QuizController->editAction()
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('editAction')
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#8 {main}
+2013-01-11T10:48:36+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:48:46+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:49:06+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:49:09+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:49:14+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:49:17+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:49:20+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:58:43+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:58:47+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:58:50+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:58:53+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T10:58:56+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T11:20:46+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T11:26:38+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T11:26:45+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T11:30:25+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T11:34:19+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T11:37:19+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T11:37:46+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T11:37:56+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T11:42:58+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T11:55:38+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T11:55:48+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T11:58:21+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T11:58:41+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T11:58:50+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T11:58:56+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T12:00:52+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T12:00:53+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T12:00:54+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T12:00:54+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T12:01:39+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T12:01:53+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T12:02:18+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T12:02:26+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T12:02:31+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T12:02:35+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T12:02:54+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T12:03:00+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T12:03:05+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T12:03:27+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T12:03:55+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}
+2013-01-11T12:16:29+01:00 INFO (6): exception 'Zend_Controller_Action_Exception' with message 'Action "css" does not exist and was not trapped in __call()' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:485
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php(518): Zend_Controller_Action->__call('cssAction', Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php(295): Zend_Controller_Action->dispatch('cssAction')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 /home/www/zendphpcertify/public/index.php(24): Zend_Application->run()
+#6 {main}

@@ -1,22 +1,22 @@
 <?php
 /**
- * Formulaire de crÃƒÂ©ation d'un nouveau quiz
+ * Formulaire d'édition d'un quiz
  */
 
 /**
- * Formulaire de crÃƒÂ©ation d'un nouveau quiz
+ * Formulaire d'édition d'un quiz
  *
  * @category MyApp
  * @package Core
  * @subpackage Form
  * @version 0.01
- * @since 2013-01-07
+ * @since 2013-01-10
  * @author Eric
  */
-class Core_Form_Newquiz extends Zend_Form
+class Core_Form_Editquiz extends Zend_Form
 {	
 	public function init()
-	{
+	{		
 		$title = new Zend_Form_Element_Text('title');
 		$title->setRequired(true)
 			  ->setLabel('Titre : ')
@@ -80,14 +80,6 @@ class Core_Form_Newquiz extends Zend_Form
 		);
 		$this->addElement($duration);
 		
-// 		$decoCheckBox = array(
-// 				'ViewHelper',
-// 				'Description',
-// 				'Errors',
-// 				array('Label'),
-// 				array('HtmlTag', array('tag' => 'div'))
-// 				);
-		
 		$theme = new Zend_Form_Element_MultiCheckbox('theme');
 		
 		$themeMapper = new Core_Model_Mapper_Theme();
@@ -98,17 +90,10 @@ class Core_Form_Newquiz extends Zend_Form
 		foreach ($themes as $sujet)
 		{
 			$themeArr[$sujet->getThemeId()] = $sujet->getThemeTitle() . ' - ' . $sujet->getLanguage();
-			
-// 			$questionByTheme = new Zend_Form_Element_Text('questionByTheme');
-// 			$questionByTheme->setLabel('Nombre de questions/theme')
-// 							->setAttrib('style', 'width : 20px')
-// 							->setRequired(true);
-// 			$this->addElement($questionByTheme);
 		}
 		
 		$theme->setLabel('Thèmes : ')
 			  ->addMultiOptions($themeArr);
-// 			  ->addDecorators($checkboxDecorators);
 		$this->addElement($theme);
 		
 		$submit = new Zend_Form_Element_Submit('Enregistrer');
@@ -125,7 +110,5 @@ class Core_Form_Newquiz extends Zend_Form
 						'Form'
 				)
 		);
-		
-// 		$this->setAttrib('id', 'postit-form');
 	}
 }

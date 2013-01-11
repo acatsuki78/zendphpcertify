@@ -3239,3 +3239,832 @@ Stack trace:
 [09-Jan-2013 15:34:51 UTC] PHP  11. Zend_View_Abstract->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action/Helper/ViewRenderer.php:900
 [09-Jan-2013 15:34:51 UTC] PHP  12. Zend_View->_run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:888
 [09-Jan-2013 15:34:51 UTC] PHP  13. include() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:108
+[10-Jan-2013 10:42:17 UTC] PHP Fatal error:  Zend_Controller_Router_Exception: quizId is not specified in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php on line 522
+[10-Jan-2013 10:42:18 UTC] PHP Stack trace:
+[10-Jan-2013 10:42:18 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[10-Jan-2013 10:42:18 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[10-Jan-2013 10:42:18 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[10-Jan-2013 10:42:18 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[10-Jan-2013 10:42:18 UTC] PHP   5. Zend_Controller_Plugin_Broker->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:965
+[10-Jan-2013 10:42:18 UTC] PHP   6. Zend_Layout_Controller_Plugin_Layout->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Plugin/Broker.php:333
+[10-Jan-2013 10:42:18 UTC] PHP   7. Zend_Layout->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout/Controller/Plugin/Layout.php:143
+[10-Jan-2013 10:42:18 UTC] PHP   8. Zend_View_Abstract->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout.php:796
+[10-Jan-2013 10:42:18 UTC] PHP   9. Zend_View->_run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:888
+[10-Jan-2013 10:42:18 UTC] PHP  10. include() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:108
+[10-Jan-2013 10:42:18 UTC] PHP  11. Zend_View_Helper_Navigation_HelperAbstract->__toString() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:69
+[10-Jan-2013 10:42:18 UTC] PHP  12. trigger_error() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php:522
+[10-Jan-2013 10:42:37 UTC] PHP Fatal error:  Uncaught exception 'Zend_Navigation_Exception' with message 'Bad method call: Unknown method Zend_Navigation::setPartial' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Container.php:366
+Stack trace:
+#0 [internal function]: Zend_Navigation_Container->__call('setPartial', Array)
+#1 [internal function]: Zend_Navigation->setPartial('menu.phtml')
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php(503): call_user_func_array(Array, Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation.php(132): Zend_View_Helper_Navigation_HelperAbstract->__call('setPartial', Array)
+#4 /home/www/zendphpcertify/application/Core/views/layouts/layout.phtml(69): Zend_View_Helper_Navigation->__call('setPartial', Array)
+#5 /home/www/zendphpcertify/application/Core/views/layouts/layout.phtml(69): Zend_View_Helper_Navigation->setPartial('menu.phtml')
+#6 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php(108): include in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Plugin/Broker.php on line 336
+[10-Jan-2013 10:43:02 UTC] PHP Fatal error:  Zend_Controller_Router_Exception: quizId is not specified in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php on line 522
+[10-Jan-2013 10:43:02 UTC] PHP Stack trace:
+[10-Jan-2013 10:43:02 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[10-Jan-2013 10:43:02 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[10-Jan-2013 10:43:02 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[10-Jan-2013 10:43:02 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[10-Jan-2013 10:43:02 UTC] PHP   5. Zend_Controller_Plugin_Broker->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:965
+[10-Jan-2013 10:43:02 UTC] PHP   6. Zend_Layout_Controller_Plugin_Layout->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Plugin/Broker.php:333
+[10-Jan-2013 10:43:02 UTC] PHP   7. Zend_Layout->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout/Controller/Plugin/Layout.php:143
+[10-Jan-2013 10:43:02 UTC] PHP   8. Zend_View_Abstract->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout.php:796
+[10-Jan-2013 10:43:02 UTC] PHP   9. Zend_View->_run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:888
+[10-Jan-2013 10:43:02 UTC] PHP  10. include() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:108
+[10-Jan-2013 10:43:02 UTC] PHP  11. Zend_View_Helper_Navigation_HelperAbstract->__toString() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:65
+[10-Jan-2013 10:43:02 UTC] PHP  12. trigger_error() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php:522
+[10-Jan-2013 10:43:04 UTC] PHP Fatal error:  Zend_Controller_Router_Exception: quizId is not specified in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php on line 522
+[10-Jan-2013 10:43:04 UTC] PHP Stack trace:
+[10-Jan-2013 10:43:04 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[10-Jan-2013 10:43:04 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[10-Jan-2013 10:43:04 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[10-Jan-2013 10:43:04 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[10-Jan-2013 10:43:04 UTC] PHP   5. Zend_Controller_Plugin_Broker->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:965
+[10-Jan-2013 10:43:04 UTC] PHP   6. Zend_Layout_Controller_Plugin_Layout->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Plugin/Broker.php:333
+[10-Jan-2013 10:43:04 UTC] PHP   7. Zend_Layout->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout/Controller/Plugin/Layout.php:143
+[10-Jan-2013 10:43:04 UTC] PHP   8. Zend_View_Abstract->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout.php:796
+[10-Jan-2013 10:43:04 UTC] PHP   9. Zend_View->_run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:888
+[10-Jan-2013 10:43:04 UTC] PHP  10. include() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:108
+[10-Jan-2013 10:43:04 UTC] PHP  11. Zend_View_Helper_Navigation_HelperAbstract->__toString() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:65
+[10-Jan-2013 10:43:04 UTC] PHP  12. trigger_error() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php:522
+[10-Jan-2013 10:43:04 UTC] PHP Fatal error:  Zend_Controller_Router_Exception: quizId is not specified in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php on line 522
+[10-Jan-2013 10:43:04 UTC] PHP Stack trace:
+[10-Jan-2013 10:43:04 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[10-Jan-2013 10:43:04 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[10-Jan-2013 10:43:04 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[10-Jan-2013 10:43:04 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[10-Jan-2013 10:43:04 UTC] PHP   5. Zend_Controller_Plugin_Broker->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:965
+[10-Jan-2013 10:43:04 UTC] PHP   6. Zend_Layout_Controller_Plugin_Layout->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Plugin/Broker.php:333
+[10-Jan-2013 10:43:04 UTC] PHP   7. Zend_Layout->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout/Controller/Plugin/Layout.php:143
+[10-Jan-2013 10:43:04 UTC] PHP   8. Zend_View_Abstract->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout.php:796
+[10-Jan-2013 10:43:04 UTC] PHP   9. Zend_View->_run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:888
+[10-Jan-2013 10:43:04 UTC] PHP  10. include() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:108
+[10-Jan-2013 10:43:04 UTC] PHP  11. Zend_View_Helper_Navigation_HelperAbstract->__toString() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:65
+[10-Jan-2013 10:43:04 UTC] PHP  12. trigger_error() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php:522
+[10-Jan-2013 10:43:05 UTC] PHP Fatal error:  Zend_Controller_Router_Exception: quizId is not specified in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php on line 522
+[10-Jan-2013 10:43:05 UTC] PHP Stack trace:
+[10-Jan-2013 10:43:05 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[10-Jan-2013 10:43:05 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[10-Jan-2013 10:43:05 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[10-Jan-2013 10:43:05 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[10-Jan-2013 10:43:05 UTC] PHP   5. Zend_Controller_Plugin_Broker->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:965
+[10-Jan-2013 10:43:05 UTC] PHP   6. Zend_Layout_Controller_Plugin_Layout->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Plugin/Broker.php:333
+[10-Jan-2013 10:43:05 UTC] PHP   7. Zend_Layout->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout/Controller/Plugin/Layout.php:143
+[10-Jan-2013 10:43:05 UTC] PHP   8. Zend_View_Abstract->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout.php:796
+[10-Jan-2013 10:43:05 UTC] PHP   9. Zend_View->_run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:888
+[10-Jan-2013 10:43:05 UTC] PHP  10. include() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:108
+[10-Jan-2013 10:43:05 UTC] PHP  11. Zend_View_Helper_Navigation_HelperAbstract->__toString() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:65
+[10-Jan-2013 10:43:05 UTC] PHP  12. trigger_error() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php:522
+[10-Jan-2013 10:43:05 UTC] PHP Fatal error:  Zend_Controller_Router_Exception: quizId is not specified in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php on line 522
+[10-Jan-2013 10:43:05 UTC] PHP Stack trace:
+[10-Jan-2013 10:43:05 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[10-Jan-2013 10:43:05 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[10-Jan-2013 10:43:05 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[10-Jan-2013 10:43:05 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[10-Jan-2013 10:43:05 UTC] PHP   5. Zend_Controller_Plugin_Broker->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:965
+[10-Jan-2013 10:43:05 UTC] PHP   6. Zend_Layout_Controller_Plugin_Layout->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Plugin/Broker.php:333
+[10-Jan-2013 10:43:05 UTC] PHP   7. Zend_Layout->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout/Controller/Plugin/Layout.php:143
+[10-Jan-2013 10:43:05 UTC] PHP   8. Zend_View_Abstract->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout.php:796
+[10-Jan-2013 10:43:05 UTC] PHP   9. Zend_View->_run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:888
+[10-Jan-2013 10:43:05 UTC] PHP  10. include() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:108
+[10-Jan-2013 10:43:05 UTC] PHP  11. Zend_View_Helper_Navigation_HelperAbstract->__toString() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:65
+[10-Jan-2013 10:43:05 UTC] PHP  12. trigger_error() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php:522
+[10-Jan-2013 10:43:05 UTC] PHP Fatal error:  Zend_Controller_Router_Exception: quizId is not specified in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php on line 522
+[10-Jan-2013 10:43:05 UTC] PHP Stack trace:
+[10-Jan-2013 10:43:05 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[10-Jan-2013 10:43:05 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[10-Jan-2013 10:43:05 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[10-Jan-2013 10:43:05 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[10-Jan-2013 10:43:05 UTC] PHP   5. Zend_Controller_Plugin_Broker->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:965
+[10-Jan-2013 10:43:05 UTC] PHP   6. Zend_Layout_Controller_Plugin_Layout->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Plugin/Broker.php:333
+[10-Jan-2013 10:43:05 UTC] PHP   7. Zend_Layout->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout/Controller/Plugin/Layout.php:143
+[10-Jan-2013 10:43:05 UTC] PHP   8. Zend_View_Abstract->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout.php:796
+[10-Jan-2013 10:43:05 UTC] PHP   9. Zend_View->_run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:888
+[10-Jan-2013 10:43:05 UTC] PHP  10. include() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:108
+[10-Jan-2013 10:43:05 UTC] PHP  11. Zend_View_Helper_Navigation_HelperAbstract->__toString() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:65
+[10-Jan-2013 10:43:05 UTC] PHP  12. trigger_error() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php:522
+[10-Jan-2013 10:51:58 UTC] PHP Fatal error:  Zend_Controller_Router_Exception: quizId is not specified in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php on line 522
+[10-Jan-2013 10:51:58 UTC] PHP Stack trace:
+[10-Jan-2013 10:51:58 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[10-Jan-2013 10:51:58 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[10-Jan-2013 10:51:58 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[10-Jan-2013 10:51:58 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[10-Jan-2013 10:51:58 UTC] PHP   5. Zend_Controller_Plugin_Broker->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:965
+[10-Jan-2013 10:51:58 UTC] PHP   6. Zend_Layout_Controller_Plugin_Layout->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Plugin/Broker.php:333
+[10-Jan-2013 10:51:58 UTC] PHP   7. Zend_Layout->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout/Controller/Plugin/Layout.php:143
+[10-Jan-2013 10:51:58 UTC] PHP   8. Zend_View_Abstract->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout.php:796
+[10-Jan-2013 10:51:58 UTC] PHP   9. Zend_View->_run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:888
+[10-Jan-2013 10:51:58 UTC] PHP  10. include() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:108
+[10-Jan-2013 10:51:58 UTC] PHP  11. Zend_View_Helper_Navigation_HelperAbstract->__toString() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:87
+[10-Jan-2013 10:51:58 UTC] PHP  12. trigger_error() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php:522
+[10-Jan-2013 10:53:34 UTC] PHP Fatal error:  Zend_Controller_Router_Exception: quizId is not specified in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php on line 522
+[10-Jan-2013 10:53:34 UTC] PHP Stack trace:
+[10-Jan-2013 10:53:34 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[10-Jan-2013 10:53:34 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[10-Jan-2013 10:53:34 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[10-Jan-2013 10:53:34 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[10-Jan-2013 10:53:34 UTC] PHP   5. Zend_Controller_Plugin_Broker->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:965
+[10-Jan-2013 10:53:34 UTC] PHP   6. Zend_Layout_Controller_Plugin_Layout->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Plugin/Broker.php:333
+[10-Jan-2013 10:53:34 UTC] PHP   7. Zend_Layout->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout/Controller/Plugin/Layout.php:143
+[10-Jan-2013 10:53:34 UTC] PHP   8. Zend_View_Abstract->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout.php:796
+[10-Jan-2013 10:53:34 UTC] PHP   9. Zend_View->_run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:888
+[10-Jan-2013 10:53:34 UTC] PHP  10. include() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:108
+[10-Jan-2013 10:53:34 UTC] PHP  11. Zend_View_Helper_Navigation_HelperAbstract->__toString() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:67
+[10-Jan-2013 10:53:34 UTC] PHP  12. trigger_error() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php:522
+[10-Jan-2013 13:23:31 UTC] PHP Notice:  Undefined variable: quiz in /home/www/zendphpcertify/application/Core/forms/Editquiz.php on line 28
+[10-Jan-2013 13:23:31 UTC] PHP Stack trace:
+[10-Jan-2013 13:23:31 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[10-Jan-2013 13:23:31 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[10-Jan-2013 13:23:31 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[10-Jan-2013 13:23:31 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[10-Jan-2013 13:23:31 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[10-Jan-2013 13:23:31 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[10-Jan-2013 13:23:31 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[10-Jan-2013 13:23:31 UTC] PHP   8. Zend_Form->__construct() /home/www/zendphpcertify/application/Core/controllers/QuizController.php:93
+[10-Jan-2013 13:23:31 UTC] PHP   9. Core_Form_Editquiz->init() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Form.php:240
+[10-Jan-2013 13:23:31 UTC] PHP Fatal error:  Call to a member function getTitleQuiz() on a non-object in /home/www/zendphpcertify/application/Core/forms/Editquiz.php on line 28
+[10-Jan-2013 13:23:31 UTC] PHP Stack trace:
+[10-Jan-2013 13:23:31 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[10-Jan-2013 13:23:31 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[10-Jan-2013 13:23:31 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[10-Jan-2013 13:23:31 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[10-Jan-2013 13:23:31 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[10-Jan-2013 13:23:31 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[10-Jan-2013 13:23:31 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[10-Jan-2013 13:23:31 UTC] PHP   8. Zend_Form->__construct() /home/www/zendphpcertify/application/Core/controllers/QuizController.php:93
+[10-Jan-2013 13:23:31 UTC] PHP   9. Core_Form_Editquiz->init() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Form.php:240
+[10-Jan-2013 13:43:10 UTC] PHP Fatal error:  Call to undefined method Core_Model_Quiz::getNbQuestion() in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 102
+[10-Jan-2013 13:43:10 UTC] PHP Stack trace:
+[10-Jan-2013 13:43:10 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[10-Jan-2013 13:43:10 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[10-Jan-2013 13:43:10 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[10-Jan-2013 13:43:10 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[10-Jan-2013 13:43:10 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[10-Jan-2013 13:43:10 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[10-Jan-2013 13:43:10 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[10-Jan-2013 13:47:10 UTC] PHP Fatal error:  Call to undefined method Core_Model_Mapper_QuizRel::select() in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 97
+[10-Jan-2013 13:47:10 UTC] PHP Stack trace:
+[10-Jan-2013 13:47:10 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[10-Jan-2013 13:47:10 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[10-Jan-2013 13:47:10 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[10-Jan-2013 13:47:10 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[10-Jan-2013 13:47:10 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[10-Jan-2013 13:47:10 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[10-Jan-2013 13:47:10 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[10-Jan-2013 13:51:21 UTC] PHP Fatal error:  Call to undefined method Core_Model_Quiz::setQuizRelId() in /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php on line 14
+[10-Jan-2013 13:51:21 UTC] PHP Stack trace:
+[10-Jan-2013 13:51:21 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[10-Jan-2013 13:51:21 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[10-Jan-2013 13:51:21 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[10-Jan-2013 13:51:21 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[10-Jan-2013 13:51:21 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[10-Jan-2013 13:51:21 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[10-Jan-2013 13:51:21 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[10-Jan-2013 13:51:21 UTC] PHP   8. Core_Model_Mapper_Abstract->fetchAll() /home/www/zendphpcertify/application/Core/controllers/QuizController.php:97
+[10-Jan-2013 13:51:21 UTC] PHP   9. Core_Model_Mapper_QuizRel->rowToObject() /home/www/zendphpcertify/application/Core/models/mappers/Abstract.php:29
+[10-Jan-2013 13:54:51 UTC] PHP Warning:  Division by zero in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 49
+[10-Jan-2013 13:54:51 UTC] PHP Stack trace:
+[10-Jan-2013 13:54:51 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[10-Jan-2013 13:54:51 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[10-Jan-2013 13:54:51 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[10-Jan-2013 13:54:51 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[10-Jan-2013 13:54:51 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[10-Jan-2013 13:54:51 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[10-Jan-2013 13:54:51 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[10-Jan-2013 13:54:51 UTC] PHP   8. QuizController->newAction() /home/www/zendphpcertify/application/Core/controllers/QuizController.php:110
+[10-Jan-2013 13:54:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 53
+[10-Jan-2013 13:54:51 UTC] PHP Stack trace:
+[10-Jan-2013 13:54:51 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[10-Jan-2013 13:54:51 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[10-Jan-2013 13:54:51 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[10-Jan-2013 13:54:51 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[10-Jan-2013 13:54:51 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[10-Jan-2013 13:54:51 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[10-Jan-2013 13:54:51 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[10-Jan-2013 13:54:51 UTC] PHP   8. QuizController->newAction() /home/www/zendphpcertify/application/Core/controllers/QuizController.php:110
+[10-Jan-2013 15:11:20 UTC] PHP Fatal error:  Call to undefined method Core_Model_Quiz::setQuizRelId() in /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php on line 14
+[10-Jan-2013 15:11:20 UTC] PHP Stack trace:
+[10-Jan-2013 15:11:20 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[10-Jan-2013 15:11:20 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[10-Jan-2013 15:11:20 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[10-Jan-2013 15:11:20 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[10-Jan-2013 15:11:20 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[10-Jan-2013 15:11:20 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[10-Jan-2013 15:11:20 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[10-Jan-2013 15:11:20 UTC] PHP   8. Core_Model_Mapper_Abstract->fetchAll() /home/www/zendphpcertify/application/Core/controllers/QuizController.php:119
+[10-Jan-2013 15:11:20 UTC] PHP   9. Core_Model_Mapper_QuizRel->rowToObject() /home/www/zendphpcertify/application/Core/models/mappers/Abstract.php:29
+[11-Jan-2013 08:15:20 UTC] PHP Fatal error:  Uncaught exception 'Zend_Navigation_Exception' with message 'Invalid argument: Unable to determine class to instantiate' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php:261
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Container.php(117): Zend_Navigation_Page::factory(Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Container.php(172): Zend_Navigation_Container->addPage(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Container.php(187): Zend_Navigation_Container->addPages(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php(944): Zend_Navigation_Container->setPages(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php(321): Zend_Navigation_Page->set('pages', Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php(276): Zend_Navigation_Page->setOptions(Array)
+#6 /usr/local/zend/share/Zen in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php on line 261
+[11-Jan-2013 08:15:32 UTC] PHP Fatal error:  Uncaught exception 'Zend_Navigation_Exception' with message 'Invalid argument: Unable to determine class to instantiate' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php:261
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Container.php(117): Zend_Navigation_Page::factory(Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Container.php(172): Zend_Navigation_Container->addPage(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Container.php(187): Zend_Navigation_Container->addPages(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php(944): Zend_Navigation_Container->setPages(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php(321): Zend_Navigation_Page->set('pages', Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php(276): Zend_Navigation_Page->setOptions(Array)
+#6 /usr/local/zend/share/Zen in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php on line 261
+[11-Jan-2013 08:15:33 UTC] PHP Fatal error:  Uncaught exception 'Zend_Navigation_Exception' with message 'Invalid argument: Unable to determine class to instantiate' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php:261
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Container.php(117): Zend_Navigation_Page::factory(Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Container.php(172): Zend_Navigation_Container->addPage(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Container.php(187): Zend_Navigation_Container->addPages(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php(944): Zend_Navigation_Container->setPages(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php(321): Zend_Navigation_Page->set('pages', Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php(276): Zend_Navigation_Page->setOptions(Array)
+#6 /usr/local/zend/share/Zen in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php on line 261
+[11-Jan-2013 08:15:34 UTC] PHP Fatal error:  Uncaught exception 'Zend_Navigation_Exception' with message 'Invalid argument: Unable to determine class to instantiate' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php:261
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Container.php(117): Zend_Navigation_Page::factory(Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Container.php(172): Zend_Navigation_Container->addPage(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Container.php(187): Zend_Navigation_Container->addPages(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php(944): Zend_Navigation_Container->setPages(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php(321): Zend_Navigation_Page->set('pages', Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php(276): Zend_Navigation_Page->setOptions(Array)
+#6 /usr/local/zend/share/Zen in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php on line 261
+[11-Jan-2013 08:15:34 UTC] PHP Fatal error:  Uncaught exception 'Zend_Navigation_Exception' with message 'Invalid argument: Unable to determine class to instantiate' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php:261
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Container.php(117): Zend_Navigation_Page::factory(Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Container.php(172): Zend_Navigation_Container->addPage(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Container.php(187): Zend_Navigation_Container->addPages(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php(944): Zend_Navigation_Container->setPages(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php(321): Zend_Navigation_Page->set('pages', Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php(276): Zend_Navigation_Page->setOptions(Array)
+#6 /usr/local/zend/share/Zen in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php on line 261
+[11-Jan-2013 08:15:34 UTC] PHP Fatal error:  Uncaught exception 'Zend_Navigation_Exception' with message 'Invalid argument: Unable to determine class to instantiate' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php:261
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Container.php(117): Zend_Navigation_Page::factory(Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Container.php(172): Zend_Navigation_Container->addPage(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Container.php(187): Zend_Navigation_Container->addPages(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php(944): Zend_Navigation_Container->setPages(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php(321): Zend_Navigation_Page->set('pages', Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php(276): Zend_Navigation_Page->setOptions(Array)
+#6 /usr/local/zend/share/Zen in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php on line 261
+[11-Jan-2013 08:15:35 UTC] PHP Fatal error:  Uncaught exception 'Zend_Navigation_Exception' with message 'Invalid argument: Unable to determine class to instantiate' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php:261
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Container.php(117): Zend_Navigation_Page::factory(Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Container.php(172): Zend_Navigation_Container->addPage(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Container.php(187): Zend_Navigation_Container->addPages(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php(944): Zend_Navigation_Container->setPages(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php(321): Zend_Navigation_Page->set('pages', Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php(276): Zend_Navigation_Page->setOptions(Array)
+#6 /usr/local/zend/share/Zen in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php on line 261
+[11-Jan-2013 08:17:12 UTC] PHP Fatal error:  Zend_Controller_Router_Exception: quizId is not specified in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php on line 522
+[11-Jan-2013 08:17:12 UTC] PHP Stack trace:
+[11-Jan-2013 08:17:12 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 08:17:12 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 08:17:12 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 08:17:12 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 08:17:12 UTC] PHP   5. Zend_Controller_Plugin_Broker->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:965
+[11-Jan-2013 08:17:12 UTC] PHP   6. Zend_Layout_Controller_Plugin_Layout->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Plugin/Broker.php:333
+[11-Jan-2013 08:17:12 UTC] PHP   7. Zend_Layout->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout/Controller/Plugin/Layout.php:143
+[11-Jan-2013 08:17:12 UTC] PHP   8. Zend_View_Abstract->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout.php:796
+[11-Jan-2013 08:17:12 UTC] PHP   9. Zend_View->_run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:888
+[11-Jan-2013 08:17:12 UTC] PHP  10. include() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:108
+[11-Jan-2013 08:17:12 UTC] PHP  11. Zend_View_Helper_Navigation_HelperAbstract->__toString() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:67
+[11-Jan-2013 08:17:12 UTC] PHP  12. trigger_error() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php:522
+[11-Jan-2013 08:17:48 UTC] PHP Fatal error:  Zend_Controller_Router_Exception: quizId is not specified in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php on line 522
+[11-Jan-2013 08:17:48 UTC] PHP Stack trace:
+[11-Jan-2013 08:17:48 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 08:17:48 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 08:17:48 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 08:17:48 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 08:17:48 UTC] PHP   5. Zend_Controller_Plugin_Broker->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:965
+[11-Jan-2013 08:17:48 UTC] PHP   6. Zend_Layout_Controller_Plugin_Layout->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Plugin/Broker.php:333
+[11-Jan-2013 08:17:48 UTC] PHP   7. Zend_Layout->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout/Controller/Plugin/Layout.php:143
+[11-Jan-2013 08:17:48 UTC] PHP   8. Zend_View_Abstract->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout.php:796
+[11-Jan-2013 08:17:48 UTC] PHP   9. Zend_View->_run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:888
+[11-Jan-2013 08:17:48 UTC] PHP  10. include() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:108
+[11-Jan-2013 08:17:48 UTC] PHP  11. Zend_View_Helper_Navigation_HelperAbstract->__toString() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:67
+[11-Jan-2013 08:17:48 UTC] PHP  12. trigger_error() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php:522
+[11-Jan-2013 08:18:43 UTC] PHP Fatal error:  Uncaught exception 'Zend_Navigation_Exception' with message 'Invalid argument: Unable to determine class to instantiate' in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php:261
+Stack trace:
+#0 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Container.php(117): Zend_Navigation_Page::factory(Array)
+#1 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Container.php(172): Zend_Navigation_Container->addPage(Array)
+#2 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Container.php(187): Zend_Navigation_Container->addPages(Array)
+#3 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php(944): Zend_Navigation_Container->setPages(Array)
+#4 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php(321): Zend_Navigation_Page->set('pages', Array)
+#5 /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php(276): Zend_Navigation_Page->setOptions(Array)
+#6 /usr/local/zend/share/Zen in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Navigation/Page.php on line 261
+[11-Jan-2013 08:18:51 UTC] PHP Fatal error:  Zend_Controller_Router_Exception: quizId is not specified in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php on line 522
+[11-Jan-2013 08:18:51 UTC] PHP Stack trace:
+[11-Jan-2013 08:18:51 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 08:18:51 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 08:18:51 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 08:18:51 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 08:18:51 UTC] PHP   5. Zend_Controller_Plugin_Broker->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:965
+[11-Jan-2013 08:18:51 UTC] PHP   6. Zend_Layout_Controller_Plugin_Layout->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Plugin/Broker.php:333
+[11-Jan-2013 08:18:51 UTC] PHP   7. Zend_Layout->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout/Controller/Plugin/Layout.php:143
+[11-Jan-2013 08:18:51 UTC] PHP   8. Zend_View_Abstract->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout.php:796
+[11-Jan-2013 08:18:51 UTC] PHP   9. Zend_View->_run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:888
+[11-Jan-2013 08:18:51 UTC] PHP  10. include() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:108
+[11-Jan-2013 08:18:51 UTC] PHP  11. Zend_View_Helper_Navigation_HelperAbstract->__toString() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:67
+[11-Jan-2013 08:18:51 UTC] PHP  12. trigger_error() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php:522
+[11-Jan-2013 08:18:51 UTC] PHP Fatal error:  Zend_Controller_Router_Exception: quizId is not specified in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php on line 522
+[11-Jan-2013 08:18:51 UTC] PHP Stack trace:
+[11-Jan-2013 08:18:51 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 08:18:51 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 08:18:51 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 08:18:51 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 08:18:51 UTC] PHP   5. Zend_Controller_Plugin_Broker->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:965
+[11-Jan-2013 08:18:51 UTC] PHP   6. Zend_Layout_Controller_Plugin_Layout->postDispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Plugin/Broker.php:333
+[11-Jan-2013 08:18:51 UTC] PHP   7. Zend_Layout->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout/Controller/Plugin/Layout.php:143
+[11-Jan-2013 08:18:51 UTC] PHP   8. Zend_View_Abstract->render() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Layout.php:796
+[11-Jan-2013 08:18:51 UTC] PHP   9. Zend_View->_run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Abstract.php:888
+[11-Jan-2013 08:18:51 UTC] PHP  10. include() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:108
+[11-Jan-2013 08:18:51 UTC] PHP  11. Zend_View_Helper_Navigation_HelperAbstract->__toString() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View.php:67
+[11-Jan-2013 08:18:51 UTC] PHP  12. trigger_error() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/View/Helper/Navigation/HelperAbstract.php:522
+[11-Jan-2013 08:33:01 UTC] PHP Fatal error:  Call to undefined method Core_Model_Quiz::setQuizRelId() in /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php on line 14
+[11-Jan-2013 08:33:01 UTC] PHP Stack trace:
+[11-Jan-2013 08:33:01 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 08:33:01 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 08:33:01 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 08:33:01 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 08:33:01 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 08:33:01 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 08:33:01 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 08:33:01 UTC] PHP   8. Core_Model_Mapper_Abstract->fetchAll() /home/www/zendphpcertify/application/Core/controllers/QuizController.php:118
+[11-Jan-2013 08:33:01 UTC] PHP   9. Core_Model_Mapper_QuizRel->rowToObject() /home/www/zendphpcertify/application/Core/models/mappers/Abstract.php:29
+[11-Jan-2013 08:35:58 UTC] PHP Notice:  Undefined variable: quizRelMapper in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 127
+[11-Jan-2013 08:35:58 UTC] PHP Stack trace:
+[11-Jan-2013 08:35:58 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 08:35:58 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 08:35:58 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 08:35:58 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 08:35:58 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 08:35:58 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 08:35:58 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 08:35:58 UTC] PHP Notice:  Trying to get property of non-object in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 127
+[11-Jan-2013 08:35:58 UTC] PHP Stack trace:
+[11-Jan-2013 08:35:58 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 08:35:58 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 08:35:58 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 08:35:58 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 08:35:58 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 08:35:58 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 08:35:58 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 08:36:13 UTC] PHP Notice:  Undefined property: Core_Model_Mapper_QuizRel::$findByQuizId in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 128
+[11-Jan-2013 08:36:13 UTC] PHP Stack trace:
+[11-Jan-2013 08:36:13 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 08:36:13 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 08:36:13 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 08:36:13 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 08:36:13 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 08:36:13 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 08:36:13 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 08:36:30 UTC] PHP Fatal error:  Call to undefined method Core_Model_Quiz::setQuizRelId() in /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php on line 14
+[11-Jan-2013 08:36:30 UTC] PHP Stack trace:
+[11-Jan-2013 08:36:30 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 08:36:30 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 08:36:30 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 08:36:30 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 08:36:30 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 08:36:30 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 08:36:30 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 08:36:30 UTC] PHP   8. Core_Model_Mapper_QuizRel->findByQuizId() /home/www/zendphpcertify/application/Core/controllers/QuizController.php:128
+[11-Jan-2013 08:36:30 UTC] PHP   9. Core_Model_Mapper_Abstract->fetchAll() /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php:35
+[11-Jan-2013 08:36:30 UTC] PHP  10. Core_Model_Mapper_QuizRel->rowToObject() /home/www/zendphpcertify/application/Core/models/mappers/Abstract.php:29
+[11-Jan-2013 08:42:25 UTC] PHP Warning:  mysql_query(): Access denied for user 'www-data'@'localhost' (using password: NO) in /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php on line 36
+[11-Jan-2013 08:42:25 UTC] PHP Stack trace:
+[11-Jan-2013 08:42:25 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 08:42:25 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 08:42:25 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 08:42:25 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 08:42:25 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 08:42:25 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 08:42:25 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 08:42:25 UTC] PHP   8. Core_Model_Mapper_QuizRel->findByQuizId() /home/www/zendphpcertify/application/Core/controllers/QuizController.php:118
+[11-Jan-2013 08:42:25 UTC] PHP   9. mysql_query() /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php:36
+[11-Jan-2013 08:42:25 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php on line 36
+[11-Jan-2013 08:42:25 UTC] PHP Stack trace:
+[11-Jan-2013 08:42:25 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 08:42:25 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 08:42:25 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 08:42:25 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 08:42:25 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 08:42:25 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 08:42:25 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 08:42:25 UTC] PHP   8. Core_Model_Mapper_QuizRel->findByQuizId() /home/www/zendphpcertify/application/Core/controllers/QuizController.php:118
+[11-Jan-2013 08:42:25 UTC] PHP   9. mysql_query() /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php:36
+[11-Jan-2013 08:42:25 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php on line 37
+[11-Jan-2013 08:42:25 UTC] PHP Stack trace:
+[11-Jan-2013 08:42:25 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 08:42:25 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 08:42:25 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 08:42:25 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 08:42:25 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 08:42:25 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 08:42:25 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 08:42:25 UTC] PHP   8. Core_Model_Mapper_QuizRel->findByQuizId() /home/www/zendphpcertify/application/Core/controllers/QuizController.php:118
+[11-Jan-2013 08:42:25 UTC] PHP   9. mysql_fetch_assoc() /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php:37
+[11-Jan-2013 09:04:03 UTC] PHP Catchable fatal error:  Argument 1 passed to Core_Model_Mapper_QuizRel::rowToObject() must be an instance of Zend_Db_Table_Row_Abstract, instance of Zend_Db_Table_Select given, called in /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php on line 37 and defined in /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php on line 11
+[11-Jan-2013 09:04:03 UTC] PHP Stack trace:
+[11-Jan-2013 09:04:03 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 09:04:03 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 09:04:03 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 09:04:03 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 09:04:03 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 09:04:03 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 09:04:03 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 09:04:03 UTC] PHP   8. Core_Model_Mapper_QuizRel->findByQuizId() /home/www/zendphpcertify/application/Core/controllers/QuizController.php:118
+[11-Jan-2013 09:04:03 UTC] PHP   9. Core_Model_Mapper_QuizRel->rowToObject() /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php:37
+[11-Jan-2013 09:04:23 UTC] PHP Fatal error:  Declaration of Core_Model_Mapper_QuizRel::rowToObject() must be compatible with that of Core_Model_Mapper_Abstract::rowToObject() in /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php on line 0
+[11-Jan-2013 09:04:23 UTC] PHP Stack trace:
+[11-Jan-2013 09:04:23 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 09:04:23 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 09:04:23 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 09:04:23 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 09:04:23 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 09:04:23 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 09:04:23 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 09:04:23 UTC] PHP   8. Zend_Loader_Autoloader::autoload() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:0
+[11-Jan-2013 09:04:23 UTC] PHP   9. Zend_Loader_Autoloader_Resource->autoload() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Loader/Autoloader.php:120
+[11-Jan-2013 09:06:11 UTC] PHP Fatal error:  Call to undefined method Core_Model_Quiz::setQuizRelId() in /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php on line 14
+[11-Jan-2013 09:06:11 UTC] PHP Stack trace:
+[11-Jan-2013 09:06:11 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 09:06:11 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 09:06:11 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 09:06:11 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 09:06:11 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 09:06:11 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 09:06:11 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 09:06:11 UTC] PHP   8. Core_Model_Mapper_QuizRel->findByQuizId() /home/www/zendphpcertify/application/Core/controllers/QuizController.php:118
+[11-Jan-2013 09:06:11 UTC] PHP   9. Core_Model_Mapper_QuizRel->rowToObject() /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php:38
+[11-Jan-2013 09:06:55 UTC] PHP Fatal error:  Call to undefined method Core_Model_Quiz::setQuiz() in /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php on line 15
+[11-Jan-2013 09:06:55 UTC] PHP Stack trace:
+[11-Jan-2013 09:06:55 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 09:06:55 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 09:06:55 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 09:06:55 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 09:06:55 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 09:06:55 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 09:06:55 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 09:06:55 UTC] PHP   8. Core_Model_Mapper_QuizRel->findByQuizId() /home/www/zendphpcertify/application/Core/controllers/QuizController.php:118
+[11-Jan-2013 09:06:55 UTC] PHP   9. Core_Model_Mapper_QuizRel->rowToObject() /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php:38
+[11-Jan-2013 09:08:59 UTC] PHP Fatal error:  Call to undefined method Zend_Db_Table_Rowset::getQuizRelId() in /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php on line 27
+[11-Jan-2013 09:08:59 UTC] PHP Stack trace:
+[11-Jan-2013 09:08:59 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 09:08:59 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 09:08:59 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 09:08:59 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 09:08:59 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 09:08:59 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 09:08:59 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 09:08:59 UTC] PHP   8. Core_Model_Mapper_QuizRel->findByQuizId() /home/www/zendphpcertify/application/Core/controllers/QuizController.php:118
+[11-Jan-2013 09:08:59 UTC] PHP   9. Core_Model_Mapper_QuizRel->objectToArray() /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php:40
+[11-Jan-2013 09:09:09 UTC] PHP Catchable fatal error:  Argument 1 passed to Core_Model_Mapper_QuizRel::rowToObject() must be an instance of Zend_Db_Table_Row_Abstract, instance of Zend_Db_Table_Rowset given, called in /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php on line 40 and defined in /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php on line 11
+[11-Jan-2013 09:09:09 UTC] PHP Stack trace:
+[11-Jan-2013 09:09:09 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 09:09:09 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 09:09:09 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 09:09:09 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 09:09:09 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 09:09:09 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 09:09:09 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 09:09:09 UTC] PHP   8. Core_Model_Mapper_QuizRel->findByQuizId() /home/www/zendphpcertify/application/Core/controllers/QuizController.php:118
+[11-Jan-2013 09:09:09 UTC] PHP   9. Core_Model_Mapper_QuizRel->rowToObject() /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php:40
+[11-Jan-2013 09:12:40 UTC] PHP Fatal error:  Call to undefined method Core_Model_Quiz::setQuizRelId() in /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php on line 14
+[11-Jan-2013 09:12:40 UTC] PHP Stack trace:
+[11-Jan-2013 09:12:40 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 09:12:40 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 09:12:40 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 09:12:40 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 09:12:40 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 09:12:40 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 09:12:40 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 09:12:40 UTC] PHP   8. Core_Model_Mapper_QuizRel->fetchByQuizId() /home/www/zendphpcertify/application/Core/controllers/QuizController.php:118
+[11-Jan-2013 09:12:40 UTC] PHP   9. Core_Model_Mapper_QuizRel->rowToObject() /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php:41
+[11-Jan-2013 09:13:05 UTC] PHP Fatal error:  Call to undefined method Core_Model_Quiz::setQuestionByTheme() in /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php on line 17
+[11-Jan-2013 09:13:05 UTC] PHP Stack trace:
+[11-Jan-2013 09:13:05 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 09:13:05 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 09:13:05 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 09:13:05 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 09:13:05 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 09:13:05 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 09:13:05 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 09:13:05 UTC] PHP   8. Core_Model_Mapper_QuizRel->fetchByQuizId() /home/www/zendphpcertify/application/Core/controllers/QuizController.php:118
+[11-Jan-2013 09:13:05 UTC] PHP   9. Core_Model_Mapper_QuizRel->rowToObject() /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php:41
+[11-Jan-2013 09:13:15 UTC] PHP Parse error:  syntax error, unexpected T_RETURN in /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php on line 19
+[11-Jan-2013 09:13:15 UTC] PHP Stack trace:
+[11-Jan-2013 09:13:15 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 09:13:15 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 09:13:15 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 09:13:15 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 09:13:15 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 09:13:15 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 09:13:15 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 09:13:15 UTC] PHP   8. Zend_Loader_Autoloader::autoload() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:0
+[11-Jan-2013 09:13:15 UTC] PHP   9. Zend_Loader_Autoloader_Resource->autoload() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Loader/Autoloader.php:120
+[11-Jan-2013 09:13:27 UTC] PHP Fatal error:  Call to undefined method Core_Model_Quiz::setQuizRelId() in /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php on line 14
+[11-Jan-2013 09:13:27 UTC] PHP Stack trace:
+[11-Jan-2013 09:13:27 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 09:13:27 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 09:13:27 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 09:13:27 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 09:13:27 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 09:13:27 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 09:13:27 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 09:13:27 UTC] PHP   8. Core_Model_Mapper_QuizRel->fetchByQuizId() /home/www/zendphpcertify/application/Core/controllers/QuizController.php:118
+[11-Jan-2013 09:13:27 UTC] PHP   9. Core_Model_Mapper_QuizRel->rowToObject() /home/www/zendphpcertify/application/Core/models/mappers/QuizRel.php:41
+[11-Jan-2013 09:29:26 UTC] PHP Fatal error:  Call to a member function getquiz() on a non-object in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 105
+[11-Jan-2013 09:29:26 UTC] PHP Stack trace:
+[11-Jan-2013 09:29:26 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 09:29:26 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 09:29:26 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 09:29:26 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 09:29:26 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 09:29:26 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 09:29:26 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 09:29:33 UTC] PHP Fatal error:  Call to a member function getQuiz() on a non-object in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 105
+[11-Jan-2013 09:29:33 UTC] PHP Stack trace:
+[11-Jan-2013 09:29:33 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 09:29:33 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 09:29:33 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 09:29:33 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 09:29:33 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 09:29:33 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 09:29:33 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 09:33:02 UTC] PHP Fatal error:  Cannot use [] for reading in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 109
+[11-Jan-2013 09:33:02 UTC] PHP Stack trace:
+[11-Jan-2013 09:33:02 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 09:33:02 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 09:33:02 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 09:33:02 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 09:33:02 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 09:33:02 UTC] PHP   6. Zend_Controller_Dispatcher_Standard->loadClass() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:262
+[11-Jan-2013 09:39:46 UTC] PHP Catchable fatal error:  Argument 1 passed to Zend_Form_Element::setOptions() must be an array, string given, called in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 110 and defined in /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Form/Element.php on line 349
+[11-Jan-2013 09:39:46 UTC] PHP Stack trace:
+[11-Jan-2013 09:39:46 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 09:39:46 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 09:39:46 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 09:39:46 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 09:39:46 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 09:39:46 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 09:39:46 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 09:39:46 UTC] PHP   8. Zend_Form_Element->setOptions() /home/www/zendphpcertify/application/Core/controllers/QuizController.php:110
+[11-Jan-2013 10:26:12 UTC] PHP Notice:  Undefined variable: newQuizForm in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 139
+[11-Jan-2013 10:26:12 UTC] PHP Stack trace:
+[11-Jan-2013 10:26:12 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 10:26:12 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 10:26:12 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 10:26:12 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 10:26:12 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 10:26:12 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 10:26:12 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 10:26:12 UTC] PHP Fatal error:  Call to a member function getValue() on a non-object in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 139
+[11-Jan-2013 10:26:12 UTC] PHP Stack trace:
+[11-Jan-2013 10:26:12 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 10:26:12 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 10:26:12 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 10:26:12 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 10:26:12 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 10:26:12 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 10:26:12 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 10:26:43 UTC] PHP Warning:  Division by zero in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 142
+[11-Jan-2013 10:26:43 UTC] PHP Stack trace:
+[11-Jan-2013 10:26:43 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 10:26:43 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 10:26:43 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 10:26:43 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 10:26:43 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 10:26:43 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 10:26:43 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 10:26:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 146
+[11-Jan-2013 10:26:43 UTC] PHP Stack trace:
+[11-Jan-2013 10:26:43 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 10:26:43 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 10:26:43 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 10:26:43 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 10:26:43 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 10:26:43 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 10:26:43 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 10:43:23 UTC] PHP Fatal error:  Call to a member function getQuizRelId() on a non-object in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 147
+[11-Jan-2013 10:43:23 UTC] PHP Stack trace:
+[11-Jan-2013 10:43:23 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 10:43:23 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 10:43:23 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 10:43:23 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 10:43:23 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 10:43:23 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 10:43:23 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 10:45:13 UTC] PHP Fatal error:  Call to a member function getQuizRelId() on a non-object in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 144
+[11-Jan-2013 10:45:13 UTC] PHP Stack trace:
+[11-Jan-2013 10:45:13 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 10:45:13 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 10:45:13 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 10:45:13 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 10:45:13 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 10:45:13 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 10:45:13 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 10:45:14 UTC] PHP Fatal error:  Call to a member function getQuizRelId() on a non-object in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 144
+[11-Jan-2013 10:45:14 UTC] PHP Stack trace:
+[11-Jan-2013 10:45:14 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 10:45:14 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 10:45:14 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 10:45:14 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 10:45:14 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 10:45:14 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 10:45:14 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 10:45:17 UTC] PHP Fatal error:  Call to a member function getQuizRelId() on a non-object in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 144
+[11-Jan-2013 10:45:17 UTC] PHP Stack trace:
+[11-Jan-2013 10:45:17 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 10:45:17 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 10:45:17 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 10:45:17 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 10:45:17 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 10:45:17 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 10:45:17 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 10:51:03 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/www/zendphpcertify/application/Core/models/mappers/Abstract.php on line 62
+[11-Jan-2013 10:51:03 UTC] PHP Stack trace:
+[11-Jan-2013 10:51:03 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 10:51:03 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 10:51:03 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 10:51:03 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 10:51:03 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 10:51:03 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 10:51:03 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 10:51:03 UTC] PHP   8. Core_Model_Mapper_Abstract->delete() /home/www/zendphpcertify/application/Core/controllers/QuizController.php:150
+[11-Jan-2013 10:52:04 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/www/zendphpcertify/application/Core/models/mappers/Abstract.php on line 62
+[11-Jan-2013 10:52:04 UTC] PHP Stack trace:
+[11-Jan-2013 10:52:04 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 10:52:04 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 10:52:04 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 10:52:04 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 10:52:04 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 10:52:04 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 10:52:04 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 10:52:04 UTC] PHP   8. Core_Model_Mapper_Abstract->delete() /home/www/zendphpcertify/application/Core/controllers/QuizController.php:148
+[11-Jan-2013 10:53:01 UTC] PHP Fatal error:  Cannot use [] for reading in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 148
+[11-Jan-2013 10:53:01 UTC] PHP Stack trace:
+[11-Jan-2013 10:53:01 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 10:53:01 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 10:53:01 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 10:53:01 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 10:53:01 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 10:53:01 UTC] PHP   6. Zend_Controller_Dispatcher_Standard->loadClass() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:262
+[11-Jan-2013 10:54:48 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/www/zendphpcertify/application/Core/models/mappers/Abstract.php on line 62
+[11-Jan-2013 10:54:48 UTC] PHP Stack trace:
+[11-Jan-2013 10:54:48 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 10:54:48 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 10:54:48 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 10:54:48 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 10:54:48 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 10:54:48 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 10:54:48 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 10:54:48 UTC] PHP   8. Core_Model_Mapper_Abstract->delete() /home/www/zendphpcertify/application/Core/controllers/QuizController.php:148
+[11-Jan-2013 10:54:58 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/www/zendphpcertify/application/Core/models/mappers/Abstract.php on line 62
+[11-Jan-2013 10:54:58 UTC] PHP Stack trace:
+[11-Jan-2013 10:54:58 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 10:54:58 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 10:54:58 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 10:54:58 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 10:54:58 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 10:54:58 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 10:54:58 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 10:54:58 UTC] PHP   8. Core_Model_Mapper_Abstract->delete() /home/www/zendphpcertify/application/Core/controllers/QuizController.php:148
+[11-Jan-2013 10:55:38 UTC] PHP Notice:  Undefined variable: themeIdFetch in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 121
+[11-Jan-2013 10:55:38 UTC] PHP Stack trace:
+[11-Jan-2013 10:55:38 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 10:55:38 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 10:55:38 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 10:55:38 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 10:55:38 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 10:55:38 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 10:55:38 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 10:55:46 UTC] PHP Notice:  Undefined variable: themeIdFetch in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 121
+[11-Jan-2013 10:55:46 UTC] PHP Stack trace:
+[11-Jan-2013 10:55:46 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 10:55:46 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 10:55:46 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 10:55:46 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 10:55:46 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 10:55:46 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 10:55:46 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 10:55:48 UTC] PHP Notice:  Undefined variable: themeIdFetch in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 121
+[11-Jan-2013 10:55:48 UTC] PHP Stack trace:
+[11-Jan-2013 10:55:48 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 10:55:48 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 10:55:48 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 10:55:48 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 10:55:48 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 10:55:48 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 10:55:48 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 10:58:20 UTC] PHP Notice:  Undefined variable: themeIdFetch in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 121
+[11-Jan-2013 10:58:20 UTC] PHP Stack trace:
+[11-Jan-2013 10:58:20 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 10:58:20 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 10:58:20 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 10:58:20 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 10:58:20 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 10:58:20 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 10:58:20 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 10:58:38 UTC] PHP Notice:  Undefined variable: themeIdFetch in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 121
+[11-Jan-2013 10:58:38 UTC] PHP Stack trace:
+[11-Jan-2013 10:58:38 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 10:58:38 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 10:58:38 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 10:58:38 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 10:58:38 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 10:58:38 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 10:58:38 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 10:58:54 UTC] PHP Warning:  Division by zero in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 156
+[11-Jan-2013 10:58:54 UTC] PHP Stack trace:
+[11-Jan-2013 10:58:54 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 10:58:54 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 10:58:54 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 10:58:54 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 10:58:54 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 10:58:54 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 10:58:54 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 10:58:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 160
+[11-Jan-2013 10:58:54 UTC] PHP Stack trace:
+[11-Jan-2013 10:58:54 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 10:58:54 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 10:58:54 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 10:58:54 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 10:58:54 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 10:58:54 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 10:58:54 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 10:58:56 UTC] PHP Notice:  Undefined variable: themeIdFetch in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 121
+[11-Jan-2013 10:58:56 UTC] PHP Stack trace:
+[11-Jan-2013 10:58:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 10:58:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 10:58:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 10:58:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 10:58:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 10:58:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 10:58:56 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:00:52 UTC] PHP Notice:  Undefined variable: themeIdFetch in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 121
+[11-Jan-2013 11:00:52 UTC] PHP Stack trace:
+[11-Jan-2013 11:00:52 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:00:52 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:00:52 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:00:52 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:00:52 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:00:52 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:00:52 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:00:53 UTC] PHP Notice:  Undefined variable: themeIdFetch in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 121
+[11-Jan-2013 11:00:53 UTC] PHP Stack trace:
+[11-Jan-2013 11:00:53 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:00:53 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:00:53 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:00:53 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:00:53 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:00:53 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:00:53 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:00:54 UTC] PHP Notice:  Undefined variable: themeIdFetch in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 121
+[11-Jan-2013 11:00:54 UTC] PHP Stack trace:
+[11-Jan-2013 11:00:54 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:00:54 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:00:54 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:00:54 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:00:54 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:00:54 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:00:54 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:00:54 UTC] PHP Notice:  Undefined variable: themeIdFetch in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 121
+[11-Jan-2013 11:00:54 UTC] PHP Stack trace:
+[11-Jan-2013 11:00:54 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:00:54 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:00:54 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:00:54 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:00:54 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:00:54 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:00:54 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:00:54 UTC] PHP Notice:  Undefined variable: themeIdFetch in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 121
+[11-Jan-2013 11:00:54 UTC] PHP Stack trace:
+[11-Jan-2013 11:00:54 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:00:54 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:00:54 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:00:54 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:00:54 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:00:54 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:00:54 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:02:57 UTC] PHP Warning:  Division by zero in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 158
+[11-Jan-2013 11:02:57 UTC] PHP Stack trace:
+[11-Jan-2013 11:02:57 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:02:57 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:02:57 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:02:57 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:02:57 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:02:57 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:02:57 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:02:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/www/zendphpcertify/application/Core/controllers/QuizController.php on line 162
+[11-Jan-2013 11:02:57 UTC] PHP Stack trace:
+[11-Jan-2013 11:02:57 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:02:57 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:02:57 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:02:57 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:02:57 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:02:57 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:02:57 UTC] PHP   7. QuizController->editAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516

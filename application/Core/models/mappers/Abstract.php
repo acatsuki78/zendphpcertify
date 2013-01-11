@@ -49,7 +49,7 @@ abstract class Core_Model_Mapper_Abstract
 	
 	/**
 	 * Deletes an entity
-	 * @param Core_Model_Interface|integer $entity
+	 * @param integer $entity
 	 * @throws Exception on invalid param given 
 	 * @throws Zend_Db_Table_Row_Exception on unexisting row to delete
 	 * @return boolean

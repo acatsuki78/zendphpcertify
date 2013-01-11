@@ -62,7 +62,9 @@
 		<a class="brand" href=""><img src='../css/img/logo.png' /></a>
 		<div class="container canvas">
 		  <?php 
-		  
+			  echo $this->navigation()
+			  			->menu()
+			 			->setPartial('menu.phtml');
 		  ?>
 		</div>
 	  </div>
@@ -81,7 +83,7 @@
 	   <?php echo $this->layout()->content ?>
    </div>
    <footer>
-		<p>&copy; Company 2011</p>
+		<p>&copy; Zend PHP Certify Company 2013</p>
 	</footer>
 
 
