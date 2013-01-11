@@ -17,9 +17,7 @@
 
   <?php 
 	$this->headTitle(
-// 		$this->translate('title_main')
-		'Zend PHP Certify'
-
+		$this->translate('title_main')
 	);
 	echo $this->headTitle()
 			  ->setSeparator(' - ')
@@ -54,12 +52,21 @@
 	   chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
   <header>
-		<h1>Zend PHP Certify</h1>
+		<h1>Projet www5</h1>
   </header>
   <div role="main" style="height:100%;">
 	<div class="topbar" data-scrollspy="scrollspy">
 	  <div class="topbar-inner">
 		<a class="brand" href=""><img src='../css/img/logo.png' /></a>
+		<?php
+			if($this->data == true): 
+		?>
+			<div id="menu" style="display:block;">
+				<label data-name="accueil">Acceuil</label><div class="separator"></div>
+				<label data-name="resultats">Mes résultats</label><div class="separator"></div>
+				<label data-name="deconnexion">Deconnexion</label>
+			</div>
+		<?php endif; ?>
 		<div class="container canvas">
 		  <?php 
 			  echo $this->navigation()
@@ -72,7 +79,7 @@
 	<div class="container canvas">
    <div class="content-canvas">
 	   <div class="breadcrumb">
-	   <?php //echo $this->translate('breadcrumbs_begining')?>
+	   <?php echo $this->translate('breadcrumbs_begining')?> :
 	   <?php 
 		  echo $this->navigation()
 					->breadcrumbs()
@@ -90,6 +97,9 @@
   <!-- JavaScript at the bottom for fast page loading -->
 
 <?php 
+	if($this->data == true){
+		$this->inlineScript()->prependFile('/js/homeUser.js');
+	}
 	$this->inlineScript()->prependFile('/js/home.js');
 	$this->inlineScript()->prependFile('/js/jquery.counter.min.js');
 	$this->inlineScript()->prependFile('/js/jquery.autosize.min.js');

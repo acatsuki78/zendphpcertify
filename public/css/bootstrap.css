@@ -245,6 +245,101 @@ textarea {
 	padding: 13px;
 
 }
+
+#menu{
+	position: relative;
+	float: right;
+	right: 13px;
+	display: none;
+}
+
+#menu .separator{
+	height: 60px;
+	width: 2px;
+	background: url('img/separator.png') no-repeat;
+	display: inline-block;
+}
+
+#menu label{
+	color:#FFF;
+	font-size: 14px;
+	padding:17px;
+	bottom: 26px;
+	position: relative;
+}
+
+#menu label:hover{
+	color: #9ECA7F;
+}
+
+.ctnr-quiz{
+	background: url('img/ctnr_quiz.png') no-repeat;
+	height: 58px;
+	width: 592px;
+	position: relative;
+	top: 150px;
+	left: 88px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+.description{
+	background-color: #E5E2E2;
+	min-width: 545px;
+	max-width: 545px;
+	height: 0px;
+	position: relative;
+	top: 142px;
+	left: 88px;
+	z-index: 0;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.content-canvas label.titre{
+	position: relative;
+	left: 211px;
+	font-size: 22px;
+	top: 28px;
+	color: #2AA2C8;
+}
+
+.ctnr-quiz label.titre-quiz {
+	position: relative;
+	top: 19px;
+	font-size: 16px;
+	left: 11px;
+}
+
+.ctnr-quiz .dificulty-blue{
+	background: url('img/dificulty_blue.png') no-repeat;
+	height: 40px;
+	width: 40px;
+	position: relative;
+	float: right;
+	right: 23px;
+	bottom: -10px;
+}
+
+.ctnr-quiz .dificulty-green{
+	background: url('img/dificulty_green.png') no-repeat;
+	height: 40px;
+	width: 40px;
+	position: relative;
+	float: right;
+	right: 23px;
+	bottom: -10px;
+}
+
+.ctnr-quiz .dificulty-red{
+	background: url('img/dificulty_red.png') no-repeat;
+	height: 40px;
+	width: 40px;
+	position: relative;
+	float: right;
+	right: 23px;
+	bottom: -10px;
+}
 /* Variables.less
  * Variables to customize the look and feel of Bootstrap
  * ----------------------------------------------------- */
@@ -260,6 +355,15 @@ textarea {
 	margin-right: auto;
 	zoom: 1;
 	height: 100%;
+}
+
+.dialog label.alert-error {
+	font-size: 12px;
+	color: #C92B2B;
+	right: 76px;
+	top: 3px;
+	width: 345px;
+	display: none;
 }
 
 .content-canvas {

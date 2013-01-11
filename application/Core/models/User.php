@@ -147,4 +147,13 @@ class Core_Model_User
 	public function setActive($_active) {
 		$this->_active = $_active;
 	}
+
+	public function setId($id) {
+		$this->_userId = $id;
+		return $this;
+	}
+
+	public function getId() {
+		return $this->_userId;
+	}
 }
