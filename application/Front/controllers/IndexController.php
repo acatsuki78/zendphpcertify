@@ -7,6 +7,7 @@ class Front_IndexController extends Zend_Controller_Action
     {
         $this->isConnect = new Zend_Session_Namespace('isConnect');
         $this->view->data = $this->isConnect;
+       //Zend_Debug::dump($this->isConnect->isConnect);
     }
 
     public function indexAction()
