@@ -140,6 +140,12 @@ button::-moz-focus-inner,input::-moz-focus-inner {
 	width:0px;
 }
 
+.dialog input[name="email"], input[name="pwd"], input[name="nom"], input[name="prenom"] {
+	float: left;
+	position: relative;
+	right: 104px;
+	top: 47px;
+}
 
 .dialog label.login-label{
 	font-size: 15px;

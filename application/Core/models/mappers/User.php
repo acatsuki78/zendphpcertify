@@ -96,7 +96,6 @@ class Core_Model_Mapper_User extends Core_Model_Mapper_Abstract
     public function connexion_user($email,$pwd){
         $query = "SELECT user_password FROM users WHERE user_email = ?";
         $result = $this->getDbTable()->getAdapter()->query($query,array($email))->fetchAll();
-
         if($result[0]['user_password'] === $pwd){
             return true;
         }

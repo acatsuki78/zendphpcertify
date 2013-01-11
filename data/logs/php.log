@@ -4797,3 +4797,1097 @@ Stack trace:
 [11-Jan-2013 10:22:33 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
 [11-Jan-2013 10:22:33 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
 >>>>>>> 1eab056ff4ba5caab47c620b91c6b1874397e40b
+[11-Jan-2013 11:44:43 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:43 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:43 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:43 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:43 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:43 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:43 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:43 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:43 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:43 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:43 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:44:43 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:43 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:43 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:43 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:43 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:43 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:43 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:43 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:43 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:44:43 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:43 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:43 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:43 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:43 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:43 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:43 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:43 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:43 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:43 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:43 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:43 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:43 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:43 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:43 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:43 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:43 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:43 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:43 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:43 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:43 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:43 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:43 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:43 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:43 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:43 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:43 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:43 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:43 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:43 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:43 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:43 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:43 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:43 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:43 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:43 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:43 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:43 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:43 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:44:43 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:43 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:43 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:43 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:43 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:43 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:43 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:43 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:43 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:44:43 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:43 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:43 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:43 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:43 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:43 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:43 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:43 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:44 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:44 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:44 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:44 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:44 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:44 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:44 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:44 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:44 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:44 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:44 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:44:44 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:44 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:44 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:44 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:44 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:44 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:44 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:44 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:44 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:44:44 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:44 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:44 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:44 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:44 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:44 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:44 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:44 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:44 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:44 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:44 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:44 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:44 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:44 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:44 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:44 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:44 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:44 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:44 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:44 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:44 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:44 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:44 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:44 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:44 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:44 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:44 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:44 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:44 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:44 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:44 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:44 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:44 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:44 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:44 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:44 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:44 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:44 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:44 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:44:44 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:44 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:44 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:44 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:44 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:44 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:44 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:44 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:44 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:44:44 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:44 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:44 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:44 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:44 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:44 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:44 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:44 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:46 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:46 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:46 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:46 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:46 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:46 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:46 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:46 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:46 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:46 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:46 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:44:46 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:46 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:46 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:46 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:46 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:46 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:46 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:46 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:46 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:44:46 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:46 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:46 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:46 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:46 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:46 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:46 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:46 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:46 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:44:46 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:46 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:46 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:46 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:46 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:46 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:46 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:46 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:46 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:44:46 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:46 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:46 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:46 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:46 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:46 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:46 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:46 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:46 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:46 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:46 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:46 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:46 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:46 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:46 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:46 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:46 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:46 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:46 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:46 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:46 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:46 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:46 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:46 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:46 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:46 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:46 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:46 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:46 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:46 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:46 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:46 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:46 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:46 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:46 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:46 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:46 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:46 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:47 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:47 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:47 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:47 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:47 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:47 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:47 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:47 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:47 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:47 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:47 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:47 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:47 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:47 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:47 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:47 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:47 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:47 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:47 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:47 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:47 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:44:47 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:47 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:47 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:47 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:47 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:47 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:47 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:47 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:47 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:44:47 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:47 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:47 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:47 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:47 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:47 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:47 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:47 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:47 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:47 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:47 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:47 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:47 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:47 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:47 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:47 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:47 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:47 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:47 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:47 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:47 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:47 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:47 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:47 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:47 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:47 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:47 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:47 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:47 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:44:47 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:47 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:47 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:47 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:47 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:47 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:47 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:47 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:47 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:44:47 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:47 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:47 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:47 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:47 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:47 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:47 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:47 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:47 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:47 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:47 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:47 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:47 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:47 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:47 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:47 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:47 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:47 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:47 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:47 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:47 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:47 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:47 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:47 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:47 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:47 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:47 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:47 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:47 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:44:47 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:47 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:47 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:47 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:47 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:47 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:47 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:47 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:47 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:44:47 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:47 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:47 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:47 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:47 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:47 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:47 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:47 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:47 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:47 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:47 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:47 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:47 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:47 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:47 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:47 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:47 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:47 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:47 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:47 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:47 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:47 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:47 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:47 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:47 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:47 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:47 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:47 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:47 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:44:47 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:47 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:47 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:47 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:47 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:47 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:47 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:47 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:47 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:44:47 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:47 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:47 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:47 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:47 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:47 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:47 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:47 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:47 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:44:47 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:47 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:47 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:47 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:47 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:47 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:47 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:47 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:47 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:44:47 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:47 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:47 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:47 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:47 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:47 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:47 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:47 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:47 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:44:47 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:47 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:47 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:47 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:47 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:47 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:47 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:47 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:47 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:44:47 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:47 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:47 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:47 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:47 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:47 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:47 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:47 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:47 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:47 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:47 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:47 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:47 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:47 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:47 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:47 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:47 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:47 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:47 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:47 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:47 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:47 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:47 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:47 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:47 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:47 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:47 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:47 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:47 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:47 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:47 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:47 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:47 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:47 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:47 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:47 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:47 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:47 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:47 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:47 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:47 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:47 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:47 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:47 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:47 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:47 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:47 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:47 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:53 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:53 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:53 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:53 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:53 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:53 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:53 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:53 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:53 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:53 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:53 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:44:53 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:53 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:53 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:53 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:53 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:53 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:53 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:53 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:53 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:44:53 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:53 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:53 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:53 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:53 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:53 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:53 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:53 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:53 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:53 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:53 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:53 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:53 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:53 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:53 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:53 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:53 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:53 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:53 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:53 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:53 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:53 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:53 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:53 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:53 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:53 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:53 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:53 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:53 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:44:53 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:53 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:53 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:53 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:53 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:53 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:53 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:53 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:53 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:44:53 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:53 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:53 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:53 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:53 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:53 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:53 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:53 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:53 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:53 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:53 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:53 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:53 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:53 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:53 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:53 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:53 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:53 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:56 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:56 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:56 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:56 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:56 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:56 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:56 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:56 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:56 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:56 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:59 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:59 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:59 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:59 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:59 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:59 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:59 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:59 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:59 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:59 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:59 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:44:59 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:59 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:59 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:59 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:59 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:59 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:59 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:59 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:59 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:44:59 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:59 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:59 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:59 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:59 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:59 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:59 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:59 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:59 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:59 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:59 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:59 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:59 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:59 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:59 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:59 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:59 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:59 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:59 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:59 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:59 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:59 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:59 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:59 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:59 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:59 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:59 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:59 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:44:59 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:44:59 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:59 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:59 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:59 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:59 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:59 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:59 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:59 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:59 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:44:59 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:59 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:59 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:59 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:59 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:59 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:59 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:59 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:59 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:44:59 UTC] PHP Stack trace:
+[11-Jan-2013 11:44:59 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:44:59 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:44:59 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:44:59 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:44:59 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:44:59 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:44:59 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:44:59 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:45:00 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:45:00 UTC] PHP Stack trace:
+[11-Jan-2013 11:45:00 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:45:00 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:45:00 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:45:00 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:45:00 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:45:00 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:45:00 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:45:00 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:45:00 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:45:00 UTC] PHP Stack trace:
+[11-Jan-2013 11:45:00 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:45:00 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:45:00 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:45:00 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:45:00 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:45:00 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:45:00 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:45:00 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:45:00 UTC] PHP Stack trace:
+[11-Jan-2013 11:45:00 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:45:00 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:45:00 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:45:00 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:45:00 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:45:00 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:45:00 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:45:00 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:45:00 UTC] PHP Stack trace:
+[11-Jan-2013 11:45:00 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:45:00 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:45:00 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:45:00 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:45:00 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:45:00 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:45:00 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:45:00 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:45:00 UTC] PHP Stack trace:
+[11-Jan-2013 11:45:00 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:45:00 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:45:00 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:45:00 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:45:00 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:45:00 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:45:00 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:45:00 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:45:00 UTC] PHP Stack trace:
+[11-Jan-2013 11:45:00 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:45:00 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:45:00 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:45:00 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:45:00 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:45:00 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:45:00 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:45:00 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:45:00 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:45:00 UTC] PHP Stack trace:
+[11-Jan-2013 11:45:00 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:45:00 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:45:00 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:45:00 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:45:00 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:45:00 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:45:00 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:45:00 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:45:00 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:45:00 UTC] PHP Stack trace:
+[11-Jan-2013 11:45:00 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:45:00 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:45:00 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:45:00 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:45:00 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:45:00 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:45:00 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:45:00 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:45:00 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:45:00 UTC] PHP Stack trace:
+[11-Jan-2013 11:45:00 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:45:00 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:45:00 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:45:00 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:45:00 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:45:00 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:45:00 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:45:00 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:45:00 UTC] PHP Stack trace:
+[11-Jan-2013 11:45:00 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:45:00 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:45:00 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:45:00 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:45:00 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:45:00 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:45:00 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:45:00 UTC] PHP Notice:  Undefined index: nom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 47
+[11-Jan-2013 11:45:00 UTC] PHP Stack trace:
+[11-Jan-2013 11:45:00 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:45:00 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:45:00 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:45:00 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:45:00 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:45:00 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:45:00 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:45:00 UTC] PHP Notice:  Undefined index: prenom in /home/www/zendphpcertify/application/Front/controllers/IndexController.php on line 48
+[11-Jan-2013 11:45:00 UTC] PHP Stack trace:
+[11-Jan-2013 11:45:00 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:45:00 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:45:00 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:45:00 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:45:00 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:45:00 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:45:00 UTC] PHP   7. Front_IndexController->validateinscriptionAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:45:00 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:45:00 UTC] PHP Stack trace:
+[11-Jan-2013 11:45:00 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:45:00 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:45:00 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:45:00 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:45:00 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:45:00 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:45:00 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:45:00 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:45:00 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:45:00 UTC] PHP Stack trace:
+[11-Jan-2013 11:45:00 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:45:00 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:45:00 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:45:00 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:45:00 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:45:00 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:45:00 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:45:00 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:45:00 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:45:00 UTC] PHP Stack trace:
+[11-Jan-2013 11:45:00 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:45:00 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:45:00 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:45:00 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:45:00 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:45:00 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:45:00 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:45:00 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:45:00 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:45:00 UTC] PHP Stack trace:
+[11-Jan-2013 11:45:00 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:45:00 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:45:00 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:45:00 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:45:00 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:45:00 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:45:00 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:45:00 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:45:17 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:45:17 UTC] PHP Stack trace:
+[11-Jan-2013 11:45:17 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:45:17 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:45:17 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:45:17 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:45:17 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:45:17 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:45:17 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:45:17 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:48:02 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:48:02 UTC] PHP Stack trace:
+[11-Jan-2013 11:48:02 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:48:02 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:48:02 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:48:02 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:48:02 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:48:02 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:48:02 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:48:02 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
+[11-Jan-2013 11:51:41 UTC] PHP Notice:  Undefined offset: 0 in /home/www/zendphpcertify/application/Core/models/mappers/User.php on line 100
+[11-Jan-2013 11:51:41 UTC] PHP Stack trace:
+[11-Jan-2013 11:51:41 UTC] PHP   1. {main}() /home/www/zendphpcertify/public/index.php:0
+[11-Jan-2013 11:51:41 UTC] PHP   2. Zend_Application->run() /home/www/zendphpcertify/public/index.php:24
+[11-Jan-2013 11:51:41 UTC] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application.php:366
+[11-Jan-2013 11:51:41 UTC] PHP   4. Zend_Controller_Front->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Application/Bootstrap/Bootstrap.php:97
+[11-Jan-2013 11:51:41 UTC] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Front.php:954
+[11-Jan-2013 11:51:41 UTC] PHP   6. Zend_Controller_Action->dispatch() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Dispatcher/Standard.php:295
+[11-Jan-2013 11:51:41 UTC] PHP   7. Front_IndexController->loginvalidateAction() /usr/local/zend/share/ZendFramework-1.11.12/library/Zend/Controller/Action.php:516
+[11-Jan-2013 11:51:41 UTC] PHP   8. Core_Model_Mapper_User->connexion_user() /home/www/zendphpcertify/application/Front/controllers/IndexController.php:81
